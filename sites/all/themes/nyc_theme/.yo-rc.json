@@ -1,0 +1,11 @@
+{
+  "generator-aurora": {
+    "projectName": "NYC Theme",
+    "projectSlug": "nyc_theme",
+    "projectType": "north",
+    "projectOptions": [
+      "Gulp",
+      "Bower"
+    ]
+  }
+}
