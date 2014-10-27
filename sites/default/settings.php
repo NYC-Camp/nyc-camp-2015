@@ -570,6 +570,10 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  * 
  */ 
 
+if (file_exists('sites/default/settings.kalabox.php')) {
+  require 'sites/default/settings.kalabox.php';
+}
+
 if (file_exists('sites/default/settings.local.php')) {
   require 'sites/default/settings.local.php';
 }
