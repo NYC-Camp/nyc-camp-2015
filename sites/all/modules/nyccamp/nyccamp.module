@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * NYC Camp customizations for 2015
+ */
+
+
+/**
+ *  Implements hook_form_FORM_ID_alter().
+ *
+ *  Removes access to the quantity form element for tickets.
+ */
+function nyccamp_form_ticket_field_formatter_view_form_alter(&$form, &$form_state, $form_id) {
+  // The form key for ticket_quantity looks like: TICKET_QUANTITY_PREFIX . $ticket_type->ttid.
+  // Since we don't know the ttid, we have to look for it.
+  $children = element_children($form);
+  foreach ($children as $key) {
+    if (strpos($key, TICKET_QUANTITY_PREFIX) !== FALSE) {
+      $form[$key]['#access'] = FALSE;
+    }
+  }
+}
+
+/**
+ *  Implements hook_form_FORM_ID_alter().
+ *
+ *  Makes the ticket registration form less confusing.
+ */
+function nyccamp_form_ticket_register_form_alter(&$form, &$form_state, $form_id) {
+  // There's no need for separate ticket registrant + ticket type registration forms.
+  $form['ticket_registration:new_0']['#description'] .= '<p>' .
+    $form['ticket_registrant']['#description'] . '</p>';
+
+  $form['#attached']['js'] = array(
+    drupal_get_path('module', 'nyccamp') . '/js/registration.js',
+  );
+}
