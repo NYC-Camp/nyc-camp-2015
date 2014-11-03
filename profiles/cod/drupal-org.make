@@ -50,32 +50,21 @@ projects[connector][version] = "1.0-beta2"
 
 projects[ckeditor][type] = "module"
 projects[ckeditor][subdir] = "contrib"
-projects[ckeditor][download][type] = "git"
-projects[ckeditor][download][url] = "http://git.drupal.org/project/ckeditor.git"
-projects[ckeditor][download][branch] = "7.x-1.x"
-projects[ckeditor][download][revision] = "b69a9ac"
-
-; Only load CSS when necessary.
-; https://drupal.org/node/1370894
-projects[ckeditor][patch][] = "https://drupal.org/files/issues/attach-ckeditor-css-1370894-8.patch"
+projects[ckeditor][version] = "1.16"
 
 ; Accomodate latest Media changes.
 ; https://drupal.org/node/2159403
-projects[ckeditor][patch][] = "https://drupal.org/files/issues/ckeditor-accomodate-latest-media-changes-0.patch"
-
-; Remove redundant external plugin declarations.
-; https://drupal.org/comment/8284591#comment-8284591
-projects[ckeditor][patch][] = "https://drupal.org/files/issues/ckeditor-remove-external-plugin-declarations-1-alt.patch"
+projects[ckeditor][patch][] = "http://drupal.org/files/issues/ckeditor-accomodate-latest-media-changes-81.patch"
 
 projects[cod_support][type] = "module"
 projects[cod_support][subdir] = "contrib"
-projects[cod_support][version] = "1.0-beta3"
+projects[cod_support][version] = "1.0-beta4"
 ;projects[cod_support][download][type] = "git"
 ;projects[cod_support][download][url] = "http://git.drupal.org/project/cod_support.git"
 ;projects[cod_support][download][branch] = "7.x-1.x"
 
 projects[commerce][type] = "module"
-projects[commerce][version] = "1.9"
+projects[commerce][version] = "1.10"
 projects[commerce][subdir] = "contrib"
 
 projects[commerce_features][type] = "module"
@@ -99,7 +88,7 @@ projects[conditional_fields][download][revision] = "78ecb0408"
 
 projects[context][type] = "module"
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.2"
+projects[context][version] = "3.3"
 
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
@@ -114,7 +103,7 @@ projects[date][version] = "2.8"
 
 projects[date_ical][type] = "module"
 projects[date_ical][subdir] = "contrib"
-projects[date_ical][version] = "3.2"
+projects[date_ical][version] = "3.3"
 
 ; Remove icalcreator library from the date_ical module
 ; https://drupal.org/node/2209165
@@ -177,6 +166,10 @@ projects[features][type] = "module"
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.2"
 
+projects[fivestar][type] = "module"
+projects[fivestar][subdir] = "contrib"
+projects[fivestar][version] = "2.1"
+
 projects[field_group][type] = "module"
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.4"
@@ -226,7 +219,7 @@ projects[module_filter][version] = "1.8"
 
 projects[mollom][type] = "module"
 projects[mollom][subdir] = "contrib"
-projects[mollom][version] = "2.10"
+projects[mollom][version] = "2.12"
 
 projects[multiple_entity_form][type] = "module"
 projects[multiple_entity_form][version] = "1.2"
@@ -254,6 +247,10 @@ projects[og][patch][] = "http://drupal.org/files/issues/og-default-role-member-2
 ; og_ui should give users the theme, not admin ui when creating groups
 ; http://drupal.org/node/1800208
 projects[og][patch][] = "http://drupal.org/files/og_ui-group_node_add_theme-1800208-5.patch"
+
+; Allow non-members with subscribe access to be able to post into a group.
+; http://drupal.org/node/1902086#comment-7026516
+projects[og][patch][] = "http://drupal.org/files/issues/og_id_user_access.patch"
 
 ; og_group_ref field should respect og_user_access()
 ; http://drupal.org/node/1902086#comment-7026516
@@ -290,6 +287,10 @@ projects[quicktabs][version] = "3.6"
 projects[quicktabs][subdir] = "contrib"
 projects[quicktabs][patch][] = "http://drupal.org/files/2104643-revert-qt-487518-5.patch"
 
+projects[realname][type] = "module"
+projects[realname][subdir] = "contrib"
+projects[realname][version] = "1.2"
+
 projects[redirect][type] = "module"
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
@@ -313,11 +314,13 @@ projects[strongarm][download][url] = "http://git.drupal.org/project/strongarm.gi
 projects[strongarm][download][branch] = "7.x-2.x"
 projects[strongarm][download][revision] = "5a2326ba67"
 
+; For COD releases, we peg it to a release of ticket. For dev, we use the dev branch.
 projects[ticket][type] = "module"
 projects[ticket][subdir] = "contrib"
-projects[ticket][download][type] = "git"
-projects[ticket][download][url] = "http://git.drupal.org/project/ticket.git"
-projects[ticket][download][branch] = "7.x-1.x"
+projects[ticket][version] = "1.0-beta2"
+;projects[ticket][download][type] = "git"
+;projects[ticket][download][url] = "http://git.drupal.org/project/ticket.git"
+;projects[ticket][download][branch] = "7.x-1.x"
 
 projects[title][type] = "module"
 projects[title][version] = "1.0-alpha7"
@@ -358,7 +361,7 @@ projects[views_datasource][subdir] = "contrib"
 projects[views_datasource][download][type] = "git"
 projects[views_datasource][download][url] = "http://git.drupal.org/project/views_datasource.git"
 projects[views_datasource][download][branch] = "7.x-1.x"
-projects[views_datasource][download][revision] = "c15e455cebe36c1a2ef1082da4b0ea7d93db2ed5"
+projects[views_datasource][download][revision] = "0d6849221"
 
 projects[views_field_view][version] = "1.1"
 projects[views_field_view][type] = "module"
@@ -376,8 +379,12 @@ projects[views_bulk_operations][type] = "module"
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
 
+projects[votingapi][type] = "module"
+projects[votingapi][version] = "2.12"
+projects[votingapi][subdir] = "contrib"
+
 projects[webform][type] = "module"
-projects[webform][version] = "3.20"
+projects[webform][version] = "3.21"
 projects[webform][subdir] = "contrib"
 
 ; Contributed themes.
@@ -390,10 +397,7 @@ projects[omega][download][revision] = "3e00917a9843c3e2e0ad4bf8a68eef2dc4c34f09"
 
 projects[adminimal_theme][type] = "theme"
 projects[adminimal_theme][subdir] = "contrib"
-projects[adminimal_theme][download][type] = "git"
-projects[adminimal_theme][download][url] = "http://git.drupal.org/project/adminimal_theme.git"
-projects[adminimal_theme][download][branch] = "7.x-1.x"
-projects[adminimal_theme][download][revision] = "d70f9f4f"
+projects[adminimal_theme][version] = "1.18"
 
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
