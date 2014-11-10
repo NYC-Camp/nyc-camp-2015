@@ -1,0 +1,44 @@
+// ========================
+// MAIN NAVIGATION WITH LOGO
+// ========================
+
+
+
+.main--navigation {
+  margin: 0;
+  padding: 0;
+  div.logo {
+    float: left;
+    margin: 0 1rem 0 0;
+    width: 12%;
+    img {
+      width: 100%;
+    }
+  }
+  .left {
+    display: block;
+    float: left;
+    margin-top: 1.7rem;
+    li {
+      display: inline;
+      &:first-child {
+        padding-left: 0;
+      }
+      a {
+        color: $text-link-color;
+        font-family: "SourceSansProRegular", Helvetica, sans-serif;
+        font-size: $ms-norm;
+        line-height: $ms-norm * 1.25;
+        padding: 0 1rem 0 0;
+        text-decoration: none;
+        &:hover {
+          color: darken($text-link-color, 20%);
+        }
+      }
+    }
+  }
+  .base--call-to-action--button {
+    float: right;
+    margin-top: 1.3rem;
+  }
+}
