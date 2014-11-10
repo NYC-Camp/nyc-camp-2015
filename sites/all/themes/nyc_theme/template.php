@@ -6,7 +6,7 @@
  * @param $vars
  *   An array of variables to pass to the theme template.
  */
-function nyc_theme_preprocess_maintenance_page(&$vars) {
+/*function nyc_theme_preprocess_maintenance_page(&$vars) {
   // When a variable is manipulated or added in preprocess_html or
   // preprocess_page, that same work is probably needed for the maintenance page
   // as well, so we can just re-use those functions to do that work here.
@@ -18,6 +18,7 @@ function nyc_theme_preprocess_maintenance_page(&$vars) {
   // $conf['maintenance_theme'] = 'nyc_theme';
   // Also, check $vars['db_is_active'] before doing any db queries.
 }
+*/
 
 /**
  * Implements hook_modernizr_load_alter().
@@ -94,11 +95,12 @@ function nyc_theme_preprocess_entity(&$vars) {
  * @param $vars
  *   An array of variables to pass to the theme template.
  */
-/* -- Delete this line if you want to use this function
+
 function nyc_theme_preprocess_node(&$vars) {
   $node = $vars['node'];
+  $vars['program'] = field_view_field('node', $vars['node'], 'field_event_program');
+  $vars['program']['#label_display'] = 'hidden';
 }
-// */
 
 /**
  * Override or insert variables into the field template.
