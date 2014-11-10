@@ -1,5 +1,5 @@
 //////////////////////////////
-// NYC Theme
+// NYC-Camp
 //////////////////////////////
 
 ////////////////////////////
@@ -45,8 +45,28 @@ $browser-minimum-versions: (
 //////////////////////////////
 
 //////////////////////////////
-// COMPONENTS
+// LAYOUTS
+@import "partials/layouts/layouts";
+//////////////////////////////
 
+//////////////////////////////
+// COMPONENTS
+@import "partials/components/base";
+@import "partials/components/colors";
+@import "partials/components/typography/font";
+@import "partials/components/typography/base-lists";
+@import "partials/components/controls";
+@import "partials/components/base-content";
+@import "partials/components/main-navigation";
+@import "partials/components/secondary-navigation-topbar";
+@import "partials/components/teaser-frontpage";
+@import "partials/components/schedule-session-grid";
+@import "partials/components/schedule-session-list";
+@import "partials/components/schedule-session-track";
+@import "partials/components/partnership-option";
+@import "partials/components/footer";
+@import "partials/components/masthead";
+@import "partials/components/social";
 //////////////////////////////
 
 //////////////////////////////
