@@ -1,9 +1,17 @@
-# Drupal Custom Template Folder
+# NYC Camp 2015
 
-Put any templates to override Aurora templates, Drupal Core templates, Drupal Contrib templates, or any custom templates in this folder.
+## System Summary
+* Drops 7
+  * https://github.com/pantheon-systems/drops-7
+* C.O.D
+  * https://www.drupal.org/project/cod
+* Aurora (base theme)
+    * http://snugug.github.io/Aurora/
+* nyc_theme (sub-theme of Aurora)
+    * generated with https://github.com/Snugug/generator-aurora/
 
 To get first get started with the theming, you will need to do the following:
- 
+
 cd to the nyc_theme directory:
 
 `npm install`
@@ -12,7 +20,8 @@ cd to the nyc_theme directory:
 
 `bundle install`
 
-The following step is needed because Drupal does not like the .info files:
+**Warning** some of the dependencies that get installed in the node_modules and .vendor directories contain .info files,
+Drupal does not like this **especially** when clearing your cache. To mitigate this run (from the nyc_theme directory):
 `find ./node_modules ./.vendor -name "*.info" -delete`
 
 Each time you want to start local development, run
