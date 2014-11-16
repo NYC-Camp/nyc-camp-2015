@@ -98,8 +98,12 @@ function nyc_theme_preprocess_entity(&$vars) {
 
 function nyc_theme_preprocess_node(&$vars) {
   $node = $vars['node'];
-  $vars['program'] = field_view_field('node', $vars['node'], 'field_event_program');
-  $vars['program']['#label_display'] = 'hidden';
+
+  if ('event' == $node->type && 'full' == $vars['view_mode']) {
+    // Make the program accessible on the full view of the event node.
+    $vars['program'] = field_view_field('node', $vars['node'], 'field_event_program');
+    $vars['program']['#label_display'] = 'hidden';
+  }
 }
 
 /**
