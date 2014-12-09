@@ -238,7 +238,7 @@ th, td {
   text-align: left;
 }
 
-/* Layout stuff */
+/* Layout */
 /* A modern clearfix for IE8 and up. Per http://css-tricks.com/snippets/css/clear-fix; */
 #topbar:after, #main-nav:after, #header:after, #main:after, #main-prefix:after, #main-suffix:after, .group:after, .block:after {
   content: "";
@@ -256,6 +256,10 @@ th, td {
 
 #main-nav, #main, #main-prefix, #main-suffix, #header, #footer {
   padding: 1em 0;
+}
+
+#main {
+  min-height: 200px;
 }
 
 /* Topbar */
@@ -284,6 +288,13 @@ th, td {
 
 #logo {
   width: 100px;
+}
+
+/* Header */
+#header .block {
+  float: left;
+  width: 50%;
+  padding: 2em 0;
 }
 
 /* FORMS */
