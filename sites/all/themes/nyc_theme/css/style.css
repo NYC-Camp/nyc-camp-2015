@@ -236,12 +236,32 @@ th, td {
 }
 
 /* Layout stuff */
+/* A modern clearfix for IE8 and up. Per http://css-tricks.com/snippets/css/clear-fix; */
+#topbar, #header, #main, #main-prefix, #main-suffix, .group:after, .block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#topbar, #header, #main, #main-prefix, #main-suffix, #footer {
+  width: 100%;
+}
+
 #header, #main, #footer, .region, .container, .block, .views-row {
   position: relative;
 }
 
-#main, #footer {
-  padding: 1.5em 0;
+#main-nav, #main, #main-prefix, #main-suffix, #header, #footer {
+  padding: 1em 0;
+}
+
+/* Topbar */
+#topbar .block {
+  float: right;
+}
+
+#topbar #block-menu-menu-social {
+  float: left;
 }
 
 /* FORMS */
@@ -370,11 +390,11 @@ div.messages, .breadcrumb, ul.pager {
 }
 
 /* FONT COLORS */
-#topbar, #topbar a, #header, #header a, #footer, #footer a {
-  color: #ffffff;
-}
-
 a {
   color: #5091CD;
   /* main color - blue */
+}
+
+#topbar, #topbar a, #header, #header a, #footer, #footer a {
+  color: #ffffff;
 }
