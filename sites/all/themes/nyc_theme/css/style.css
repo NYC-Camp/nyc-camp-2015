@@ -156,57 +156,6 @@ img, video {
   margin: 0 0 0 14%;
 }
 
-/* TEMPORARY MOBILE THEMING */
-/* iPad portrait and smaller ----------- */
-@media screen and (max-width: 768px) {
-  /* Display nones */
-  #topbar, #logo, #site-slogan {
-    display: none;
-  }
-
-  #site-name-slogan {
-    display: block;
-  }
-
-  #site-name {
-    position: absolute;
-    top: 0;
-    left: 25%;
-    width: 50%;
-    text-align: center;
-    font-size: 1em;
-    font-weight: bold;
-    font-weight: 700;
-    line-height: 1.5em;
-  }
-
-  /* Layout */
-  .container {
-    width: 94%;
-    margin: 0 auto;
-    padding: 0 1em;
-    max-width: inherit;
-    min-width: inherit;
-  }
-
-  .block, .header #block-views-news-block, .header .block {
-    float: none;
-    width: 100%;
-    max-width: 100%;
-    min-height: inherit;
-    height: auto;
-    margin: 1em auto;
-  }
-
-  #header .container {
-    padding: 1em;
-    width: 100%;
-  }
-
-  .header .block {
-    padding: 0 0 1em 0;
-  }
-}
 /* TIMHOBERT'S BASE STYLES */
 body {
   font-family: 'SourceSansProLight', 'Source Sans Pro', sans-serif;
@@ -593,4 +542,56 @@ a.active, a.active-trail {
 
 .group > div:last-child, .main-suffix .container > .block:last-child, .view-cod-sponsors .views-row:last-child {
   padding-right: 0;
+}
+
+/* MOBILE THEMING; done TimHobert's way until we do it Tony's way :) */
+/* iPad portrait and smaller ----------- */
+@media screen and (max-width: 768px) {
+  /* Display nones */
+  #topbar, #logo, #site-slogan {
+    display: none;
+  }
+
+  #site-name-slogan {
+    display: block;
+  }
+
+  #site-name {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 1.5em;
+  }
+
+  /* Layout */
+  .container {
+    width: 94%;
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: inherit;
+    min-width: inherit;
+  }
+
+  .block, .header #block-views-news-block, .header .block {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    min-height: inherit;
+    height: auto;
+    margin: 1em auto;
+  }
+
+  #header .container {
+    padding: 1em;
+    width: 100%;
+  }
+
+  .header .block {
+    padding: 0 0 1em 0;
+  }
 }
