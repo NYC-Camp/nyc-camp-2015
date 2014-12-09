@@ -9,8 +9,9 @@
 
 .container {
 	width: 94%;
-	max-width: 1100px;
 	margin: 0 auto;
+	max-width: 1100px;
+	min-width: 920px;
 }
 
 #topbar, #main-nav, #header, #main, #main-prefix, #main-suffix, #footer {
@@ -96,3 +97,28 @@
 [class*=-info] {
 	margin: 0 0 0 14%;
 }
+
+
+/* TEMPORARY MOBILE THEMING */
+
+/* iPad portrait and smaller ----------- */
+@media screen and (max-width: 768px) {
+
+	.container {
+	width: 94%;
+	margin: 0 auto;
+	max-width: inherit;
+	min-width: inherit;
+	}
+
+	.block {
+	float: none;
+	width: 100%;
+	max-width: 100%;
+	min-height: inherit;
+	height: auto;
+	margin: 0 auto 1.5em;
+	}
+
+}
+
