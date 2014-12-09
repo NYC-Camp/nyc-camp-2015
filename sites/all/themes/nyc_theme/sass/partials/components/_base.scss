@@ -84,6 +84,16 @@ a.active, a.active-trail {
 	list-style: none;
 }
 
+ul.menu li {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+ul.menu li a {
+	padding: 0 5px;
+	line-height: 1.5em;
+}
+
 ul.inline {
 	clear: both;
 }
@@ -283,7 +293,7 @@ div.messages, .breadcrumb, ul.pager {
 
 /* BACKGROUNDS */
 
-#topbar {
+#topbar, #footer {
 	background: #023e6b; /* main color - dark blue */
 }
 
@@ -298,7 +308,7 @@ div.messages, .breadcrumb, ul.pager {
 
 /* FONT COLORS */
 
-#topbar, #topbar a, #header, #header a {
+#topbar, #topbar a, #header, #header a, #footer, #footer a {
 	color: #ffffff;
 }
 
