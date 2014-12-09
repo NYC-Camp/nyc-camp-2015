@@ -47,7 +47,7 @@ h3 {
 	font-size: 1.5em;
 }
 
-h4, h5, h6 {
+h4, h5, h6, #block-views-news-block h2.block-title {
 	font-size: 1.25em;
 }
 
@@ -287,6 +287,10 @@ div.messages, .breadcrumb, ul.pager {
 	background: #ffffff; 			/* white */
 }
 
+#header #block-views-news-block {
+	background: rgba(255,255,255,0.25);	/* white -- 25% opacity */
+}
+
 #topbar, #footer {
 	background: #023e6b; 			/* main color - dark blue */
 }
@@ -330,7 +334,7 @@ a {
 	color: #ffffff; 				/* white */
 }
 
-.form-item .description {
+.form-item .description, #block-views-news-block h2.block-title {
 	color: #666F80;					/* Text color medium */
 }
 

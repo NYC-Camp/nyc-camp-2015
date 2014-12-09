@@ -130,6 +130,17 @@ img, video {
   padding: 2em 0;
 }
 
+#header #block-views-news-block {
+  padding: 1em;
+  float: right;
+  width: 32%;
+  margin: 1em 0;
+}
+
+#block-views-news-block h2.block-title {
+  margin: 0;
+}
+
 /* TIMHOBERT'S BASE STYLES */
 body {
   background: #fff;
@@ -180,7 +191,7 @@ h3 {
   font-size: 1.5em;
 }
 
-h4, h5, h6 {
+h4, h5, h6, #block-views-news-block h2.block-title {
   font-size: 1.25em;
 }
 
@@ -409,6 +420,11 @@ div.messages, .breadcrumb, ul.pager {
   /* white */
 }
 
+#header #block-views-news-block {
+  background: rgba(255, 255, 255, 0.25);
+  /* white -- 25% opacity */
+}
+
 #topbar, #footer {
   background: #023e6b;
   /* main color - dark blue */
@@ -460,7 +476,7 @@ a {
   /* white */
 }
 
-.form-item .description {
+.form-item .description, #block-views-news-block h2.block-title {
   color: #666F80;
   /* Text color medium */
 }
