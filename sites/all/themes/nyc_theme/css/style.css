@@ -286,15 +286,12 @@ th, td {
 /* FORMS */
 input, input[type="password"], input[type="text"], input[type="email"], textarea, select {
   max-width: 100%;
-}
-
-input, input[type="password"], input[type="text"], input[type="email"], textarea, select {
   line-height: 1.1em;
-  padding: 8px 8px 7px;
+  padding: 8px 10px 7px;
   height: auto;
   border-radius: 3px;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15);
   border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15);
 }
 
 input[type="submit"] {
@@ -303,13 +300,11 @@ input[type="submit"] {
   margin: 15px 10px 0 0;
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding: 8px 18px 7px;
   box-shadow: none;
 }
 
 input[type="submit"]:active {
-  padding: 9px 18px 6px;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  padding: 9px 10px 6px;
 }
 
 html.js input.form-autocomplete {
