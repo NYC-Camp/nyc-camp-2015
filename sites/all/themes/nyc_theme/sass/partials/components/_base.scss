@@ -250,6 +250,10 @@ html.js input.throbbing {
 	margin: 0 0 1.5em;
 }
 
+.block:last-child {
+	margin-bottom: 0;
+}
+
 .views-row, .item-list ul li.views-row {
 	list-style: none;
 	margin: 0 0 1.5em;
