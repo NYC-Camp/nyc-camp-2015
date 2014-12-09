@@ -317,6 +317,10 @@ input[type="submit"], input[type="password"], input[type="text"], input[type="em
   padding: 1em 0;
 }
 
+li.views-row {
+  list-style: none;
+}
+
 .block {
   padding: 0;
   margin: 0 0 1.5em;
@@ -324,16 +328,6 @@ input[type="submit"], input[type="password"], input[type="text"], input[type="em
 
 .block:last-child {
   margin-bottom: 0;
-}
-
-.views-row, .item-list ul li.views-row {
-  list-style: none;
-  margin: 0 0 1.5em;
-  padding: 0;
-}
-
-.views-row-last {
-  margin: 0;
 }
 
 .field-label, .views-label {
