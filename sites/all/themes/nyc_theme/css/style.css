@@ -173,11 +173,16 @@ img, video {
     max-width: 100%;
     min-height: inherit;
     height: auto;
-    margin: 0 auto 1.5em;
+    margin: 1em auto;
   }
 
   #header .container {
     padding: 1em;
+    width: 100%;
+  }
+
+  .header .block {
+    padding: 0 0 1em 0;
   }
 }
 /* TIMHOBERT'S BASE STYLES */
