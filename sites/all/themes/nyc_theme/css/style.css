@@ -386,7 +386,12 @@ div.messages, .breadcrumb, ul.pager {
 
 #header {
   background: #5091cd;
-  /* main color - blue */
+  /* main color - base blue */
+}
+
+#main-prefix, #main-suffix {
+  background: #E6EEFF;
+  /* main color - extralight blue */
 }
 
 /* FONT COLORS */
