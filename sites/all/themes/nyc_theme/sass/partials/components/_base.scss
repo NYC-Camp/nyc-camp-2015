@@ -241,8 +241,13 @@ html.js input.throbbing {
 
 /* Drupal-specific */
 .views-row, .block {
+	position: relative;
 	margin: 0;
-	padding: 0;
+	padding: 1em 0;
+}
+
+.block {
+	margin: 0 0 1.5em;
 }
 
 .views-row, .item-list ul li.views-row {
