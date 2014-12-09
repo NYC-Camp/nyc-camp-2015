@@ -385,7 +385,11 @@ div.messages, .breadcrumb, ul.pager {
   margin: 1em 0;
 }
 
-/* Display: none's */
+.breadcrumb {
+  padding: 0;
+}
+
+/* Display nones */
 .hidden, .element-invisible, #site-name-slogan, #topbar .block-title {
   display: none;
 }
@@ -483,9 +487,9 @@ a.active, a.active-trail {
 
 .group > div, #main-suffix .container > .block {
   margin: 0;
-  padding: 1em;
+  padding: 1em 2em 1em 0;
 }
 
 .group > div:last-child, #main-suffix .container > .block:last-child {
-  margin-right: 0;
+  padding-right: 0;
 }

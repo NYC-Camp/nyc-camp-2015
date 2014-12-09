@@ -204,3 +204,24 @@ function nyc_theme_js_alter(&$js) {
 
 }
 // */
+
+/**
+ * Return a themed breadcrumb trail.
+ *
+ * @param $breadcrumb
+ *   An array containing the breadcrumb links.
+ * @return a string containing the breadcrumb output.
+ */
+function nyc_theme_breadcrumb($variables) {
+  $breadcrumb = $variables['breadcrumb'];
+
+  if (!empty($breadcrumb)) {
+    // Provide a navigational heading to give context for breadcrumb links to
+    // screen-reader users. Make the heading invisible with .element-invisible.
+    $heading = '<h2 class="element-invisible">' . t('You are here') . '</h2>';
+    // Uncomment to add current page to breadcrumb
+    $breadcrumb[] = drupal_get_title();
+    return '<nav class="breadcrumb">' . $heading . implode(' &rsaquo; ', $breadcrumb) . '</nav>';
+  }
+}
+
