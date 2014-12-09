@@ -3,7 +3,7 @@
 body {
 	background: #fff;
 	color: #333;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'SourceSansProLight', 'Source Sans Pro', sans-serif;
 	font-size: 0.875em;
 	margin: 0;
 	padding: 0;
@@ -19,14 +19,6 @@ img {
 	width: auto; /* IE8 bug. Requires this to work properly with max-width in scaling images. */
 	display: block; /* a little crazy, but lets give it a try */
 }
-
-/*
-* Corrects overflow displayed oddly in IE9
-*/
-svg: not(: root) {
-	overflow: hidden;
-}
-
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
@@ -68,7 +60,7 @@ a {
 	text-decoration: none;
 }
 
-a: focus {
+a:focus {
 	outline: thin dotted;
 }
 
