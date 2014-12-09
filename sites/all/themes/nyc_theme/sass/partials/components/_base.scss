@@ -55,6 +55,10 @@ p, .field {
 	margin: 0 0 1.5em;
 }
 
+.submitted, .by-line {
+	margin-bottom: 1em;
+}
+
 .block p:last-child {
 	margin-bottom: 0;
 }
@@ -163,73 +167,6 @@ th, td {
 	border-bottom: 3px solid rbga(0,0,0,0.1);
 	padding-right: 1em;
 	text-align: left;
-}
-
-
-/* Layout */
-
-/* A modern clearfix for IE8 and up. Per http://css-tricks.com/snippets/css/clear-fix; */
-#topbar:after, #main-nav:after, #header:after, #main:after, #main-prefix:after, #main-suffix:after, .group:after, .block:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-#topbar, #main-nav, #header, #main, #main-prefix, #main-suffix, #footer {
-	width: 100%;
-}
-
-#header, #main, #footer, .region, .container, .block, .views-row {
-	position: relative;
-}
-
-#main-nav, #main, #main-prefix, #main-suffix, #header, #footer {
-	padding: 1em 0;
-}
-
-#main {
-	min-height: 200px;
-}
-
-
-/* Topbar */
-
-#topbar .block {
-	float: right;
-}
-
-#topbar #block-menu-menu-social {
-	float: left;
-}
-
-#topbar .block, #topbar input {
-	margin: 0;
-	border: none;
-}
-
-#topbar input {
-	padding: 6px 10px 7px;
-}
-
-
-/* Main-nav */
-
-#logo, #main-nav .block {
-	float: left;
-	margin: 0 2em 0 0;
-}
-
-#logo {
-	width: 100px;
-}
-
-
-/* Header */
-
-#header .block {
-	float: left;
-	width: 50%;
-	padding: 2em 0;
 }
 
 
