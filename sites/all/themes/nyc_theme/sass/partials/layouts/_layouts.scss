@@ -1,7 +1,7 @@
 // LAYOUTS
 
 /* A modern clearfix for IE8 and up. Per http://css-tricks.com/snippets/css/clear-fix; */
-#topbar:after, #main-nav:after, #header:after, #main:after, #main-prefix:after, #main-suffix:after, .group:after, .block:after {
+#topbar:after, #main-nav:after, #header:after, #main:after, #main-prefix:after, #main-suffix:after, .group:after, .block:after, .container:after {
 	content: "";
 	display: table;
 	clear: both;
@@ -21,7 +21,7 @@
 	position: relative;
 }
 
-#main-nav, #main, #main-prefix, #main-suffix, #header, #footer {
+#main-nav, #main, #main-prefix, #main-suffix, #footer {
 	padding: 1em 0;
 }
 
@@ -64,6 +64,10 @@
 
 /* Header */
 
+#header .container {
+	padding: 1em 0;
+}
+
 #header .block {
 	float: left;
 	width: 48%;
@@ -74,10 +78,12 @@
 	padding: 1em;
 	float: right;
 	width: 32%;
-	margin: 1em 0;
 }
 
 #block-views-news-block h2.block-title {
 	margin: 0;
 }
 
+#block-views-news-block .views-row {
+	padding: 0;
+}

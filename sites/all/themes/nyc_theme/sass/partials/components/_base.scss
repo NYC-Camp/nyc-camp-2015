@@ -2,7 +2,7 @@
 
 body {
 	font-family: 'SourceSansProLight', 'Source Sans Pro', sans-serif;
-	font-size: 1em;
+	font-size: 0.9375em;
 	font-weight: normal;
 	font-weight: 300;
 	line-height: 1.5;
@@ -44,7 +44,7 @@ h3 {
 }
 
 h4, h5, h6, #block-views-news-block h2.block-title {
-	font-size: 1.25em;
+	font-size: 1.15em;
 }
 
 p, .field {
@@ -285,6 +285,14 @@ body, #main-nav {
 
 #header #block-views-news-block {
 	background: rgba(255,255,255,0.25);	/* white -- 25% opacity */
+}
+
+#header .container {
+	background: url('/sites/all/themes/nyc_theme/images/nycc_masthead.png') fixed no-repeat center center transparent;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #topbar, #footer {

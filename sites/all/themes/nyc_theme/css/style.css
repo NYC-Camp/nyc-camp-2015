@@ -67,7 +67,7 @@ img, video {
 }
 
 /* A modern clearfix for IE8 and up. Per http://css-tricks.com/snippets/css/clear-fix; */
-#topbar:after, #main-nav:after, #header:after, #main:after, #main-prefix:after, #main-suffix:after, .group:after, .block:after {
+#topbar:after, #main-nav:after, #header:after, #main:after, #main-prefix:after, #main-suffix:after, .group:after, .block:after, .container:after {
   content: "";
   display: table;
   clear: both;
@@ -87,7 +87,7 @@ img, video {
   position: relative;
 }
 
-#main-nav, #main, #main-prefix, #main-suffix, #header, #footer {
+#main-nav, #main, #main-prefix, #main-suffix, #footer {
   padding: 1em 0;
 }
 
@@ -124,6 +124,10 @@ img, video {
 }
 
 /* Header */
+#header .container {
+  padding: 1em 0;
+}
+
 #header .block {
   float: left;
   width: 48%;
@@ -134,17 +138,20 @@ img, video {
   padding: 1em;
   float: right;
   width: 32%;
-  margin: 1em 0;
 }
 
 #block-views-news-block h2.block-title {
   margin: 0;
 }
 
+#block-views-news-block .views-row {
+  padding: 0;
+}
+
 /* TIMHOBERT'S BASE STYLES */
 body {
   font-family: 'SourceSansProLight', 'Source Sans Pro', sans-serif;
-  font-size: 1em;
+  font-size: 0.9375em;
   font-weight: normal;
   font-weight: 300;
   line-height: 1.5;
@@ -188,7 +195,7 @@ h3 {
 }
 
 h4, h5, h6, #block-views-news-block h2.block-title {
-  font-size: 1.25em;
+  font-size: 1.15em;
 }
 
 p, .field {
@@ -419,6 +426,14 @@ body, #main-nav {
 #header #block-views-news-block {
   background: rgba(255, 255, 255, 0.25);
   /* white -- 25% opacity */
+}
+
+#header .container {
+  background: url("/sites/all/themes/nyc_theme/images/nycc_masthead.png") fixed no-repeat center center transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #topbar, #footer {
