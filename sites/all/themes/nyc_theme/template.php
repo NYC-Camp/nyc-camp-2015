@@ -103,7 +103,7 @@ function nyc_theme_preprocess_block(&$variables, $hook) {
  */
 function nyc_theme_process_block(&$variables, $hook) {
   // Drupal 7 should use a $title variable instead of $block->subject.
-  $variables['title'] = $variables['block']->subject;
+  $variables['block_title'] = $variables['block']->subject;
 }
 
 /**
