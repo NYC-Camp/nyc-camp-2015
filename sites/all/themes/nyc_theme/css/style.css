@@ -145,6 +145,15 @@ img, video {
   padding: 0;
 }
 
+/* FRONT PAGE CUSTOM */
+[class*=-icon] img {
+  width: 10%;
+}
+
+[class*=-info] {
+  margin: 0 0 0 12%;
+}
+
 /* TIMHOBERT'S BASE STYLES */
 body {
   font-family: 'SourceSansProLight', 'Source Sans Pro', sans-serif;
@@ -305,6 +314,13 @@ th, td {
   border: 1px solid #dedede;
 }
 
+hr {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 1px;
+  margin: 3em 0;
+  padding: 0;
+}
+
 .sticky-header th, .sticky-table th {
   border-bottom: 3px solid rbga(0, 0, 0, 0.1);
   padding-right: 1em;
@@ -402,17 +418,19 @@ div.messages, .breadcrumb, ul.pager {
 }
 
 /* Display nones */
-.hidden, .element-invisible, #site-name-slogan, #topbar .block-title {
+.hidden, .element-invisible, #site-name-slogan, .front #page-title, #topbar .block-title {
   display: none;
 }
 
 /* Pseudo-WYSIWYG */
 .float-left {
   float: left;
+  margin: 0 2% 0 0;
 }
 
 .float-right {
   float: right;
+  margin: 0 0 0 2%;
 }
 
 /* BACKGROUNDS */
