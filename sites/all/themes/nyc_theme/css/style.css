@@ -1,72 +1,84 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
+/*
+Error: Invalid CSS after "svg:": expected pseudoclass or pseudoelement, was " not(: root)"
+        on line 26 of /Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/sass/partials/components/_base.scss
+        from line 54 of /Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/sass/style.scss
 
-html {
-  line-height: 1;
-}
+21: ////////////////////////
+22: // Compass Imports
+23: @import "compass";
+24: @import "compass/reset";
+25: ////////////////////////
+26: 
+27: ////////////////////////
+28: // Compass Extensions
+29: @import "toolkit";
+30: @import "toolkit/kickstart";
+31: @import "breakpoint";
 
-ol, ul {
-  list-style: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-q, blockquote {
-  quotes: none;
-}
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-a img {
-  border: none;
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-img, video {
-  max-width: 100%;
-  height: auto;
-}
-
-.container {
-  width: 96%;
-  max-width: 1100px;
-  margin: 0 auto;
-}
+Backtrace:
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/sass/partials/components/_base.scss:26
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/sass/style.scss:54
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:1163:in `expected'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:1099:in `expected'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:1094:in `tok!'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/scss/static_parser.rb:277:in `pseudo'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/scss/static_parser.rb:160:in `simple_selector_sequence'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/scss/static_parser.rb:112:in `selector'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/scss/static_parser.rb:86:in `selector_comma_sequence'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:1077:in `expr!'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/scss/static_parser.rb:20:in `parse_selector'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:414:in `visit_rule'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `block in with_base'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:115:in `with_frame'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `with_base'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:315:in `map'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:88:in `block in with_import'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:115:in `with_frame'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:88:in `with_import'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `block in with_base'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:115:in `with_frame'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `with_base'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/tree/root_node.rb:20:in `render'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/engine.rb:268:in `render'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:469:in `on_file_changed'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/.vendor/bundle/ruby/2.0.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"svg:\": expected pseudoclass or pseudoelement, was \" not(: root)\"\A         on line 26 of /Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/sass/partials/components/_base.scss\A         from line 54 of /Users/tim/Dropbox/projects/nyccamp/site/nyccamp2015/nyc-camp-2015/sites/all/themes/nyc_theme/sass/style.scss\A \A 21: ////////////////////////\A 22: // Compass Imports\A 23: @import \"compass\";\A 24: @import \"compass/reset\";\A 25: ////////////////////////\A 26: \A 27: ////////////////////////\A 28: // Compass Extensions\A 29: @import \"toolkit\";\A 30: @import \"toolkit/kickstart\";\A 31: @import \"breakpoint\";"; }
