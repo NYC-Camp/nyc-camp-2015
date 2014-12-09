@@ -277,14 +277,17 @@ th, td {
 }
 
 /* Main-nav */
-#logo {
+#logo, #main-nav .block {
   float: left;
-  width: 100px;
   margin: 0 2em 0 0;
 }
 
+#logo {
+  width: 100px;
+}
+
 /* FORMS */
-input, input[type="password"], input[type="text"], input[type="email"], textarea, select {
+input, input[type="password"], input[type="text"], input[type="email"], textarea, select, .button, button {
   max-width: 100%;
   line-height: 1.1em;
   padding: 8px 10px 7px;
@@ -294,7 +297,7 @@ input, input[type="password"], input[type="text"], input[type="email"], textarea
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-input[type="submit"] {
+input[type="submit"], .button, button {
   cursor: pointer;
   color: white;
   margin: 15px 10px 0 0;
@@ -304,7 +307,7 @@ input[type="submit"] {
   font-size: 11px;
 }
 
-input[type="submit"]:active {
+input[type="submit"]:active, .button:active, button:active {
   padding: 9px 10px 6px;
 }
 
