@@ -67,7 +67,7 @@ img, video {
 }
 
 /* A modern clearfix for IE8 and up. Per http://css-tricks.com/snippets/css/clear-fix; */
-#topbar:after, #main-nav:after, #header:after, #main:after, #main-prefix:after, #main-suffix:after, .group:after, .block:after, .container:after {
+.topbar:after, .main-nav:after, .header:after, .main:after, .main-prefix:after, .main-suffix:after, .group:after, .block:after, .container:after {
   content: "";
   display: table;
   clear: both;
@@ -80,42 +80,42 @@ img, video {
   min-width: 920px;
 }
 
-#topbar, #main-nav, #header, #main, #main-prefix, #main-suffix, #footer {
+.topbar, .main-nav, .header, .main, .main-prefix, .main-suffix, .footer {
   width: 100%;
 }
 
-#header, #main, #footer, .region, .container, .block, .views-row {
+.header, .main, .footer, .region, .container, .block, .views-row {
   position: relative;
 }
 
-#main-nav, #main, #main-prefix, #main-suffix, #footer {
+.main-nav, .main, .main-prefix, .main-suffix, .footer {
   padding: 1em 0;
 }
 
-#main {
+.main {
   min-height: 200px;
 }
 
 /* Topbar */
-#topbar .block {
+.topbar .block {
   float: right;
 }
 
-#topbar #block-menu-menu-social {
+.topbar #block-menu-menu-social {
   float: left;
 }
 
-#topbar .block, #topbar input {
+.topbar .block, .topbar input {
   margin: 0;
   border: none;
 }
 
-#topbar input {
+.topbar input {
   padding: 6px 10px 7px;
 }
 
 /* Main-nav */
-#logo, #main-nav .block {
+#logo, .main-nav .block {
   float: left;
   margin: 0 2em 0 0;
 }
@@ -125,18 +125,18 @@ img, video {
 }
 
 /* Header */
-#header .container {
+.header .container {
   padding: 1em 0;
 }
 
-#header .block {
+.header .block {
   float: left;
   width: 48%;
   padding: 2em 0;
   margin: 0;
 }
 
-#header #block-views-news-block {
+.header #block-views-news-block {
   padding: 1em;
   float: right;
   width: 32%;
@@ -167,7 +167,7 @@ img, video {
     min-width: inherit;
   }
 
-  .block, #header #block-views-news-block, #header .block {
+  .block, .header #block-views-news-block, .header .block {
     float: none;
     width: 100%;
     max-width: 100%;
@@ -270,7 +270,7 @@ ul.menu li {
   margin: 0 5px;
 }
 
-ul.menu li, #topbar {
+ul.menu li, .topbar {
   line-height: 40px;
 }
 
@@ -444,7 +444,7 @@ div.messages, .breadcrumb, ul.pager {
 }
 
 /* Display nones */
-.hidden, .element-invisible, #site-name-slogan, .front #page-title, #topbar .block-title {
+.hidden, .element-invisible, #site-name-slogan, .front #page-title, .topbar .block-title {
   display: none;
 }
 
@@ -460,17 +460,17 @@ div.messages, .breadcrumb, ul.pager {
 }
 
 /* BACKGROUNDS */
-body, #main-nav {
+body, .main-nav {
   background: #ffffff;
   /* white */
 }
 
-#header #block-views-news-block {
+.header #block-views-news-block {
   background: rgba(255, 255, 255, 0.25);
   /* white -- 25% opacity */
 }
 
-#header .container {
+.header .container {
   background: url("/sites/all/themes/nyc_theme/images/nycc_masthead.png") scroll no-repeat center center transparent;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -478,12 +478,12 @@ body, #main-nav {
   background-size: cover;
 }
 
-#topbar, #footer {
+.topbar, .footer {
   background: #023e6b;
   /* main color - dark blue */
 }
 
-#header, .button, button {
+.header, .button, button {
   background: #5091cd;
   /* main color - base blue */
 }
@@ -498,7 +498,7 @@ body, #main-nav {
   /* main color - base blue - darker */
 }
 
-#main-prefix, #main-suffix {
+.main-prefix, .main-suffix {
   background: #E6EEFF;
   /* main color - extralight blue */
 }
@@ -529,7 +529,7 @@ a {
   /* Main color base - blue */
 }
 
-#topbar, #topbar a, #header, #header a, #footer, #footer a {
+.topbar, #topbar a, .header, .header a, .footer, .footer a {
   color: #ffffff;
   /* white */
 }
@@ -545,7 +545,7 @@ a.active, a.active-trail {
 }
 
 /* FLEXBOX -- A modern grid */
-.group, #main-suffix .container, .view-cod-sponsors .item-list ul {
+.group, .main-suffix .container, .view-cod-sponsors .item-list ul {
   position: relative;
   display: -webkit-box;
   /* OLD - iOS 6-, Safari 3.1-6 */
@@ -559,11 +559,11 @@ a.active, a.active-trail {
   /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 
-.group > div, #main-suffix .container > .block, .view-cod-sponsors .views-row {
+.group > div, .main-suffix .container > .block, .view-cod-sponsors .views-row {
   margin: 0;
   padding: 1em 2em 1em 0;
 }
 
-.group > div:last-child, #main-suffix .container > .block:last-child, .view-cod-sponsors .views-row:last-child {
+.group > div:last-child, .main-suffix .container > .block:last-child, .view-cod-sponsors .views-row:last-child {
   padding-right: 0;
 }
