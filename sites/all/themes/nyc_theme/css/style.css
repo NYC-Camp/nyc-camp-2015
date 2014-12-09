@@ -97,10 +97,10 @@ img {
   /* a little crazy, but lets give it a try */
 }
 
-/* Typography */
+/* Font Sizes */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  font-weight: 700;
+  font-weight: normal;
+  font-weight: 300;
   line-height: 1.2em;
   margin: 0 0 15px;
   padding: 0;
@@ -111,11 +111,11 @@ h1, h2, h3, h4, h5, h6, .by-line {
 }
 
 h1 {
-  font-size: 2.25em;
+  font-size: 3em;
 }
 
 h2, .view-grouping-header {
-  font-size: 1.75em;
+  font-size: 2em;
 }
 
 h3 {
@@ -436,6 +436,11 @@ a {
 #topbar, #topbar a, #header, #header a, #footer, #footer a {
   color: #ffffff;
   /* white */
+}
+
+.form-item .description {
+  color: #666F80;
+  /* Text color medium */
 }
 
 /* FLEXBOX -- A modern grid */
