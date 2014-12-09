@@ -7,7 +7,7 @@ base theme = aurora
 ; Regions
 ; ========================================
 
-regions[top_nav]  		= 'Top nav'
+regions[topbar]  		= 'Top bar'
 regions[main_nav]  		= 'Main nav'
 regions[header]       	= 'Header'
 regions[main_prefix]  	= 'Main Region Prefix'

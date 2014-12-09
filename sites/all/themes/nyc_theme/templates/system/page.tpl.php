@@ -67,10 +67,10 @@
  */
 ?>
 
-<?php if ($page['top_nav']): ?>
-  <div id="top-nav">
+<?php if ($page['topbar']): ?>
+  <div id="topbar">
     <div class="container">
-      <?php print render($page['top_nav']); ?>
+      <?php print render($page['topbar']); ?>
     </div>
   </div>
 <?php endif; ?>
