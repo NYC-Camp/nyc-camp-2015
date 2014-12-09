@@ -91,6 +91,14 @@
   </header>
 <?php endif; ?>
 
+<?php if ($page['main_prefix']): ?>
+  <div id="main-prefix">
+     <div class="container">
+        <?php print render($page['main_prefix']); ?>
+     </div>
+   </div>
+ <?php endif; ?>
+
 <?php if ($page['content']): ?>
   <main id="main" role="main">
     <div class="container content-wrapper">
