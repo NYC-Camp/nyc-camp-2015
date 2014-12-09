@@ -226,7 +226,7 @@ input, input[type="password"], input[type="text"], input[type="email"], textarea
 	height: auto;
 	border-radius: 3px;
 	border: 1px solid rgba(0, 0, 0, 0.2);
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 input[type="submit"] {
@@ -236,6 +236,7 @@ input[type="submit"] {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	box-shadow: none;
+	font-size: 11px;
 }
 
 input[type="submit"]:active {
@@ -374,6 +375,10 @@ a {
 
 .form-item .description {
 	color: #666F80;					/* Text color medium */
+}
+
+a.active, a.active-trail {
+	color: #000000;					/* Text color black */
 }
 
 
