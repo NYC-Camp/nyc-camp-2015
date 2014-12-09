@@ -120,8 +120,30 @@
 
 <?php if ($page['content']): ?>
   <main id="main" role="main">
-    <div class="container content-wrapper">
-    <?php print render($page['content']); ?>
+    <div class="container">
+
+      <?php print $messages; ?>
+      <?php print render($page['help']); ?>
+      <?php if ($breadcrumb): print $breadcrumb; endif;?>
+
+      <?php if (!empty($tabs['#primary'])): ?>
+        <div class="tabs-wrapper clearfix"><?php print render($tabs); ?></div>
+      <?php endif; ?>
+  
+      <?php if ($action_links): ?>
+        <ul class="action-links"><?php print render($action_links); ?></ul>
+      <?php endif; ?>
+    
+      <div class="content-wrapper">
+        <?php print render($title_prefix); ?>
+          <?php if ($title): ?>
+            <h1 class="title" id="page-title"><?php print $title; ?></h1>
+          <?php endif; ?>
+        <?php print render($title_suffix); ?>
+    
+        <?php print render($page['content']); ?>
+      </div>
+
     </div>
   </main>
 <?php endif; ?>
