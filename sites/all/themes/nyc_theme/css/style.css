@@ -159,6 +159,28 @@ img, video {
 /* TEMPORARY MOBILE THEMING */
 /* iPad portrait and smaller ----------- */
 @media screen and (max-width: 768px) {
+  /* Display nones */
+  #topbar, #logo, #site-slogan {
+    display: none;
+  }
+
+  #site-name-slogan {
+    display: block;
+  }
+
+  #site-name {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 1.5em;
+  }
+
+  /* Layout */
   .container {
     width: 94%;
     margin: 0 auto;
