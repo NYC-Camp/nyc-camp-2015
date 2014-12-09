@@ -246,7 +246,7 @@ th, td {
   clear: both;
 }
 
-#topbar, #header, #main, #main-prefix, #main-suffix, #footer {
+#topbar, #main-nav, #header, #main, #main-prefix, #main-suffix, #footer {
   width: 100%;
 }
 
