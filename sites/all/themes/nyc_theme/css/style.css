@@ -64,3 +64,8 @@ img, video {
   max-width: 100%;
   height: auto;
 }
+
+.container {
+  width: 96%;
+  max-width: 1100px;
+}
