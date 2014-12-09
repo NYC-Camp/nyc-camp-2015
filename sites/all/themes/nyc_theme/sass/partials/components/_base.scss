@@ -155,13 +155,8 @@ th, td {
 	position: relative;
 }
 
-#main {
-	min-height: 420px;
-	padding: 0 0 1.5em;
-}
-
-#footer {
-	padding: 1em 0;
+#main, #footer {
+	padding: 1.5em 0;
 }
 
 /* menus and item lists */
