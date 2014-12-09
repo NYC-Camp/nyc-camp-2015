@@ -78,6 +78,42 @@ function nyc_theme_preprocess_block(&$vars) {
 // */
 
 /**
+ * Override or insert variables into the block templates.
+ *
+ * @param $variables
+ *   An array of variables to pass to the theme template.
+ * @param $hook
+ *   The name of the template being rendered ("block" in this case.)
+ */
+function nyc_theme_preprocess_block(&$variables, $hook) {
+  // Use a bare template for the page's main content.
+  if ($variables['block_html_id'] == 'block-system-main') {
+    $variables['theme_hook_suggestions'][] = 'block__bare';
+  }
+  $variables['title_attributes_array']['class'][] = 'block-title';
+}
+
+/**
+ * Override or insert variables into the block templates.
+ *
+ * @param $variables
+ *   An array of variables to pass to the theme template.
+ * @param $hook
+ *   The name of the template being rendered ("block" in this case.)
+ */
+function nyc_theme_process_block(&$variables, $hook) {
+  // Drupal 7 should use a $title variable instead of $block->subject.
+  $variables['title'] = $variables['block']->subject;
+}
+
+/**
+ * Changes the search form to use the "search" input element of HTML5.
+ */
+function nyc_theme_preprocess_search_block_form(&$vars) {
+  $vars['search_form'] = str_replace('type="text"', 'type="search"', $vars['search_form']);
+}
+
+/**
  * Override or insert variables into the entity template.
  *
  * @param $vars
