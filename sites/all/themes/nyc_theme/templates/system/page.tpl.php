@@ -94,7 +94,7 @@
 <?php if ($page['main_suffix']): ?>
   <div id="main-suffix">
      <div class="container">
-        <?php print render($page['main_suffix]); ?>
+        <?php print render($page['main_suffix']); ?>
      </div>
    </div>
 <?php endif; ?>
