@@ -76,8 +76,10 @@
 <?php endif; ?>
 
 <?php if ($page['main_prefix']): ?>
-   <div class="container">
-      <?php print render($page['main_prefix']); ?>
+  <div id="main-prefix">
+     <div class="container">
+        <?php print render($page['main_prefix']); ?>
+     </div>
    </div>
  <?php endif; ?>
 
@@ -90,9 +92,11 @@
 <?php endif; ?>
 
 <?php if ($page['main_suffix']): ?>
-  <div class="container">
-    <?php print render($page['main_suffix']); ?>
-  </div>
+  <div id="main-suffix">
+     <div class="container">
+        <?php print render($page['main_suffix]); ?>
+     </div>
+   </div>
 <?php endif; ?>
 
 <?php if ($page['footer']): ?>
