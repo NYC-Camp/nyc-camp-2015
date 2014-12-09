@@ -1,14 +1,10 @@
 /* TIMHOBERT'S BASE STYLES */
 
 body {
-	background: #fff;
-	color: #303133;
 	font-family: 'SourceSansProLight', 'Source Sans Pro', sans-serif;
-	font-size: 0.875em;
-	margin: 0;
-	padding: 0;
+	font-size: 1em;
 	font-weight: normal;
-	font-weight: 500;
+	font-weight: 300;
 	line-height: 1.5;
 	word-wrap: break-word;
 }
@@ -283,7 +279,7 @@ div.messages, .breadcrumb, ul.pager {
 
 /* BACKGROUNDS */
 
-#main-nav {
+body, #main-nav {
 	background: #ffffff; 			/* white */
 }
 
@@ -326,15 +322,19 @@ input[type="submit"]:active {
 
 /* FONT COLORS */
 
+body, #block-views-news-block h2.block-title {
+	color: #303133; 				/* Text color dark */
+}
+
 a {
-	color: #5091CD; 				/* main color - blue */
+	color: #5091CD; 				/* Main color base - blue */
 }
 
 #topbar, #topbar a, #header, #header a, #footer, #footer a {
 	color: #ffffff; 				/* white */
 }
 
-.form-item .description, #block-views-news-block h2.block-title {
+.form-item .description {
 	color: #666F80;					/* Text color medium */
 }
 
