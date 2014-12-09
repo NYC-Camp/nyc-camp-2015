@@ -361,3 +361,25 @@ a {
 #topbar, #topbar a, #header, #header a, #footer, #footer a {
 	color: #ffffff;
 }
+
+
+/* FLEXBOX -- A modern grid */
+
+.group, #main-suffix .container {
+	position: relative;
+	display: -webkit-box;           /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;              /* OLD - Firefox 19- (doesn't work very well) */
+	display: -ms-flexbox;           /* TWEENER - IE 10 */
+	display: -webkit-flex;          /* NEW - Chrome */
+	display: flex;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+.group > div, #main-suffix .container > .block {
+	margin: 0;
+	padding: 1em;
+}
+
+.group > div:last-child, #main-suffix .container > .block:last-child {
+	margin-right: 0;
+}
+
