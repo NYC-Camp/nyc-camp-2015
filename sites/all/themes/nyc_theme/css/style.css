@@ -75,7 +75,7 @@ img, video {
 /* TIMHOBERT'S BASE STYLES */
 body {
   background: #fff;
-  color: #333;
+  color: #303133;
   font-family: 'SourceSansProLight', 'Source Sans Pro', sans-serif;
   font-size: 0.875em;
   margin: 0;
@@ -97,6 +97,7 @@ img {
   /* a little crazy, but lets give it a try */
 }
 
+/* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   font-weight: 700;
@@ -110,19 +111,19 @@ h1, h2, h3, h4, h5, h6, .by-line {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.25em;
 }
 
 h2, .view-grouping-header {
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 h4, h5, h6 {
-  font-size: 1.1em;
+  font-size: 1.25em;
 }
 
 p, .field {
@@ -149,16 +150,15 @@ a.active, a.active-trail {
   font-weight: bold;
 }
 
-.hidden {
-  display: none;
+/* menus and item lists */
+.item-list ul, .item-list ul li, ul.menu, ul.menu li, ul.inline li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
+ul.inline {
+  clear: both;
 }
 
 li ul, li ol {
@@ -232,17 +232,6 @@ th, td {
 
 #main, #footer {
   padding: 1.5em 0;
-}
-
-/* menus and item lists */
-.item-list ul, .item-list ul li, ul.menu, ul.menu li, ul.inline li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-ul.inline {
-  clear: both;
 }
 
 /* FORMS */
@@ -338,4 +327,44 @@ li.views-row {
 
 div.messages, .breadcrumb, ul.pager {
   margin: 1em 0;
+}
+
+/* Display: none's */
+.hidden, #topbar .block-title {
+  display: none;
+}
+
+/* Pseudo-WYSIWYG */
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+/* BACKGROUNDS */
+#topbar {
+  background: #023e6b;
+  /* main color - dark blue */
+}
+
+#main-nav {
+  background: #ffffff;
+  /* white */
+}
+
+#header {
+  background: #5091cd;
+  /* main color - blue */
+}
+
+/* FONT COLORS */
+#topbar, #topbar a, #header, #header a {
+  color: #ffffff;
+}
+
+a {
+  color: #5091CD;
+  /* main color - blue */
 }
