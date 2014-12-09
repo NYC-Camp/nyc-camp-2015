@@ -233,6 +233,7 @@ html.js input.throbbing {
 
 
 /* Drupal-specific */
+
 .views-row {
 	margin: 0;
 	padding: 1em 0;
@@ -242,12 +243,12 @@ li.views-row {
 	list-style: none;
 }
 
-.block {
+.block, section {
 	padding: 0;
 	margin: 0 0 1.5em;
 }
 
-.block:last-child {
+.block:last-child, section:last-child {
 	margin-bottom: 0;
 }
 
