@@ -67,6 +67,22 @@
  */
 ?>
 
+<?php if ($page['top_nav']): ?>
+  <div id="top-nav">
+    <div class="container">
+      <?php print render($page['top_nav']); ?>
+    </div>
+  </div>
+<?php endif; ?>
+
+<?php if ($page['main_nav']): ?>
+  <div id="main-nav">
+    <div class="container">
+      <?php print render($page['main_nav']); ?>
+    </div>
+  </div>
+<?php endif; ?>
+
 <?php if ($page['header']): ?>
   <header id="header" role="banner">
     <div class="container">
@@ -74,14 +90,6 @@
     </div>
   </header>
 <?php endif; ?>
-
-<?php if ($page['main_prefix']): ?>
-  <div id="main-prefix">
-     <div class="container">
-        <?php print render($page['main_prefix']); ?>
-     </div>
-   </div>
- <?php endif; ?>
 
 <?php if ($page['content']): ?>
   <main id="main" role="main">
