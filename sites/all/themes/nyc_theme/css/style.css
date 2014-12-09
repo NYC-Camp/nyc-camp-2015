@@ -240,7 +240,7 @@ th, td {
 
 /* Layout stuff */
 /* A modern clearfix for IE8 and up. Per http://css-tricks.com/snippets/css/clear-fix; */
-#topbar, #main-nav, #header, #main, #main-prefix, #main-suffix, .group:after, .block:after {
+#topbar:after, #main-nav:after, #header:after, #main:after, #main-prefix:after, #main-suffix:after, .group:after, .block:after {
   content: "";
   display: table;
   clear: both;
