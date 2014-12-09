@@ -325,16 +325,24 @@ div.messages, .breadcrumb, ul.pager {
 
 /* BACKGROUNDS */
 
-#topbar, #footer {
-	background: #023e6b; 			/* main color - dark blue */
-}
-
 #main-nav {
 	background: #ffffff; 			/* white */
 }
 
-#header {
+#topbar, #footer {
+	background: #023e6b; 			/* main color - dark blue */
+}
+
+#header, .button, button {
 	background: #5091cd; 			/* main color - base blue */
+}
+
+.button:hover, button:hover {
+	background: #579edf; 			/* main color - base blue - lighter */
+}
+
+.button:active, button:active {
+	background: #4883b9; 			/* main color - base blue - darker */
 }
 
 #main-prefix, #main-suffix {
