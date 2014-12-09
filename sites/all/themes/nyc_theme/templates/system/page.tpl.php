@@ -68,7 +68,7 @@
 ?>
 
 <?php if ($page['topbar']): ?>
-  <div id="topbar">
+  <div id="topbar" class="topbar">
     <div class="container">
       <?php print render($page['topbar']); ?>
     </div>
@@ -76,7 +76,7 @@
 <?php endif; ?>
 
 <?php if ($page['main_nav']): ?>
-  <div id="main-nav">
+  <div id="main-nav" class="main-nav">
     <div class="container">
 
       <?php if ($logo): ?>
@@ -103,7 +103,7 @@
 <?php endif; ?>
 
 <?php if ($page['header']): ?>
-  <header id="header" role="banner">
+  <header id="header" class="header" role="banner">
     <div class="container">
       <?php print render($page['header']); ?>
     </div>
@@ -111,7 +111,7 @@
 <?php endif; ?>
 
 <?php if ($page['main_prefix']): ?>
-  <div id="main-prefix">
+  <div id="main-prefix" class="main-prefix">
      <div class="container">
         <?php print render($page['main_prefix']); ?>
      </div>
@@ -119,7 +119,7 @@
  <?php endif; ?>
 
 <?php if ($page['content']): ?>
-  <main id="main" role="main">
+  <main id="main" class="main" role="main">
     <div class="container">
 
       <?php print $messages; ?>
@@ -149,7 +149,7 @@
 <?php endif; ?>
 
 <?php if ($page['main_suffix']): ?>
-  <div id="main-suffix">
+  <div id="main-suffix" class="main-suffix">
      <div class="container">
         <?php print render($page['main_suffix']); ?>
      </div>
@@ -157,7 +157,7 @@
 <?php endif; ?>
 
 <?php if ($page['footer']): ?>
-  <footer id="footer" role="contentinfo">
+  <footer id="footer" class="footer" role="contentinfo">
     <div class="container">
       <?php print render($page['footer']); ?>
     </div>
