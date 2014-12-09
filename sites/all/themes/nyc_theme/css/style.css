@@ -148,10 +148,11 @@ img, video {
 /* FRONT PAGE CUSTOM */
 [class*=-icon] img {
   width: 10%;
+  margin: 0 4% 0 0;
 }
 
 [class*=-info] {
-  margin: 0 0 0 12%;
+  margin: 0 0 0 14%;
 }
 
 /* TIMHOBERT'S BASE STYLES */
