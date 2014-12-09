@@ -1,0 +1,281 @@
+// TIMHOBERT'S BASE STYLES
+
+body {
+	background: #fff;
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.875em;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-weight: 500;
+	line-height: 1.5;
+	word-wrap: break-word;
+}
+
+img {
+	border: 0; /* Removes border when inside 'a' element in IE6/7/8/9 FF3. */
+	-ms-interpolation-mode: bicubic; /* Improves image quality when scaled in IE7. */
+	width: auto; /* IE8 bug. Requires this to work properly with max-width in scaling images. */
+	display: block; /* a little crazy, but lets give it a try */
+}
+
+/*
+* Corrects overflow displayed oddly in IE9
+*/
+svg: not(: root) {
+	overflow: hidden;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	font-weight: 700;
+	line-height: 1.2em;
+	margin: 0 0 15px;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .by-line {
+	margin: 0 0 15px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2, .view-grouping-header {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+h4, h5, h6 {
+	font-size: 1.1em;
+}
+
+p, .field {
+	margin: 0 0 1.5em;
+}
+
+.block p:last-child {
+	margin-bottom: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a: focus {
+	outline: thin dotted;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
+a.active, a.active-trail {
+	font-weight: bold;
+}
+
+.hidden {
+	display: none;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+li ul, li ol {
+	margin: 0;
+}
+
+ul, ol {
+	margin: 0 1.5em 1.5em 0;
+	padding-left: 1.5em;
+}
+
+.content-wrapper ul, .content-wrapper ol {
+	margin: 1.5em 0 1.25em;
+	padding: 0 0 0 2em;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+dl {
+	margin: 0 0 1.5em;
+}
+
+dl dt {
+	font-weight: 700;
+}
+
+dd {
+	margin-left: 1.5em;
+}
+
+fieldset {
+	background: rgba(0,0,0,0.02);
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 0.5em 0;
+	padding: 0.5em;
+}
+
+table {
+	max-width: 100%;
+	width: 100% !important;
+	margin: 1.5em 0;
+}
+
+th, tr, td {
+	vertical-align: middle;
+}
+
+th, td {
+	padding: 10px;
+	position: relative;
+	border: 1px solid #dedede;
+}
+
+.sticky-header th, .sticky-table th {
+	border-bottom: 3px solid rbga(0,0,0,0.1);
+	padding-right: 1em;
+	text-align: left;
+}
+
+
+/* Layout stuff */
+
+#header, #main, #footer, .region, .container, .block, .views-row {
+	position: relative;
+}
+
+#main {
+	min-height: 420px;
+	padding: 0 0 1.5em;
+}
+
+#footer {
+	padding: 1em 0;
+}
+
+/* menus and item lists */
+.item-list ul, .item-list ul li, ul.menu, ul.menu li, ul.inline li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.inline {
+	clear: both;
+}
+
+
+/* FORMS */
+
+input, input[type="password"], input[type="text"], input[type="email"], textarea, select {
+	max-width: 100%;
+}
+
+input, input[type="password"], input[type="text"], input[type="email"], textarea, select {
+	line-height: 1.1em;
+	padding: 8px 8px 7px;
+	height: auto;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+	cursor: pointer;
+	font-size: 1.1em;
+	padding: 12px 35px;
+	border-radius: 5px;
+	background: #1d4d8e;
+	color: white;
+	margin: 15px 10px 0 0;
+	line-height: 1em;
+	letter-spacing: 1px;
+}
+
+input[type="submit"]:hover {
+	background: #1d4d8e;
+}
+
+input[type="submit"]:active {
+	padding: 13px 35px 11px;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+	background: #1d4d8e;
+}
+
+html.js input.form-autocomplete {
+	background-position: 100% 9px;
+}
+
+html.js input.throbbing {
+	background-position: 100% -18px;
+}
+
+.form-item label {
+	margin: 0 0 5px;
+}
+
+.form-item .description {
+	padding: 5px;
+}
+
+/* Per Safari’s CSS Reference: 
+	https://developer.apple.com/library/safari/documentation/appleapplications/reference/SafariCSSRef/Articles/StandardCSSProperties.html
+	iOS changes the appearance of buttons & controls to resemble a native apple UI. 
+	Add this code for comment & search forms to retain custom CSS styles:  */
+	input[type="submit"], input[type="password"], input[type="text"], input[type="email"] {
+	-webkit-appearance:none;
+}
+
+
+/* Drupal-specific */
+.views-row, .block {
+	margin: 0;
+	padding: 0;
+}
+
+.views-row, .item-list ul li.views-row {
+	list-style: none;
+	margin: 0 0 1.5em;
+	padding: 0;
+}
+
+.views-row-last {
+	margin: 0;
+}
+
+.field-label, .views-label {
+	font-weight: bold;
+	font-weight: 700;
+}
+
+.views-field-edit-node, .edit-link {
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	font-size: 11px;
+	z-index: 2;
+}
+
+div.messages, .breadcrumb, ul.pager {
+	margin: 1em 0;
+}

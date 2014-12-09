@@ -83,7 +83,7 @@
 
 <?php if ($page['content']): ?>
   <main id="main" role="main">
-    <div class="container">
+    <div class="container content-wrapper">
     <?php print render($page['content']); ?>
     </div>
   </main>
