@@ -105,8 +105,7 @@
 	margin-right: 1em;
 }
 
-#block-block-2, #block-block-5 {
-	float: right;
+#block-block-2, #block-block-5, .node-links ul.links li {
 	font-size: 0.875em;
 	margin: 3px 0 0;
 	text-transform: uppercase;
@@ -118,3 +117,6 @@
 	float: left;
 }
 
+#block-block-5 {
+	float: left;
+}
