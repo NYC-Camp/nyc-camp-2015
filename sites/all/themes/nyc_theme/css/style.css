@@ -67,7 +67,7 @@ img, video {
 }
 
 /* A modern clearfix for IE8 and up. Per http://css-tricks.com/snippets/css/clear-fix; */
-.topbar:after, .main-nav:after, .header:after, .main:after, .main-prefix:after, .main-suffix:after, .group:after, .block:after, .container:after {
+.topbar:after, .main-nav:after, .header:after, .main:after, .main-prefix:after, .main-suffix:after, .main-suffix .block:after, .group:after, .block:after, .container:after {
   content: "";
   display: table;
   clear: both;
