@@ -382,6 +382,17 @@ a.active, a.active-trail {
 }
 
 
+/* FONT AWESOME FONT ICONS */
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 
 /* MOBILE THEMING; done TimHobert's way until we do it Tony's way :) */
 

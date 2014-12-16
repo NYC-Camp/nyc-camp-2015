@@ -156,6 +156,20 @@ img, video {
   margin: 0 0 0 14%;
 }
 
+/* Footer */
+.social-networks {
+  margin-right: 1em;
+}
+
+#block-block-5 {
+  float: right;
+  font-size: 0.875em;
+  margin: 3px 0 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
 /* TIMHOBERT'S BASE STYLES */
 body {
   font-family: 'SourceSansProLight', 'Source Sans Pro', sans-serif;
@@ -542,6 +556,16 @@ a.active, a.active-trail {
 
 .group > div:last-child, .main-suffix .container > .block:last-child, .view-cod-sponsors .views-row:last-child {
   padding-right: 0;
+}
+
+/* FONT AWESOME FONT ICONS */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* MOBILE THEMING; done TimHobert's way until we do it Tony's way :) */
