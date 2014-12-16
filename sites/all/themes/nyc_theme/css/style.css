@@ -161,13 +161,17 @@ img, video {
   margin-right: 1em;
 }
 
-#block-block-5 {
+#block-block-2, #block-block-5 {
   float: right;
   font-size: 0.875em;
   margin: 3px 0 0;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-weight: 500;
+}
+
+#block-block-2 {
+  float: left;
 }
 
 /* TIMHOBERT'S BASE STYLES */
@@ -532,6 +536,11 @@ a {
 a.active, a.active-trail {
   color: #000000;
   /* Text color black */
+}
+
+.pink {
+  color: #e00074;
+  /* pink */
 }
 
 /* FLEXBOX -- A modern grid */
