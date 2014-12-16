@@ -611,7 +611,7 @@ a.active, a.active-trail {
     text-align: center;
     font-size: 1em;
     font-weight: bold;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.5em;
   }
 
@@ -662,5 +662,11 @@ a.active, a.active-trail {
   /* Main Suffix */
   .main-suffix .views-row:nth-child(2) {
     margin: 0;
+  }
+
+  /* Footer */
+  #footer .block {
+    margin: 0 0 1.5em;
+    float: none;
   }
 }
