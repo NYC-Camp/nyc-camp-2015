@@ -544,7 +544,7 @@ a.active, a.active-trail {
 }
 
 /* FLEXBOX -- A modern grid */
-.group, .main-suffix .container, .view-cod-sponsors .item-list ul {
+.group, .main-suffix .view-content, .view-cod-sponsors .item-list ul {
   position: relative;
   display: -webkit-box;
   /* OLD - iOS 6-, Safari 3.1-6 */
@@ -558,9 +558,13 @@ a.active, a.active-trail {
   /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 
-.group > div, .main-suffix .container > .block, .view-cod-sponsors .views-row {
+.group > div, .main-suffix .views-row, .view-cod-sponsors .views-row {
   margin: 0;
-  padding: 1em 2em 1em 0;
+  padding: 1em;
+}
+
+.main-suffix .views-row:nth-child(2) {
+  margin: 0 1em;
 }
 
 .group > div:last-child, .main-suffix .container > .block:last-child, .view-cod-sponsors .views-row:last-child {
