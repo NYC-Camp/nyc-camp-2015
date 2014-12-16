@@ -114,6 +114,10 @@ img, video {
   padding: 6px 10px 7px;
 }
 
+.topbar input[type="submit"] {
+  margin: 0;
+}
+
 /* Main-nav */
 #logo, .main-nav .block {
   float: left;
@@ -174,7 +178,7 @@ img, video {
 }
 
 #block-block-5 {
-  float: left;
+  float: right;
 }
 
 /* TIMHOBERT'S BASE STYLES */
@@ -595,7 +599,7 @@ a.active, a.active-trail {
     display: none;
   }
 
-  #site-name-slogan {
+  #site-name-slogan, .group, .main-suffix .view-content, .view-cod-sponsors .item-list ul {
     display: block;
   }
 
@@ -611,9 +615,9 @@ a.active, a.active-trail {
     line-height: 1.5em;
   }
 
-  /* Layout */
+  /* LAYOUT */
   .container {
-    width: 94%;
+    width: 100%;
     margin: 0 auto;
     padding: 0 1em;
     max-width: inherit;
@@ -635,6 +639,28 @@ a.active, a.active-trail {
   }
 
   .header .block {
-    padding: 0 0 1em 0;
+    padding: 0;
+    margin: 0 0 1em;
+  }
+
+  .header .block:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Main */
+  /* Front */
+  ._teaser-main [class*=-icon] img {
+    width: 20%;
+    margin: 0 0 1em 4%;
+    float: right;
+  }
+
+  ._teaser-main [class*=-info] {
+    margin: 0;
+  }
+
+  /* Main Suffix */
+  .main-suffix .views-row:nth-child(2) {
+    margin: 0;
   }
 }
