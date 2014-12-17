@@ -462,7 +462,7 @@ a.active, a.active-trail {
 	margin: 0 0 1em;
 	}
 
-	.header .block:last-child {
+	.header .block:last-child, #footer .block:last-child {
 	margin-bottom: 0;
 	}
 
