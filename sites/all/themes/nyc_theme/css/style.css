@@ -128,16 +128,14 @@ img, video {
   width: 100px;
 }
 
-/* Header */
-.header .container {
-  padding: 1em 0;
+.main-nav, .header {
+  border-bottom: 1px solid #ddd;
 }
 
-.header .block {
-  float: left;
-  width: 48%;
-  padding: 2em 0;
-  margin: 0;
+/* Header */
+.header .container {
+  width: 100%;
+  max-width: 100%;
 }
 
 .header #block-views-news-block {
@@ -150,7 +148,21 @@ img, video {
   padding: 0;
 }
 
-/* FRONT PAGE CUSTOM */
+/* Flexslider */
+.flexslider .views-field-body {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  width: 50%;
+  font-size: 1.5em;
+}
+
+.flexslider .views-row {
+  margin: 0;
+  padding: 0;
+}
+
+/* Front page custom content */
 ._teaser-main [class*=-icon] img {
   width: 10%;
   margin: 0 4% 0 0;
@@ -208,8 +220,8 @@ img {
 
 /* Font Sizes */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-  font-weight: 500;
+  font-weight: bold;
+  font-weight: 600;
   line-height: 1.2em;
   margin: 0 0 15px;
   padding: 0;
@@ -220,19 +232,19 @@ h1, h2, h3, h4, h5, h6, .by-line {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3.25em;
 }
 
 h2, .view-grouping-header {
-  font-size: 2em;
+  font-size: 2.15em;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 
 h4, h5, h6, #block-views-news-block h2.block-title {
-  font-size: 1.15em;
+  font-size: 1.25em;
 }
 
 p, .field {
@@ -528,7 +540,7 @@ input[type="submit"]:active {
 }
 
 /* FONT COLORS */
-body, #block-views-news-block h2.block-title {
+body, #block-views-news-block h2.block-title, .flexslider .views-field-body {
   color: #303133;
   /* Text color dark */
 }
@@ -538,7 +550,7 @@ a {
   /* Main color base - blue */
 }
 
-.topbar, #topbar a, .header, .header a, .footer, .footer a {
+.topbar, #topbar a, .footer, .footer a {
   color: #ffffff;
   /* white */
 }

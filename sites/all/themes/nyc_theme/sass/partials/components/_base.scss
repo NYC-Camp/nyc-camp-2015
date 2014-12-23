@@ -20,8 +20,8 @@ img {
 /* Font Sizes */
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
-	font-weight: 500;
+	font-weight: bold;
+	font-weight: 600;
 	line-height: 1.2em;
 	margin: 0 0 15px;
 	padding: 0;
@@ -32,19 +32,19 @@ h1, h2, h3, h4, h5, h6, .by-line {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 3.25em;
 }
 
 h2, .view-grouping-header {
-	font-size: 2em;
+	font-size: 2.15em;
 }
 
 h3 {
-	font-size: 1.5em;
+	font-size: 1.75em;
 }
 
 h4, h5, h6, #block-views-news-block h2.block-title {
-	font-size: 1.15em;
+	font-size: 1.25em;
 }
 
 p, .field {
@@ -344,7 +344,7 @@ input[type="submit"]:active {
 
 /* FONT COLORS */
 
-body, #block-views-news-block h2.block-title {
+body, #block-views-news-block h2.block-title, .flexslider .views-field-body {
 	color: #303133; 				/* Text color dark */
 }
 
@@ -352,7 +352,7 @@ a {
 	color: #5091CD; 				/* Main color base - blue */
 }
 
-.topbar, #topbar a, .header, .header a, .footer, .footer a {
+.topbar, #topbar a, .footer, .footer a {
 	color: #ffffff; 				/* white */
 }
 
