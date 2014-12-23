@@ -503,6 +503,10 @@ body, .main-nav {
   /* white */
 }
 
+.header {
+  background: #303133;
+}
+
 .header #block-views-news-block {
   background: rgba(255, 255, 255, 0.25);
   /* white -- 25% opacity */
@@ -513,7 +517,7 @@ body, .main-nav {
   /* main color - dark blue */
 }
 
-.header, .button, button {
+.button, button {
   background: #5091cd;
   /* main color - base blue */
 }
@@ -677,7 +681,6 @@ a.active, a.active-trail {
     right: auto;
     width: 100%;
     font-size: 1em;
-    background: #303133;
     color: #fff;
     padding: 15px 15px 40px;
   }
