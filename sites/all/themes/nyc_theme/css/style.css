@@ -179,17 +179,8 @@ img, video {
 }
 
 /* Front page custom content */
-._teaser-main [class*=-icon] img {
-  width: 10%;
-  margin: 0 4% 0 0;
-}
-
-._teaser-main [class*=-info] {
-  margin: 0 0 0 14%;
-}
-
 h1.teaser--h1 {
-  margin: 0;
+  margin: 0 0 10px;
 }
 
 /* Footer */
@@ -686,16 +677,6 @@ a.active, a.active-trail {
 
   /* Main */
   /* Front */
-  ._teaser-main [class*=-icon] img {
-    width: 20%;
-    margin: 0 0 1em 4%;
-    float: right;
-  }
-
-  ._teaser-main [class*=-info] {
-    margin: 0;
-  }
-
   /* Main Suffix */
   .main-suffix .views-row:nth-child(2) {
     margin: 0;
