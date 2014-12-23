@@ -76,8 +76,8 @@ img, video {
 .container {
   width: 94%;
   margin: 0 auto;
-  max-width: 1100px;
-  min-width: 876px;
+  max-width: 1200px;
+  min-width: 1024px;
 }
 
 .topbar, .main-nav, .header, .main, .main-prefix, .main-suffix, .footer {
@@ -167,6 +167,11 @@ img, video {
   right: 5%;
   width: 50%;
   font-size: 1.5em;
+}
+
+.flexslider h1, .flexslider h2, .flexslider h3, .flexslider h4 {
+  margin: 0 0 20px;
+  line-height: 1.1em;
 }
 
 .flexslider .views-row {
@@ -503,14 +508,6 @@ body, .main-nav {
   /* white -- 25% opacity */
 }
 
-.header .container {
-  background: url("/sites/all/themes/nyc_theme/images/nycc_masthead.png") scroll no-repeat center center transparent;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .topbar, .footer {
   background: #023e6b;
   /* main color - dark blue */
@@ -662,8 +659,7 @@ a.active, a.active-trail {
   }
 
   #header .container {
-    padding: 1em;
-    width: 100%;
+    padding: 0;
   }
 
   .header .block {
@@ -673,6 +669,17 @@ a.active, a.active-trail {
 
   .header .block:last-child, #footer .block:last-child {
     margin-bottom: 0;
+  }
+
+  .flexslider .views-field-body {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 100%;
+    font-size: 1em;
+    background: #303133;
+    color: #fff;
+    padding: 15px 15px 40px;
   }
 
   /* Main */

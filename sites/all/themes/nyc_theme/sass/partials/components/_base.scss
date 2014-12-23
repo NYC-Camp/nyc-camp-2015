@@ -301,13 +301,13 @@ body, .main-nav {
 	background: rgba(255,255,255,0.25);	/* white -- 25% opacity */
 }
 
-.header .container {
-	background: url('/sites/all/themes/nyc_theme/images/nycc_masthead.png') scroll no-repeat center center transparent;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
+// .header .container {
+// 	background: url('/sites/all/themes/nyc_theme/images/nycc_masthead.png') scroll no-repeat center center transparent;
+// 	-webkit-background-size: cover;
+// 	-moz-background-size: cover;
+// 	-o-background-size: cover;
+// 	background-size: cover;
+// }
 
 .topbar, .footer {
 	background: #023e6b; 			/* main color - dark blue */
@@ -453,8 +453,7 @@ a.active, a.active-trail {
 	}
 
 	#header .container {
-	padding: 1em;
-	width: 100%;
+	padding: 0;
 	}
 
 	.header .block {
@@ -464,6 +463,17 @@ a.active, a.active-trail {
 
 	.header .block:last-child, #footer .block:last-child {
 	margin-bottom: 0;
+	}
+
+	.flexslider .views-field-body {
+	position: relative;
+	top: auto;
+	right: auto;
+	width: 100%;
+	font-size: 1em;
+	background: #303133;
+	color: #fff;
+	padding: 15px 15px 40px;
 	}
 
 
