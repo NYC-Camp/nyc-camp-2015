@@ -19,12 +19,18 @@ regions[footer]       	= 'Footer'
 ; Stylesheets
 ; ========================================
 
+stylesheets[all][] = 'lib/flexslider/flexslider.css'
 stylesheets[all][] = 'css/style.css'
 stylesheets[print][] = 'css/print.css'
 
 ; ========================================
 ; Scripts
 ; ========================================
+
+scripts[] = lib/flexslider/jquery.flexslider-min.js
+scripts[] = lib/flexslider/flexsliderfire.js
+scripts[] = lib/fitvids/js/jquery.fitvids.js
+scripts[] = js/nyc_theme.js
 
 ; ========================================
 ; Modernizr
