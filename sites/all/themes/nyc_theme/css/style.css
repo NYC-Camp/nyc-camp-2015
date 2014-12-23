@@ -119,13 +119,25 @@ img, video {
 }
 
 /* Main-nav */
-#logo, .main-nav .block {
+#logo, #site-name-slogan {
   float: left;
   margin: 0 2em 0 0;
 }
 
+.main-nav .block {
+  float: right;
+}
+
 #logo {
   width: 100px;
+}
+
+#site-name {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
 }
 
 .main-nav, .header {
@@ -287,7 +299,7 @@ ul.menu li {
   margin: 0 5px;
 }
 
-ul.menu li, .topbar {
+ul.menu li, .topbar, #site-name {
   line-height: 40px;
 }
 
@@ -465,7 +477,7 @@ div.messages, .breadcrumb, ul.pager {
 }
 
 /* Display nones */
-.hidden, .element-invisible, #site-name-slogan, .front #page-title, .topbar .block-title {
+.hidden, .element-invisible, #site-slogan, .front #page-title, .topbar .block-title {
   display: none;
 }
 

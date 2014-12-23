@@ -89,7 +89,7 @@ ul.menu li {
 	margin: 0 5px;
 }
 
-ul.menu li, .topbar {
+ul.menu li, .topbar, #site-name {
 	line-height: 40px;
 }
 
@@ -273,7 +273,7 @@ div.messages, .breadcrumb, ul.pager {
 
 /* Display nones */
 
-.hidden, .element-invisible, #site-name-slogan, .front #page-title, .topbar .block-title {
+.hidden, .element-invisible, #site-slogan, .front #page-title, .topbar .block-title {
 	display: none;
 }
 
