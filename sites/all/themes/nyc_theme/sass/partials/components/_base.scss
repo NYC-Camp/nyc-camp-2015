@@ -21,7 +21,7 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
-	font-weight: 600;
+	font-weight: 500;
 	line-height: 1.15em;
 	margin: 0 0 15px;
 	padding: 0;
@@ -32,19 +32,24 @@ h1, h2, h3, h4, h5, h6, .by-line {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 2.5em;
 }
 
 h2, .view-grouping-header {
-	font-size: 2.25em;
+	font-size: 2em;
 }
 
 h3 {
-	font-size: 1.75em;
+	font-size: 1.5em;
 }
 
 h4, h5, h6, #block-views-news-block h2.block-title {
 	font-size: 1.25em;
+}
+
+h5 {
+	text-transform: uppercase;
+	font-weight: 600;
 }
 
 p, .field {
@@ -71,8 +76,8 @@ a:hover, a:active {
 	outline: 0;
 }
 
-a.active, a.active-trail, #main-nav {
-	font-weight: 600;
+a.active, a.active-trail, .main-nav .block {
+	font-weight: 500;
 }
 
 
@@ -87,10 +92,6 @@ a.active, a.active-trail, #main-nav {
 ul.menu li {
 	display: inline-block;
 	margin: 0 5px;
-}
-
-ul.menu li, .topbar, #site-name {
-	line-height: 40px;
 }
 
 ul.menu li a {
@@ -294,7 +295,11 @@ div.messages, .breadcrumb, ul.pager {
 /* BACKGROUNDS */
 
 body, .main-nav {
-	background: #ffffff; 			/* white */
+	background: #ffffff; 				/* white */
+}
+
+.main-nav {
+	background: rgba(255,255,255,0.9); 	/* white -- 90% opacity */
 }
 
 .header {

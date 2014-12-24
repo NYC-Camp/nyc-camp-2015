@@ -11,7 +11,7 @@
 	width: 94%;
 	margin: 0 auto;
 	max-width: 1200px;
-	min-width: 1024px;
+	min-width: 860px;
 }
 
 .topbar, .main-nav, .header, .main, .main-prefix, .main-suffix, .footer {
@@ -22,11 +22,12 @@
 	position: relative;
 }
 
-.main-nav, .main, .main-prefix, .main-suffix, .footer {
+.main, .main-prefix, .main-suffix, .footer {
 	padding: 1em 0;
 }
 
 .main {
+	padding-top: 0;
 	min-height: 200px;
 }
 
@@ -57,6 +58,16 @@
 
 /* Main-nav */
 
+.main-nav {
+	position: fixed;
+	z-index: 101;
+	line-height: 50px;
+}
+
+.header, .not-front .main {
+	padding: 50px 0 0;
+}
+
 #logo, #site-name-slogan {
 	float: left;
 	margin: 0 2em 0 0;
@@ -64,6 +75,11 @@
 
 .main-nav .block {
 	float: right;
+	margin: 0;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 500;
 }
 
 #logo {
@@ -71,7 +87,7 @@
 }
 
 #site-name {
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: 700;
 	margin: 0;
 	padding: 0;
@@ -107,7 +123,7 @@
 	top: 10%;
 	right: 5%;
 	width: 50%;
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 
 .flexslider h1, .flexslider h2, .flexslider h3, .flexslider h4 {
