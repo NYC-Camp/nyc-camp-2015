@@ -90,10 +90,10 @@ img, video {
 
 .main, .main-prefix, .main-suffix, .footer {
   padding: 1em 0;
+  padding: 1rem 0;
 }
 
 .main {
-  padding-top: 0;
   min-height: 200px;
 }
 
@@ -127,7 +127,7 @@ img, video {
 }
 
 .header, .not-front .main {
-  padding: 50px 0 0;
+  padding-top: 50px;
 }
 
 #logo, #site-name-slogan {
@@ -153,7 +153,7 @@ img, video {
   font-weight: 700;
   margin: 0;
   padding: 0;
-  line-height: 1em;
+  line-height: inherit;
 }
 
 .main-nav, .header {
@@ -168,6 +168,7 @@ img, video {
 
 .header #block-views-news-block {
   padding: 1em;
+  padding: 1rem;
   float: right;
   width: 32%;
 }
@@ -202,6 +203,7 @@ h1.teaser--h1 {
 /* Footer */
 .social-networks {
   margin-right: 1em;
+  margin-right: 1rem;
 }
 
 #block-block-2, #block-block-5, .node-links ul.links li {
@@ -478,14 +480,18 @@ li.views-row {
 
 .node-links ul.links li {
   margin: 0 1em 0 0;
+  margin: 0 1rem 0 0;
 }
 
 div.messages, .breadcrumb, ul.pager {
   margin: 1em 0;
+  margin: 1rem 0;
 }
 
 .breadcrumb {
   padding: 0;
+  font-size: 0.75em;
+  text-transform: uppercase;
 }
 
 /* Display nones */
@@ -651,6 +657,7 @@ a.active, a.active-trail {
     width: 50%;
     text-align: center;
     font-size: 1em;
+    font-size: 1rem;
     font-weight: bold;
     font-weight: 500;
     line-height: 1.5em;
@@ -661,6 +668,7 @@ a.active, a.active-trail {
     width: 100%;
     margin: 0 auto;
     padding: 0 1em;
+    padding: 0 1rem;
     max-width: inherit;
     min-width: inherit;
   }
@@ -672,6 +680,7 @@ a.active, a.active-trail {
     min-height: inherit;
     height: auto;
     margin: 1em auto;
+    margin: 1rem auto;
   }
 
   #header .container {
@@ -681,6 +690,7 @@ a.active, a.active-trail {
   .header .block {
     padding: 0;
     margin: 0 0 1em;
+    margin: 0 0 1rem;
   }
 
   .header .block:last-child, #footer .block:last-child {
@@ -693,12 +703,13 @@ a.active, a.active-trail {
     right: auto;
     width: 100%;
     font-size: 1em;
+    font-size: 1rem;
     color: #fff;
-    padding: 15px 15px 40px;
+    padding: 1em 1em 2em;
+    padding: 1rem 1rem 2rem;
   }
 
   /* Main */
-  /* Front */
   /* Main Suffix */
   .main-suffix .views-row:nth-child(2) {
     margin: 0;
@@ -707,6 +718,7 @@ a.active, a.active-trail {
   /* Footer */
   #footer .block {
     margin: 0 0 1.5em;
+    margin: 0 0 1.5rem;
     float: none;
   }
 }

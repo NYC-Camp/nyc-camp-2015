@@ -24,10 +24,10 @@
 
 .main, .main-prefix, .main-suffix, .footer {
 	padding: 1em 0;
+	padding: 1rem 0;
 }
 
 .main {
-	padding-top: 0;
 	min-height: 200px;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .header, .not-front .main {
-	padding: 50px 0 0;
+	padding-top: 50px;
 }
 
 #logo, #site-name-slogan {
@@ -91,7 +91,7 @@
 	font-weight: 700;
 	margin: 0;
 	padding: 0;
-	line-height: 1em;
+	line-height: inherit;
 }
 
 .main-nav, .header {
@@ -107,6 +107,7 @@
 
 .header #block-views-news-block {
 	padding: 1em;
+	padding: 1rem;
 	float: right;
 	width: 32%;
 }
@@ -156,6 +157,7 @@ h1.teaser--h1 {
 
 .social-networks {
 	margin-right: 1em;
+	margin-right: 1rem;
 }
 
 #block-block-2, #block-block-5, .node-links ul.links li {
