@@ -248,12 +248,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   font-weight: 500;
   line-height: 1.15em;
-  margin: 0 0 15px;
   padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6, .by-line {
   margin: 0 0 15px;
+  margin: 0 0 1rem;
 }
 
 h1 {
