@@ -21,7 +21,6 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
-	font-weight: 500;
 	line-height: 1.15em;
 	padding: 0;
 }
@@ -29,6 +28,10 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6, .by-line {
 	margin: 0 0 15px;
 	margin: 0 0 1rem;
+}
+
+h1, h2, h3, h4, h5, h6, a.active, a.active-trail, .main-nav .block {
+	font-weight: 400;
 }
 
 h1 {
@@ -74,10 +77,6 @@ a:focus {
 
 a:hover, a:active {
 	outline: 0;
-}
-
-a.active, a.active-trail, .main-nav .block {
-	font-weight: 500;
 }
 
 
@@ -438,8 +437,7 @@ a.active, a.active-trail {
 	font-size: 1em;
 	font-size: 1rem;
 	font-weight: bold;
-	font-weight: 500;
-	line-height: 1.5em;
+	font-weight: 400;
 	}
 
 
