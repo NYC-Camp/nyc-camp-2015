@@ -64,6 +64,7 @@ function cod_bof_user_default_permissions() {
   $permissions['view bofs'] = array(
     'name' => 'view bofs',
     'roles' => array(
+      'administrator' => 'administrator',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'cod_bof',

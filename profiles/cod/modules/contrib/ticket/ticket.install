@@ -503,3 +503,13 @@ function ticket_update_7002() {
   ctools_export_crud_delete('views_view', $view);
   return array();
 }
+
+/**
+ * Update the views to use ticket state property instead of the target_id
+ */
+function ticket_update_7003() {
+  // Revert the ticket_user view
+  ticket_update_7002();
+  $view = views_get_view('ticket_registration');
+  ctools_export_crud_delete('views_view', $view);
+}

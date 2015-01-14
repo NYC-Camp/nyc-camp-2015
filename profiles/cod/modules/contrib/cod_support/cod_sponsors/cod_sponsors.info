@@ -6,7 +6,6 @@ project = cod_sponsors
 dependencies[] = cod_base
 dependencies[] = cod_events
 dependencies[] = cod_session
-dependencies[] = cod_sponsors
 dependencies[] = ctools
 dependencies[] = entityreference
 dependencies[] = features
@@ -68,9 +67,9 @@ features[views_view][] = cod_sponsors
 features[views_view][] = cod_sponsors_admin
 features[views_view][] = cod_sponsors_levels
 
-; Information added by Drupal.org packaging script on 2014-11-20
-version = "7.x-1.0-beta5"
+; Information added by Drupal.org packaging script on 2015-01-07
+version = "7.x-1.0-beta6"
 core = "7.x"
 project = "cod_support"
-datestamp = "1416444190"
+datestamp = "1420619009"
 

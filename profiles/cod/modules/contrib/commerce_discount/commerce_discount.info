@@ -29,9 +29,9 @@ files[] = includes/views/handlers/commerce_discount_handler_field_operations_dro
 files[] = commerce_discount.test
 
 
-; Information added by drush on 2014-11-20
+; Information added by drush on 2015-01-07
 version = "7.x-1.0-alpha4+4-dev"
 core = "7.x"
 project = "commerce_discount"
-datestamp = "1416445166"
+datestamp = "1420620111"
 

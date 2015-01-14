@@ -1,6 +1,16 @@
 <?php
 
 /**
+ * Enable panel pages when cod_bof is first installed.
+ */
+function cod_bof_install() {
+  // Enabled the associated bof pages
+  $module_list = array('cod_bof_pages');
+  module_enable($module_list);
+  return array();
+}
+
+/**
  * Revert cod_bof feature to set the correct pathauto variable event OG label.
  */
 function cod_bof_update_7002() {

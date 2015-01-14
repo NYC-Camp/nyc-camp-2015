@@ -77,7 +77,6 @@ features[flag][] = session_schedule
 features[flag][] = session_vote
 features[menu_custom][] = main-menu
 features[menu_custom][] = menu-menu-quick-links
-features[node][] = page
 features[node][] = schedule_item
 features[node][] = session
 features[og_features_role][] = node:event:session organizer
@@ -140,9 +139,9 @@ features[views_view][] = cod_session_speakers
 features[views_view][] = cod_session_tracks
 features[views_view][] = cod_session_user_presentations
 
-; Information added by Drupal.org packaging script on 2014-11-20
-version = "7.x-1.0-beta5"
+; Information added by Drupal.org packaging script on 2015-01-07
+version = "7.x-1.0-beta6"
 core = "7.x"
 project = "cod_support"
-datestamp = "1416444190"
+datestamp = "1420619009"
 

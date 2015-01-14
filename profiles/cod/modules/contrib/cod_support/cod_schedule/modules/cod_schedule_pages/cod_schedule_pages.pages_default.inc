@@ -15,7 +15,7 @@ function cod_schedule_pages_default_page_manager_pages() {
   $page->task = 'page';
   $page->admin_title = 'Schedule Admin Page';
   $page->admin_description = 'Cod Scheduler';
-  $page->path = 'admin/conference/events/%node/schedule';
+  $page->path = 'admin/conference/%node/schedule';
   $page->access = array(
     'plugins' => array(
       0 => array(
@@ -29,14 +29,9 @@ function cod_schedule_pages_default_page_manager_pages() {
         'not' => FALSE,
       ),
       1 => array(
-        'name' => 'role',
+        'name' => 'perm',
         'settings' => array(
-          'rids' => array(
-            0 => 7,
-            1 => 3,
-            2 => 5,
-            3 => 4,
-          ),
+          'perm' => 'administer schedule',
         ),
         'context' => 'logged-in-user',
         'not' => FALSE,

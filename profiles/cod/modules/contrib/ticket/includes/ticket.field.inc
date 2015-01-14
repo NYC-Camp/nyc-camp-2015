@@ -636,7 +636,7 @@ function ticket_field_presave($entity_type, $entity, $field, $instance, $langcod
         $ticket_type->save();
 
         // Allow submodules to respond to the item info.
-        module_invoke_all('ticket_field_item_presave', $item);
+        module_invoke_all('ticket_field_item_presave', $item, $entity);
 
         // Store the info back to the field item.
         $item = array(

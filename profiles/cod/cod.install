@@ -197,6 +197,9 @@ function cod_install_finished(&$install_state) {
     cod_session_generate_session_tracks($first_event, 'node', TRUE);
   }
 
+  // Update Incorrect foreign key references.
+  // See https://www.drupal.org/node/1969018 for more info.
+  cod_update_7007();
   // Run cron to populate update status tables (if available) so that users
   // will be warned if they've installed an out of date Drupal version.
   // Will also trigger indexing of profile-supplied content or feeds.
@@ -492,4 +495,41 @@ function cod_update_7006() {
     variable_set('admin_theme', $admin_theme);
   }
   return array();
+}
+
+/**
+ * Update foreign keys where necessary.
+ * See https://www.drupal.org/node/1969018 for more info.
+ */
+function cod_update_7007() {
+  // Load the base table configuration from the cache.
+  $base_tables = variable_get('entityreference:base-tables', array());
+
+  foreach (field_info_fields() as $field_name => $field) {
+
+    if ($field['type'] != 'entityreference') {
+      // Not an entity reference field.
+      continue;
+    }
+
+    // Read in the field config.
+    $field_name = field_read_field($field['field_name']);
+
+    // Create a foreign key to the target entity type base type, if available.
+    $entity_type = $field_name['settings']['target_type'];
+    if (isset($base_tables[$entity_type])) {
+      list($base_table, $id_column) = $base_tables[$entity_type];
+      $schema['foreign keys'][$base_table] = array(
+        'table' => $base_table,
+        'columns' => array('target_id' => $id_column),
+      );
+    }
+
+    // Update foreign keys to actually contain the proper entity foreign keys
+    // if they differ.
+    if ($field_name['foreign keys'] != $schema['foreign keys']) {
+      $field_name['foreign keys'] = $schema['foreign keys'];
+      field_update_field($field_name);
+    }
+  }
 }

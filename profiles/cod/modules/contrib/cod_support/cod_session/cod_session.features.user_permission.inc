@@ -101,6 +101,7 @@ function cod_session_user_default_permissions() {
   $permissions['view sessions'] = array(
     'name' => 'view sessions',
     'roles' => array(
+      'administrator' => 'administrator',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'cod_session',
@@ -110,6 +111,7 @@ function cod_session_user_default_permissions() {
   $permissions['view speakers'] = array(
     'name' => 'view speakers',
     'roles' => array(
+      'administrator' => 'administrator',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'cod_session',

@@ -15,7 +15,7 @@
                     var timeroom_id = $(timeslot).attr('id');
 
                     $(session).append('<span class="throbber">Updating...</span>');
-                    $.post( "/ajax/cod-schedule/update-session", { session:session_nid, timeslot:timeslot_id, timeroom:timeroom_id }, function( data ) {
+                    $.post( Drupal.settings.basePath + "ajax/cod-schedule/update-session", { session:session_nid, timeslot:timeslot_id, timeroom:timeroom_id }, function( data ) {
                         $(session).children('.throbber').remove();
                     }, "json");
 

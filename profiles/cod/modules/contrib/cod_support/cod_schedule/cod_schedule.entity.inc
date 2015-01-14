@@ -40,13 +40,6 @@ class CodEventRoom extends Entity {
     field_info_cache_clear();
   }
 
-  /**
-   * Returns whether the ingredient type is locked, thus may not be
-   * deleted or renamed.
-   *
-   * Ingredient types provided in code are automatically treated as
-   * locked, as well as any fixed ingredient type.
-   */
    public function isLocked() {
      return isset($this->status) && empty($this->is_new)
      && (($this->status & ENTITY_IN_CODE)
