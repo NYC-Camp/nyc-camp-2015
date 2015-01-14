@@ -2,7 +2,8 @@
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 0.9375em;
+	font-size: 1.125em;
+	font-size: 1.125rem;
 	font-weight: normal;
 	font-weight: 300;
 	line-height: 1.5;
@@ -22,12 +23,12 @@ img {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 	line-height: 1.15em;
+	line-height: 1.15rem;
 	padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6, .by-line {
 	margin: 0 0 15px;
-	margin: 0 0 1rem;
 }
 
 h1, h2, h3, h4, h5, h6, a.active, a.active-trail, .main-nav .block {
@@ -36,18 +37,22 @@ h1, h2, h3, h4, h5, h6, a.active, a.active-trail, .main-nav .block {
 
 h1 {
 	font-size: 2.5em;
+	font-size: 2.5rem;
 }
 
 h2, .view-grouping-header {
 	font-size: 2em;
+	font-size: 2rem;
 }
 
 h3 {
 	font-size: 1.5em;
+	font-size: 1.5rem;
 }
 
 h4, h5, h6, #block-views-news-block h2.block-title {
 	font-size: 1.25em;
+	font-size: 1.25rem;
 }
 
 h5 {
@@ -57,10 +62,11 @@ h5 {
 
 p, .field {
 	margin: 0 0 1.5em;
+	margin: 0 0 1.5rem;
 }
 
 .submitted, .by-line {
-	margin-bottom: 1em;
+	margin-bottom: 15px;
 }
 
 .block p:last-child {
@@ -107,12 +113,16 @@ li ul, li ol {
 
 ul, ol {
 	margin: 0 1.5em 1.5em 0;
+	margin: 0 1.5rem 1.5rem 0;
 	padding-left: 1.5em;
+	padding-left: 1.5rem;
 }
 
 .content-wrapper ul, .content-wrapper ol {
 	margin: 1.5em 0 1.25em;
+	margin: 1.5rem 0 1.25rem;
 	padding: 0 0 0 2em;
+	padding: 0 0 0 2rem;
 }
 
 ul {
@@ -125,6 +135,7 @@ ol {
 
 dl {
 	margin: 0 0 1.5em;
+	margin: 0 0 1.5rem;
 }
 
 dl dt {
@@ -133,20 +144,22 @@ dl dt {
 
 dd {
 	margin-left: 1.5em;
+	margin-left: 1.5rem;
 }
 
 fieldset {
 	background: rgba(0,0,0,0.02);
 	border: 1px solid rgba(0,0,0,0.1);
 	border-radius: 3px;
-	margin: 0.5em 0;
-	padding: 0.5em;
+	margin: 15px 0;
+	padding: 5px;
 }
 
 table {
 	max-width: 100%;
 	width: 100% !important;
 	margin: 1.5em 0;
+	margin: 1.5rem 0;
 }
 
 th, tr, td {
@@ -163,12 +176,14 @@ hr {
 	border: 1px solid rgba(0,0,0,0.1);
 	height: 1px;
 	margin: 3em 0;
+	margin: 3rem 0;
 	padding: 0;
 }
 
 .sticky-header th, .sticky-table th {
 	border-bottom: 3px solid rbga(0,0,0,0.1);
 	padding-right: 1em;
+	padding-right: 1rem;
 	text-align: left;
 }
 
@@ -178,6 +193,7 @@ hr {
 input, input[type="password"], input[type="text"], input[type="email"], textarea, select, .button, button {
 	max-width: 100%;
 	line-height: 1.1em;
+	line-height: 1.1rem;
 	padding: 8px 10px 7px;
 	height: auto;
 	border-radius: 3px;
@@ -229,7 +245,7 @@ html.js input.throbbing {
 
 .views-row {
 	margin: 0;
-	padding: 1em 0;
+	padding: 15px 0;
 }
 
 li.views-row {
@@ -239,6 +255,7 @@ li.views-row {
 .block, section {
 	padding: 0;
 	margin: 0 0 1.5em;
+	margin: 0 0 1.5rem;
 }
 
 .block:last-child, section:last-child {
@@ -271,6 +288,7 @@ div.messages, .breadcrumb, ul.pager {
 .breadcrumb {
 	padding: 0;
 	font-size: 0.75em;
+	font-size: 0.75rem;
 	text-transform: uppercase;
 }
 
@@ -394,6 +412,7 @@ a.active, a.active-trail {
 
 .main-suffix .views-row:nth-child(2) {
 	margin: 0 1.5em;
+	margin: 0 1.5rem;
 }
 
 .group > div:last-child, .main-suffix .container > .block:last-child, .view-cod-sponsors .views-row:last-child {
