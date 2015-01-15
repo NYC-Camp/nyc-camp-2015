@@ -83,7 +83,7 @@ img, video {
 #main .container, #main-suffix .container {
   width: 860px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
   max-width: 96%;
 }
 
@@ -105,6 +105,14 @@ img, video {
 }
 
 /* Topbar */
+#topbar {
+  font-size: 0.7em;
+  padding: 5px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
 .topbar .block {
   float: right;
 }
@@ -616,7 +624,7 @@ a {
 }
 
 .topbar, #topbar a, .footer, .footer a {
-  color: #ffffff;
+  color: #eeeeee;
   /* white */
 }
 
