@@ -87,7 +87,7 @@ img, video {
   max-width: 96%;
 }
 
-.topbar, .main-nav, .header, .main, .main-prefix, .main-suffix, .footer {
+.navigation, .topbar, .main-nav, .header, .main, .main-prefix, .main-suffix, .footer {
   width: 100%;
 }
 
@@ -702,7 +702,7 @@ a.active, a.active-trail {
 /* iPad portrait and smaller ----------- */
 @media screen and (max-width: 768px) {
   /* Display nones */
-  #topbar, #logo, #site-slogan {
+  #logo, #site-slogan {
     display: none;
   }
 
@@ -745,6 +745,15 @@ a.active, a.active-trail {
     height: auto;
     margin: 1em auto;
     margin: 1rem auto;
+  }
+
+  /* NAV and HEADER */
+  .main-nav {
+    line-height: 40px;
+  }
+
+  .navigation {
+    position: relative;
   }
 
   #header .container {

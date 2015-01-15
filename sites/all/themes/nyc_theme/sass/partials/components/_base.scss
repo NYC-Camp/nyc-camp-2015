@@ -449,7 +449,7 @@ a.active, a.active-trail {
 
 	/* Display nones */
 
-	#topbar, #logo, #site-slogan {
+	#logo, #site-slogan {
 	display: none;
 	}
 
@@ -494,6 +494,17 @@ a.active, a.active-trail {
 	height: auto;
 	margin: 1em auto;
 	margin: 1rem auto;
+	}
+
+
+	/* NAV and HEADER */
+
+	.main-nav {
+	line-height: 40px;
+	}
+
+	.navigation {
+	position: relative;
 	}
 
 	#header .container {

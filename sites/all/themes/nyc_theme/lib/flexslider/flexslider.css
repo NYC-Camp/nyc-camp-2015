@@ -137,8 +137,8 @@ border: 1px solid rgba(0,0,0,0.4);
 .flex-control-nav, .flex-direction-nav { z-index: 2; }
 
 @media screen and (max-width: 860px) {
-	.flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
-	.flex-direction-nav .flex-next { opacity: 1; right: 10px;}
+	.flex-direction-nav .flex-prev { opacity: 1; } 
+	.flex-direction-nav .flex-next { opacity: 1; }
 }
 
 
