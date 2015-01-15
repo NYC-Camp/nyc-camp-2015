@@ -796,6 +796,15 @@ a.active, a.active-trail {
     float: none;
   }
 
+  /* Node pages */
+  .page-node .by-line {
+    margin-left: 0;
+  }
+
+  .page-node .by-line .user-picture {
+    width: 46px;
+  }
+
   .sidr {
     background: #161616;
     -webkit-box-shadow: inset 0 0 5px 5px #111;

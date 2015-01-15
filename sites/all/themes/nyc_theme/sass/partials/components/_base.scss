@@ -552,6 +552,17 @@ a.active, a.active-trail {
 	}
 
 
+	/* Node pages */
+
+	.page-node .by-line {
+	margin-left: 0;
+	}
+
+	.page-node .by-line .user-picture {
+	width: 46px;
+	}
+
+
 	// Responsive_menus module overrides
 
 	.sidr {
