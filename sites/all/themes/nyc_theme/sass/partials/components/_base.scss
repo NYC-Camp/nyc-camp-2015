@@ -507,6 +507,10 @@ a.active, a.active-trail {
 	position: relative;
 	}
 
+	.header, .not-front .main {
+	padding-top: 0;
+	}
+
 	#header .container {
 	padding: 0;
 	}
