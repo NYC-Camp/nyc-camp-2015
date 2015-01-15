@@ -147,6 +147,10 @@ img, video {
   padding-top: 50px;
 }
 
+.logged-in.not-front .main {
+  padding-top: 80px;
+}
+
 #logo, #site-name-slogan {
   float: left;
   margin: 0 2em 0 0;
@@ -255,6 +259,11 @@ h1.teaser--h1 {
 
 #block-block-5 {
   float: right;
+}
+
+/* Override Zen styling from COD module */
+ul.quicktabs-tabs.quicktabs-style-zen {
+  height: 24px;
 }
 
 /* TIMHOBERT'S BASE STYLES */
