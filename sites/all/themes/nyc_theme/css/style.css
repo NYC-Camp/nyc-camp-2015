@@ -96,8 +96,7 @@ img, video {
 }
 
 .main, .main-prefix, .main-suffix, .footer {
-  padding: 1em 0;
-  padding: 1rem 0;
+  padding: 30px 0;
 }
 
 .main {
@@ -218,6 +217,17 @@ img, video {
 /* Front page custom content */
 h1.teaser--h1 {
   margin: 0 0 10px;
+}
+
+/* News node pages */
+.by-line {
+  margin-left: -100px;
+}
+
+.by-line .user-picture {
+  float: left;
+  width: 85px;
+  margin: 0 15px 15px 0;
 }
 
 /* Footer */
@@ -529,7 +539,6 @@ div.messages, .breadcrumb, .item-list ul.pager {
   padding: 0;
   font-size: 0.9375rem;
   font-size: 0.9375rem;
-  text-transform: uppercase;
 }
 
 ul.tabs {
@@ -641,6 +650,11 @@ a.active, a.active-trail {
 .pink {
   color: #e00074;
   /* pink */
+}
+
+.breadcrumb, .submitted, .by-line {
+  color: #bbb;
+  /* light gray */
 }
 
 /* FLEXBOX -- A modern grid */

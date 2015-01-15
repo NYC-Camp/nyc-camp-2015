@@ -288,7 +288,6 @@ div.messages, .breadcrumb, .item-list ul.pager {
 	padding: 0;
 	font-size: 0.9375rem;
 	font-size: 0.9375rem;
-	text-transform: uppercase;
 }
 
 ul.tabs {
@@ -399,6 +398,10 @@ a.active, a.active-trail {
 
 .pink {
 	color: #e00074;					/* pink */
+}
+
+.breadcrumb, .submitted, .by-line {
+	color: #bbb;		/* light gray */
 }
 
 

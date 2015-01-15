@@ -30,8 +30,7 @@
 }
 
 .main, .main-prefix, .main-suffix, .footer {
-	padding: 1em 0;
-	padding: 1rem 0;
+	padding: 30px 0;
 }
 
 .main {
@@ -162,6 +161,19 @@
 
 h1.teaser--h1 {
 	margin: 0 0 10px;
+}
+
+
+/* News node pages */
+
+.by-line {
+	margin-left: -100px;
+}
+
+.by-line .user-picture {
+	float: left;
+	width: 85px;
+	margin: 0 15px 15px 0;
 }
 
 
