@@ -67,40 +67,42 @@
  */
 ?>
 
-<?php if ($page['topbar']): ?>
-  <div id="topbar" class="topbar">
-    <div class="container">
-      <?php print render($page['topbar']); ?>
+<div id="navigation" class="navigation">
+  <?php if ($page['topbar']): ?>
+    <div id="topbar" class="topbar">
+      <div class="container">
+        <?php print render($page['topbar']); ?>
+      </div>
     </div>
-  </div>
-<?php endif; ?>
+  <?php endif; ?>
 
-<?php if ($page['main_nav']): ?>
-  <div id="main-nav" class="main-nav">
-    <div class="container">
+  <?php if ($page['main_nav']): ?>
+    <div id="main-nav" class="main-nav">
+      <div class="container">
 
-      <?php if ($logo): ?>
-        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" id="logo">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-        </a>
-      <?php endif; ?>
-      <?php if ($site_name || $site_slogan): ?>
-        <hgroup id="site-name-slogan">
-          <?php if ($site_name): ?>
-            <h1 id="site-name">
-            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><span><?php print $site_name; ?></span></a>
-            </h1>
-          <?php endif; ?>
-          <?php if ($site_slogan): ?>
-            <h2 id="site-slogan"><?php print $site_slogan; ?></h2>
-          <?php endif; ?>
-        </hgroup>
-      <?php endif; ?>
+        <?php if ($logo): ?>
+          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" id="logo">
+          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+          </a>
+        <?php endif; ?>
+        <?php if ($site_name || $site_slogan): ?>
+          <hgroup id="site-name-slogan">
+            <?php if ($site_name): ?>
+              <h1 id="site-name">
+              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><span><?php print $site_name; ?></span></a>
+              </h1>
+            <?php endif; ?>
+            <?php if ($site_slogan): ?>
+              <h2 id="site-slogan"><?php print $site_slogan; ?></h2>
+            <?php endif; ?>
+          </hgroup>
+        <?php endif; ?>
 
-      <?php print render($page['main_nav']); ?>
+        <?php print render($page['main_nav']); ?>
+      </div>
     </div>
-  </div>
-<?php endif; ?>
+  <?php endif; ?>
+</div>
 
 <?php if ($page['header']): ?>
   <header id="header" class="header" role="banner">

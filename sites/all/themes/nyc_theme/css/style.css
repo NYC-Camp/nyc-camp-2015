@@ -134,9 +134,12 @@ img, video {
 }
 
 /* Main-nav */
-.main-nav {
+.navigation {
   position: fixed;
   z-index: 101;
+}
+
+.main-nav {
   line-height: 50px;
 }
 
