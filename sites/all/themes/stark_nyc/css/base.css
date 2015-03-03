@@ -1,0 +1,361 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.125em;
+	font-size: 1.125rem;
+	font-weight: normal;
+	font-weight: 300;
+	line-height: 1.5;
+	word-wrap: break-word;
+}
+
+/* Apply a natural box model to all elements */
+*, :before, :after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Undo that natural box model within Colorbox */
+#colorbox, #colorbox * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+/* Responsive images */
+img {
+	border: 0; 							/* Removes border when inside 'a' element in IE6/7/8/9 FF3. */
+	-ms-interpolation-mode: bicubic; 	/* Improves image quality when scaled in IE7. */
+	width: auto; 						/* IE8 requires this to work properly with max-width in scaling images. */
+	max-width: 100%;
+	height: auto;
+}
+
+
+/* Font Sizes */
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.15em;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .by-line {
+	margin: 0 0 15px;
+}
+
+h1, h2, h3, h4, h5, h6, a.active, a.active-trail, .main-nav .block {
+	font-weight: normal;
+	font-weight: 400;
+}
+
+h4, h5, h6 {
+	font-weight: bold;
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-size: 2.5rem;
+}
+
+h2, .view-grouping-header {
+	font-size: 1.7777em;
+	font-size: 1.7777rem;
+}
+
+h3 {
+	font-size: 1.2777em;
+	font-size: 1.2777rem;
+}
+
+h4, h5, h6 {
+	font-size: 1.1777em;
+	font-size: 1.1777rem;
+}
+
+p, .field {
+	margin: 0 0 1.5em;
+	margin: 0 0 1.5rem;
+}
+
+.submitted, .by-line {
+	margin-bottom: 15px;
+}
+
+.block p:last-child {
+	margin-bottom: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
+
+/* menus and item lists */
+
+.item-list ul, .item-list ul li, ul.menu, ul.menu li, ul.inline li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+ul.links.inline li {
+	margin: 0 1em 0 0;
+	margin: 0 1rem 0 0;
+}
+
+ul.menu li {
+	display: inline-block;
+	margin: 0 0 0 1.5em;
+	margin: 0 0 0 1.5rem;
+}
+
+ul.inline, ul.links.inline {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+li ul, li ol {
+	margin: 0;
+}
+
+ul, ol {
+	margin: 0 1em 1.5em;
+	margin: 0 1rem 1.5rem;
+	padding-left: 1rem;
+	padding-left: 1rem;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+dl {
+	margin: 0 0 1.5em;
+	margin: 0 0 1.5rem;
+}
+
+dl dt {
+	font-weight: 700;
+}
+
+dd {
+	margin-left: 1.5em;
+	margin-left: 1.5rem;
+}
+
+fieldset {
+	background: rgba(0,0,0,0.02);
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 3px;
+	margin: 15px 0;
+	padding: 5px;
+}
+
+table {
+	max-width: 100%;
+	width: 100% !important;
+	margin: 1.5em 0;
+	margin: 1.5rem 0;
+}
+
+th, tr, td {
+	vertical-align: middle;
+}
+
+th, td {
+	padding: 10px;
+	position: relative;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+hr {
+	border: 1px solid rgba(0,0,0,0.1);
+	height: 1px;
+	margin: 3em 0;
+	margin: 3rem 0;
+	padding: 0;
+}
+
+.sticky-header th, .sticky-table th {
+	border-bottom: 3px solid rbga(0,0,0,0.1);
+	padding-right: 1em;
+	padding-right: 1rem;
+	text-align: left;
+}
+
+
+/* FORMS */
+
+input, input[type="password"], input[type="text"], input[type="email"], textarea, select, .button, button {
+	max-width: 100%;
+	line-height: 1.1em;
+	line-height: 1.1rem;
+	padding: 8px 10px 7px;
+	height: auto;
+	border-radius: 3px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"], .button, button {
+	cursor: pointer;
+	color: white;
+	margin: 15px 10px 0 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	box-shadow: none;
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+}
+
+input[type="submit"]:active, .button:active, button:active {
+	padding: 9px 10px 6px;
+}
+
+html.js input.form-autocomplete {
+	background-position: 100% 9px;
+}
+
+html.js input.throbbing {
+	background-position: 100% -18px;
+}
+
+.form-item label {
+	margin: 0 0 5px;
+}
+
+.form-item .description {
+	padding: 5px;
+}
+
+/* Per Safari’s CSS Reference: 
+	https://developer.apple.com/library/safari/documentation/appleapplications/reference/SafariCSSRef/Articles/StandardCSSProperties.html
+	iOS changes the appearance of buttons & controls to resemble a native apple UI. 
+	Add this code for comment & search forms to retain custom CSS styles:  */
+	input[type="submit"], input[type="password"], input[type="text"], input[type="email"] {
+	-webkit-appearance:none;
+}
+
+
+/* Drupal-specific */
+
+.views-row, .block, section, nav, footer, #main, .container, #page {
+	position: relative;
+}
+
+.views-row {
+	margin: 0;
+	padding: 1em 0;
+	padding: 1rem 0;
+}
+
+li.views-row {
+	list-style: none;
+}
+
+.block, section {
+	padding: 0;
+	margin: 0 0 1.5em;
+	margin: 0 0 1.5rem;
+}
+
+.block:last-child, section:last-child {
+	margin-bottom: 0;
+}
+
+.field-label, .views-label {
+	font-weight: bold;
+	font-weight: 700;
+}
+
+.views-field-edit-node, .edit-link {
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	font-size: 11px;
+	z-index: 2;
+}
+
+.node-links ul.links li {
+	margin: 0 1em 0 0;
+	margin: 0 1rem 0 0;
+}
+
+div.messages, .breadcrumb, .item-list ul.pager {
+	margin: 1.5em 0;
+	margin: 1.5rem 0;
+}
+
+.breadcrumb {
+	padding: 0;
+	margin-bottom: 0;
+	font-size: 0.875rem;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+}
+
+ul.tabs {
+	margin: 0 0 15px;
+	font-size: 0.875em;
+	font-size: 0.875rem;
+	letter-spacing: 0.5px;
+}
+
+ul.tabs li a {
+	border-radius: 4px 4px 0 0;
+	background-color: #e7e7e7;
+}
+
+
+/* FLEXBOX -- A modern grid */
+
+.group, .main-suffix .view-content, .view-cod-sponsors .item-list ul {
+	position: relative;
+	display: -webkit-box;           /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;              /* OLD - Firefox 19- (doesn't work very well) */
+	display: -ms-flexbox;           /* TWEENER - IE 10 */
+	display: -webkit-flex;          /* NEW - Chrome */
+	display: flex;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+.group > div, .main-suffix .views-row, .view-cod-sponsors .views-row {
+	margin: 0;
+}
+
+.main-suffix .views-row:nth-child(2) {
+	margin: 0 1.5em;
+	margin: 0 1.5rem;
+}
+
+.group > div:last-child, .main-suffix .container > .block:last-child, .view-cod-sponsors .views-row:last-child {
+	padding-right: 0;
+}
+
+
+/* FONT AWESOME FONT ICONS */
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

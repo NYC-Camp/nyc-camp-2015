@@ -1,0 +1,13 @@
+name = jEditable
+description = Provides methods and CCK Formatters for using the jEditable edit-in-place plugin
+dependencies[] = content
+package = User interface
+core = 6.x
+
+
+; Information added by drupal.org packaging script on 2012-04-05
+version = "6.x-1.5"
+core = "6.x"
+project = "jeditable"
+datestamp = "1333609261"
+

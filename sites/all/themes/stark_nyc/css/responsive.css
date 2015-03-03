@@ -1,0 +1,111 @@
+/* iPad portrait and smaller ----------- */
+@media screen and (max-width: 768px) {
+
+	/* Display none's */
+
+	#topbar, .breadcrumb {
+	display: none;
+	}
+
+
+	/* FONTS */
+
+/*	body {
+	font-size: 1em;
+	font-size: 1rem;
+	}*/
+
+	h1 {
+	font-size: 1.5em;
+	font-weight: 600;
+	}
+
+	h2 {
+	font-size: 1.35em;
+	font-weight: 600;
+	}
+
+	h3 {
+	font-size: 1.15em;
+	font-weight: 600;
+	}
+
+
+	/* COLORS */
+	
+	#site-name a {
+	color: #eee;
+	font-weight: 600;
+	font-size: 0.75em;
+	}
+
+
+	/* LAYOUT */
+
+	.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 1em;
+	padding: 0 1rem;
+	max-width: inherit;
+	min-width: inherit;
+	}
+
+	.block, .region-footer > div, .region-footer > section, #block-menu-block-2 {
+	float: none;
+	width: 100%;
+	max-width: 100%;
+	min-height: inherit;
+	height: auto;
+	padding: 0;
+	margin: 0 0 1.5em;
+	text-align: left;
+	}
+
+	.region-footer > div:last-child, .region-footer > section:last-child {
+	margin-bottom: 0;
+	}
+
+
+	/* NAVIGATION & MEAN-MENU */
+
+	.mean-container .mean-bar {
+	z-index: 10;
+	}
+
+	.mean-container .mean-nav ul li a {
+	padding: 15px 5% 14px;
+	}
+
+	.mean-container .mean-nav ul li a.mean-expand {
+	border-bottom: none;
+	}
+
+	#navigation {
+	float: left;
+	width: 50%;
+	clear: both;
+	z-index: 11;
+	position: absolute;
+	top: 0;
+	left: 0;
+	}
+
+	#site-name {
+	z-index: 12;
+	}
+
+	#page {
+	padding-top: 52px;
+	}
+
+
+	/* MENUS */
+
+	ul.menu li {
+	display: inline-block;
+	margin: 0 1.5em 0 0;
+	margin: 0 1.5em 0 0;
+	}
+
+}
