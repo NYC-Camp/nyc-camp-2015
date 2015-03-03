@@ -1,4 +1,5 @@
 <?php
+#Comment out this line on  local environment, it's added for Domain Access on Pantheon
 extract(json_decode($_SERVER['PRESSFLOW_SETTINGS'], TRUE));
 
 /**
