@@ -5,6 +5,22 @@
  */
 
 /**
+ * Implements hook_commerce_product_default_types().
+ */
+function nyc_camp_partners_commerce_product_default_types() {
+  $items = array(
+    'partnership' => array(
+      'type' => 'partnership',
+      'name' => 'Partnership',
+      'description' => '',
+      'help' => '',
+      'revision' => 1,
+    ),
+  );
+  return $items;
+}
+
+/**
  * Implements hook_ctools_plugin_api().
  */
 function nyc_camp_partners_ctools_plugin_api($module = NULL, $api = NULL) {
@@ -33,14 +49,6 @@ function nyc_camp_partners_node_info() {
   $items = array(
     'partner' => array(
       'name' => t('Partner'),
-      'base' => 'node_content',
-      'description' => '',
-      'has_title' => '1',
-      'title_label' => t('Title'),
-      'help' => '',
-    ),
-    'partnership_option' => array(
-      'name' => t('Partnership Option'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',
