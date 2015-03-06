@@ -32,15 +32,13 @@ function nyc_camp_partners_uuid_features_default_commerce_product() {
       ),
     ),
   ),
-  'field_prod_partnership_type' => array(
+  'commerce_stock' => array(
     'und' => array(
       0 => array(
-        'value' => 'Tier Partnership',
+        'value' => '15.00',
       ),
     ),
   ),
-  'field_prod_partnership_desc' => array(),
-  'field_prod_partnership_image' => array(),
   'field_prod_partnership_conf_yr' => array(
     'und' => array(
       0 => array(
@@ -49,10 +47,38 @@ function nyc_camp_partners_uuid_features_default_commerce_product() {
       ),
     ),
   ),
-  'field_prod_partnership_website' => array(
+  'field_prod_partnership_desc' => array(),
+  'field_prod_partnership_image' => array(),
+  'field_prod_partnership_job_fair' => array(
     'und' => array(
       0 => array(
-        'value' => 'Medium logo on Partners Page and rotating promo block on all page',
+        'value' => 'Participation in Job Fair with Table
+Receives resumes for all job applicants',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_keynote' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Solo on-screen and combined verbal thank you',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_other' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Not Applicable',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_pavilion' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'SmallDaily combined thanks on Twitter/Facebook
+Small Logo in the footer of every communication email Table',
         'format' => NULL,
       ),
     ),
@@ -73,28 +99,11 @@ function nyc_camp_partners_uuid_features_default_commerce_product() {
       ),
     ),
   ),
-  'field_prod_partnership_pavilion' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'SmallDaily combined thanks on Twitter/Facebook
-Small Logo in the footer of every communication email Table',
-        'format' => NULL,
-      ),
-    ),
-  ),
   'field_prod_partnership_social' => array(
     'und' => array(
       0 => array(
         'value' => 'Daily combined thanks on Twitter/Facebook
 Small Logo in the footer of every communication email',
-        'format' => NULL,
-      ),
-    ),
-  ),
-  'field_prod_partnership_keynote' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Solo on-screen and combined verbal thank you',
         'format' => NULL,
       ),
     ),
@@ -107,32 +116,23 @@ Small Logo in the footer of every communication email',
       ),
     ),
   ),
-  'field_prod_partnership_other' => array(
+  'field_prod_partnership_type' => array(
     'und' => array(
       0 => array(
-        'value' => 'Not Applicable',
-        'format' => NULL,
+        'value' => 'Tier Partnership',
       ),
     ),
   ),
-  'commerce_stock' => array(
+  'field_prod_partnership_website' => array(
     'und' => array(
       0 => array(
-        'value' => '15.00',
-      ),
-    ),
-  ),
-  'field_prod_partnership_job_fair' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Participation in Job Fair with Table
-Receives resumes for all job applicants',
+        'value' => 'Medium logo on Partners Page and rotating promo block on all page',
         'format' => NULL,
       ),
     ),
   ),
   'rdf_mapping' => array(),
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $products[] = array(
   'sku' => '2015_bof',
@@ -156,15 +156,13 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_type' => array(
+  'commerce_stock' => array(
     'und' => array(
       0 => array(
-        'value' => 'Other Title Partnership',
+        'value' => '0.00',
       ),
     ),
   ),
-  'field_prod_partnership_desc' => array(),
-  'field_prod_partnership_image' => array(),
   'field_prod_partnership_conf_yr' => array(
     'und' => array(
       0 => array(
@@ -173,10 +171,37 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_website' => array(
+  'field_prod_partnership_desc' => array(),
+  'field_prod_partnership_image' => array(),
+  'field_prod_partnership_job_fair' => array(
     'und' => array(
       0 => array(
-        'value' => 'Small logo on Partners Page and rotating promo block on some pages',
+        'value' => 'Participation in Job Fair with Table
+Receives resumes for all job applicants',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_keynote' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Combined on-screen thank you',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_other' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Not Applicable',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_pavilion' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Not Applicable',
         'format' => NULL,
       ),
     ),
@@ -197,26 +222,10 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_pavilion' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Not Applicable',
-        'format' => NULL,
-      ),
-    ),
-  ),
   'field_prod_partnership_social' => array(
     'und' => array(
       0 => array(
         'value' => 'Single combined thanks (Session Day) on Twitter/Facebook	',
-        'format' => NULL,
-      ),
-    ),
-  ),
-  'field_prod_partnership_keynote' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Combined on-screen thank you',
         'format' => NULL,
       ),
     ),
@@ -229,32 +238,23 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_other' => array(
+  'field_prod_partnership_type' => array(
     'und' => array(
       0 => array(
-        'value' => 'Not Applicable',
-        'format' => NULL,
+        'value' => 'Other Title Partnership',
       ),
     ),
   ),
-  'commerce_stock' => array(
+  'field_prod_partnership_website' => array(
     'und' => array(
       0 => array(
-        'value' => '0.00',
-      ),
-    ),
-  ),
-  'field_prod_partnership_job_fair' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Participation in Job Fair with Table
-Receives resumes for all job applicants',
+        'value' => 'Small logo on Partners Page and rotating promo block on some pages',
         'format' => NULL,
       ),
     ),
   ),
   'rdf_mapping' => array(),
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $products[] = array(
   'sku' => '20015_bronze',
@@ -278,15 +278,13 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_type' => array(
+  'commerce_stock' => array(
     'und' => array(
       0 => array(
-        'value' => 'Tier Partnership',
+        'value' => '10.00',
       ),
     ),
   ),
-  'field_prod_partnership_desc' => array(),
-  'field_prod_partnership_image' => array(),
   'field_prod_partnership_conf_yr' => array(
     'und' => array(
       0 => array(
@@ -295,10 +293,37 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_website' => array(
+  'field_prod_partnership_desc' => array(),
+  'field_prod_partnership_image' => array(),
+  'field_prod_partnership_job_fair' => array(
     'und' => array(
       0 => array(
-        'value' => 'Small logo on Partners Page and rotating promo block on all pages',
+        'value' => 'Participation in Job Fair with Table
+Receives resumes for all job applicants',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_keynote' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Combined verbal thank you',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_other' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Not Applicable',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_pavilion' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Materials displayeed on shared table (materials only, no staff/people)',
         'format' => NULL,
       ),
     ),
@@ -319,26 +344,10 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_pavilion' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Materials displayeed on shared table (materials only, no staff/people)',
-        'format' => NULL,
-      ),
-    ),
-  ),
   'field_prod_partnership_social' => array(
     'und' => array(
       0 => array(
         'value' => 'Single combined thanks (Session Day) on Twitter/Facebook',
-        'format' => NULL,
-      ),
-    ),
-  ),
-  'field_prod_partnership_keynote' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Combined verbal thank you',
         'format' => NULL,
       ),
     ),
@@ -351,32 +360,23 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_other' => array(
+  'field_prod_partnership_type' => array(
     'und' => array(
       0 => array(
-        'value' => 'Not Applicable',
-        'format' => NULL,
+        'value' => 'Tier Partnership',
       ),
     ),
   ),
-  'commerce_stock' => array(
+  'field_prod_partnership_website' => array(
     'und' => array(
       0 => array(
-        'value' => '10.00',
-      ),
-    ),
-  ),
-  'field_prod_partnership_job_fair' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Participation in Job Fair with Table
-Receives resumes for all job applicants',
+        'value' => 'Small logo on Partners Page and rotating promo block on all pages',
         'format' => NULL,
       ),
     ),
   ),
   'rdf_mapping' => array(),
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $products[] = array(
   'sku' => '2015_community',
@@ -400,15 +400,13 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_type' => array(
+  'commerce_stock' => array(
     'und' => array(
       0 => array(
-        'value' => 'Tier Partnership',
+        'value' => '20.00',
       ),
     ),
   ),
-  'field_prod_partnership_desc' => array(),
-  'field_prod_partnership_image' => array(),
   'field_prod_partnership_conf_yr' => array(
     'und' => array(
       0 => array(
@@ -417,10 +415,37 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_website' => array(
+  'field_prod_partnership_desc' => array(),
+  'field_prod_partnership_image' => array(),
+  'field_prod_partnership_job_fair' => array(
     'und' => array(
       0 => array(
-        'value' => 'Small logo on Partners Page and rotating promo block on all pages',
+        'value' => 'Participation in Job Fair with Table
+Receives resumes for all job applicants',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_keynote' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Combined verbal thank you',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_other' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Not Applicable',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_pavilion' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Materials displayeed on shared table (materials only, no staff/people',
         'format' => NULL,
       ),
     ),
@@ -441,26 +466,10 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_pavilion' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Materials displayeed on shared table (materials only, no staff/people',
-        'format' => NULL,
-      ),
-    ),
-  ),
   'field_prod_partnership_social' => array(
     'und' => array(
       0 => array(
         'value' => 'Single combined thanks (Session Day) on Twitter/Facebook',
-        'format' => NULL,
-      ),
-    ),
-  ),
-  'field_prod_partnership_keynote' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Combined verbal thank you',
         'format' => NULL,
       ),
     ),
@@ -473,32 +482,23 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_other' => array(
+  'field_prod_partnership_type' => array(
     'und' => array(
       0 => array(
-        'value' => 'Not Applicable',
-        'format' => NULL,
+        'value' => 'Tier Partnership',
       ),
     ),
   ),
-  'commerce_stock' => array(
+  'field_prod_partnership_website' => array(
     'und' => array(
       0 => array(
-        'value' => '20.00',
-      ),
-    ),
-  ),
-  'field_prod_partnership_job_fair' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Participation in Job Fair with Table
-Receives resumes for all job applicants',
+        'value' => 'Small logo on Partners Page and rotating promo block on all pages',
         'format' => NULL,
       ),
     ),
   ),
   'rdf_mapping' => array(),
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $products[] = array(
   'sku' => '2015_party',
@@ -522,15 +522,13 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_type' => array(
+  'commerce_stock' => array(
     'und' => array(
       0 => array(
-        'value' => 'Other Title Partnership',
+        'value' => '1.00',
       ),
     ),
   ),
-  'field_prod_partnership_desc' => array(),
-  'field_prod_partnership_image' => array(),
   'field_prod_partnership_conf_yr' => array(
     'und' => array(
       0 => array(
@@ -539,10 +537,37 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_website' => array(
+  'field_prod_partnership_desc' => array(),
+  'field_prod_partnership_image' => array(),
+  'field_prod_partnership_job_fair' => array(
     'und' => array(
       0 => array(
-        'value' => 'Small logo on Partners Page and rotating promo block on some pages',
+        'value' => 'Participation in Job Fair with Table
+Receives resumes for all job applicants',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_keynote' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Combined on-screen thank you',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_other' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Not Applicable',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_pavilion' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Not Applicable',
         'format' => NULL,
       ),
     ),
@@ -563,26 +588,10 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_pavilion' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Not Applicable',
-        'format' => NULL,
-      ),
-    ),
-  ),
   'field_prod_partnership_social' => array(
     'und' => array(
       0 => array(
         'value' => 'Single combined thanks (Session Day) on Twitter/Facebook',
-        'format' => NULL,
-      ),
-    ),
-  ),
-  'field_prod_partnership_keynote' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Combined on-screen thank you',
         'format' => NULL,
       ),
     ),
@@ -595,32 +604,23 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_other' => array(
+  'field_prod_partnership_type' => array(
     'und' => array(
       0 => array(
-        'value' => 'Not Applicable',
-        'format' => NULL,
+        'value' => 'Other Title Partnership',
       ),
     ),
   ),
-  'commerce_stock' => array(
+  'field_prod_partnership_website' => array(
     'und' => array(
       0 => array(
-        'value' => '1.00',
-      ),
-    ),
-  ),
-  'field_prod_partnership_job_fair' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Participation in Job Fair with Table
-Receives resumes for all job applicants',
+        'value' => 'Small logo on Partners Page and rotating promo block on some pages',
         'format' => NULL,
       ),
     ),
   ),
   'rdf_mapping' => array(),
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $products[] = array(
   'sku' => '2015_community_workshop',
@@ -644,15 +644,13 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_type' => array(
+  'commerce_stock' => array(
     'und' => array(
       0 => array(
-        'value' => 'Other Title Partnership',
+        'value' => '1.00',
       ),
     ),
   ),
-  'field_prod_partnership_desc' => array(),
-  'field_prod_partnership_image' => array(),
   'field_prod_partnership_conf_yr' => array(
     'und' => array(
       0 => array(
@@ -661,10 +659,37 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_website' => array(
+  'field_prod_partnership_desc' => array(),
+  'field_prod_partnership_image' => array(),
+  'field_prod_partnership_job_fair' => array(
     'und' => array(
       0 => array(
-        'value' => 'Small logo on Partners Page and rotating promo block on some pages',
+        'value' => 'Participation in Job Fair with Table
+Receives resumes for all job applicants',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_keynote' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Combined on-screen thank you',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_other' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Not Applicable',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_pavilion' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Not Applicable',
         'format' => NULL,
       ),
     ),
@@ -685,26 +710,10 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_pavilion' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Not Applicable',
-        'format' => NULL,
-      ),
-    ),
-  ),
   'field_prod_partnership_social' => array(
     'und' => array(
       0 => array(
         'value' => 'Single combined thanks (Session Day) on Twitter/Facebook',
-        'format' => NULL,
-      ),
-    ),
-  ),
-  'field_prod_partnership_keynote' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Combined on-screen thank you',
         'format' => NULL,
       ),
     ),
@@ -717,32 +726,23 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_other' => array(
+  'field_prod_partnership_type' => array(
     'und' => array(
       0 => array(
-        'value' => 'Not Applicable',
-        'format' => NULL,
+        'value' => 'Other Title Partnership',
       ),
     ),
   ),
-  'commerce_stock' => array(
+  'field_prod_partnership_website' => array(
     'und' => array(
       0 => array(
-        'value' => '1.00',
-      ),
-    ),
-  ),
-  'field_prod_partnership_job_fair' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Participation in Job Fair with Table
-Receives resumes for all job applicants',
+        'value' => 'Small logo on Partners Page and rotating promo block on some pages',
         'format' => NULL,
       ),
     ),
   ),
   'rdf_mapping' => array(),
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $products[] = array(
   'sku' => '2015_daycare',
@@ -766,15 +766,13 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_type' => array(
+  'commerce_stock' => array(
     'und' => array(
       0 => array(
-        'value' => 'Other Title Partnership',
+        'value' => '1.00',
       ),
     ),
   ),
-  'field_prod_partnership_desc' => array(),
-  'field_prod_partnership_image' => array(),
   'field_prod_partnership_conf_yr' => array(
     'und' => array(
       0 => array(
@@ -783,10 +781,37 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_website' => array(
+  'field_prod_partnership_desc' => array(),
+  'field_prod_partnership_image' => array(),
+  'field_prod_partnership_job_fair' => array(
     'und' => array(
       0 => array(
-        'value' => 'Small logo on Partners Page and rotating promo block on some pages',
+        'value' => 'Participation in Job Fair with Table
+Receives resumes for all job applicants',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_keynote' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Combined on-screen thank you',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_other' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Not Applicable',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_pavilion' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Not Applicable',
         'format' => NULL,
       ),
     ),
@@ -807,26 +832,10 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_pavilion' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Not Applicable',
-        'format' => NULL,
-      ),
-    ),
-  ),
   'field_prod_partnership_social' => array(
     'und' => array(
       0 => array(
         'value' => 'Single combined thanks (Session Day) on Twitter/Facebook',
-        'format' => NULL,
-      ),
-    ),
-  ),
-  'field_prod_partnership_keynote' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Combined on-screen thank you',
         'format' => NULL,
       ),
     ),
@@ -839,32 +848,23 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_other' => array(
+  'field_prod_partnership_type' => array(
     'und' => array(
       0 => array(
-        'value' => 'Not Applicable',
-        'format' => NULL,
+        'value' => 'Other Title Partnership',
       ),
     ),
   ),
-  'commerce_stock' => array(
+  'field_prod_partnership_website' => array(
     'und' => array(
       0 => array(
-        'value' => '1.00',
-      ),
-    ),
-  ),
-  'field_prod_partnership_job_fair' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Participation in Job Fair with Table
-Receives resumes for all job applicants',
+        'value' => 'Small logo on Partners Page and rotating promo block on some pages',
         'format' => NULL,
       ),
     ),
   ),
   'rdf_mapping' => array(),
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $products[] = array(
   'sku' => '2015_gold',
@@ -888,15 +888,13 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_type' => array(
+  'commerce_stock' => array(
     'und' => array(
       0 => array(
-        'value' => 'Tier Partnership',
+        'value' => '5.00',
       ),
     ),
   ),
-  'field_prod_partnership_desc' => array(),
-  'field_prod_partnership_image' => array(),
   'field_prod_partnership_conf_yr' => array(
     'und' => array(
       0 => array(
@@ -905,10 +903,37 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_website' => array(
+  'field_prod_partnership_desc' => array(),
+  'field_prod_partnership_image' => array(),
+  'field_prod_partnership_job_fair' => array(
     'und' => array(
       0 => array(
-        'value' => 'Large logo on Partners Page and footer promo on landing pages',
+        'value' => 'Participation in Job Fair with Table
+Receives resumes for all job applicants',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_keynote' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Solo on-screen and combined verbal thank you',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_other' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Recognition (via tweets, verbal, in program, and small signage) for coffee break food service',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_pavilion' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Medium Table',
         'format' => NULL,
       ),
     ),
@@ -929,28 +954,12 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_pavilion' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Medium Table',
-        'format' => NULL,
-      ),
-    ),
-  ),
   'field_prod_partnership_social' => array(
     'und' => array(
       0 => array(
         'value' => 'Single combined thanks - Saturday
 Solo thanks (Session Day) and daily combined thanks on Twitter/Facebook
 Medium Logo in the footer of every communication email',
-        'format' => NULL,
-      ),
-    ),
-  ),
-  'field_prod_partnership_keynote' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Solo on-screen and combined verbal thank you',
         'format' => NULL,
       ),
     ),
@@ -963,32 +972,23 @@ Medium Logo in the footer of every communication email',
       ),
     ),
   ),
-  'field_prod_partnership_other' => array(
+  'field_prod_partnership_type' => array(
     'und' => array(
       0 => array(
-        'value' => 'Recognition (via tweets, verbal, in program, and small signage) for coffee break food service',
-        'format' => NULL,
+        'value' => 'Tier Partnership',
       ),
     ),
   ),
-  'commerce_stock' => array(
+  'field_prod_partnership_website' => array(
     'und' => array(
       0 => array(
-        'value' => '5.00',
-      ),
-    ),
-  ),
-  'field_prod_partnership_job_fair' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Participation in Job Fair with Table
-Receives resumes for all job applicants',
+        'value' => 'Large logo on Partners Page and footer promo on landing pages',
         'format' => NULL,
       ),
     ),
   ),
   'rdf_mapping' => array(),
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $products[] = array(
   'sku' => '2015_lead',
@@ -1012,15 +1012,13 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_type' => array(
+  'commerce_stock' => array(
     'und' => array(
       0 => array(
-        'value' => 'Tier Partnership',
+        'value' => '5.00',
       ),
     ),
   ),
-  'field_prod_partnership_desc' => array(),
-  'field_prod_partnership_image' => array(),
   'field_prod_partnership_conf_yr' => array(
     'und' => array(
       0 => array(
@@ -1029,10 +1027,38 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_website' => array(
+  'field_prod_partnership_desc' => array(),
+  'field_prod_partnership_image' => array(),
+  'field_prod_partnership_job_fair' => array(
     'und' => array(
       0 => array(
-        'value' => 'X-Large logo on Partners Page and footer promo on all pages',
+        'value' => 'Participation in Job Fair with Table
+Receives resumes for all job applicants',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_keynote' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Solo verbal and on-screen thank you',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_other' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Recognition (via tweets, verbal, in program, and small signage) for breakfast and lunch food service',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_pavilion' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Large Table
+Reservable Private Breakout Room',
         'format' => NULL,
       ),
     ),
@@ -1053,15 +1079,6 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_pavilion' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Large Table
-Reservable Private Breakout Room',
-        'format' => NULL,
-      ),
-    ),
-  ),
   'field_prod_partnership_social' => array(
     'und' => array(
       0 => array(
@@ -1069,14 +1086,6 @@ Reservable Private Breakout Room',
 Solo thanks (Saturday) and daily combined thanks
 Daily combined thanks
 Single combined thanks - Saturday',
-        'format' => NULL,
-      ),
-    ),
-  ),
-  'field_prod_partnership_keynote' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Solo verbal and on-screen thank you',
         'format' => NULL,
       ),
     ),
@@ -1089,32 +1098,23 @@ Single combined thanks - Saturday',
       ),
     ),
   ),
-  'field_prod_partnership_other' => array(
+  'field_prod_partnership_type' => array(
     'und' => array(
       0 => array(
-        'value' => 'Recognition (via tweets, verbal, in program, and small signage) for breakfast and lunch food service',
-        'format' => NULL,
+        'value' => 'Tier Partnership',
       ),
     ),
   ),
-  'commerce_stock' => array(
+  'field_prod_partnership_website' => array(
     'und' => array(
       0 => array(
-        'value' => '5.00',
-      ),
-    ),
-  ),
-  'field_prod_partnership_job_fair' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Participation in Job Fair with Table
-Receives resumes for all job applicants',
+        'value' => 'X-Large logo on Partners Page and footer promo on all pages',
         'format' => NULL,
       ),
     ),
   ),
   'rdf_mapping' => array(),
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $products[] = array(
   'sku' => '2015_coder_lounge',
@@ -1138,15 +1138,13 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_type' => array(
+  'commerce_stock' => array(
     'und' => array(
       0 => array(
-        'value' => 'Other Title Partnership',
+        'value' => '1.00',
       ),
     ),
   ),
-  'field_prod_partnership_desc' => array(),
-  'field_prod_partnership_image' => array(),
   'field_prod_partnership_conf_yr' => array(
     'und' => array(
       0 => array(
@@ -1155,10 +1153,37 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_website' => array(
+  'field_prod_partnership_desc' => array(),
+  'field_prod_partnership_image' => array(),
+  'field_prod_partnership_job_fair' => array(
     'und' => array(
       0 => array(
-        'value' => 'Small logo on Partners Page and rotating promo block on some pages',
+        'value' => 'Participation in Job Fair with Table
+Receives resumes for all job applicants',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_keynote' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Combined on-screen thank you',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_other' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Not Applicable',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_prod_partnership_pavilion' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Not Applicable',
         'format' => NULL,
       ),
     ),
@@ -1179,26 +1204,10 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_pavilion' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Not Applicable',
-        'format' => NULL,
-      ),
-    ),
-  ),
   'field_prod_partnership_social' => array(
     'und' => array(
       0 => array(
         'value' => 'Single combined thanks (Session Day) on Twitter/Facebook',
-        'format' => NULL,
-      ),
-    ),
-  ),
-  'field_prod_partnership_keynote' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Combined on-screen thank you',
         'format' => NULL,
       ),
     ),
@@ -1211,32 +1220,23 @@ Receives resumes for all job applicants',
       ),
     ),
   ),
-  'field_prod_partnership_other' => array(
+  'field_prod_partnership_type' => array(
     'und' => array(
       0 => array(
-        'value' => 'Not Applicable',
-        'format' => NULL,
+        'value' => 'Other Title Partnership',
       ),
     ),
   ),
-  'commerce_stock' => array(
+  'field_prod_partnership_website' => array(
     'und' => array(
       0 => array(
-        'value' => '1.00',
-      ),
-    ),
-  ),
-  'field_prod_partnership_job_fair' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Participation in Job Fair with Table
-Receives resumes for all job applicants',
+        'value' => 'Small logo on Partners Page and rotating promo block on some pages',
         'format' => NULL,
       ),
     ),
   ),
   'rdf_mapping' => array(),
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   return $products;
 }

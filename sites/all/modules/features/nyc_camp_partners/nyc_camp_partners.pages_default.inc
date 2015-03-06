@@ -80,7 +80,7 @@ function nyc_camp_partners_default_page_manager_pages() {
   $handler = new stdClass();
   $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
-  $handler->name = 'page_partnerships__panel_context_5cd2b501-2ea1-4ca9-9389-cd438f9b2faf';
+  $handler->name = 'page_partnerships__panel_context_8c6fb31a-c4fc-4e22-8e0d-ea798e2a07c3';
   $handler->task = 'page';
   $handler->subtask = 'partnerships';
   $handler->handler = 'panel_context';
@@ -122,9 +122,16 @@ function nyc_camp_partners_default_page_manager_pages() {
         'type' => 'row',
         'contains' => 'region',
         'children' => array(
-          0 => 'body',
+          0 => 'center',
         ),
         'parent' => 'main',
+      ),
+      'center' => array(
+        'type' => 'region',
+        'title' => 'Center',
+        'width' => 100,
+        'width_type' => '%',
+        'parent' => 'main-row',
       ),
       1 => array(
         'type' => 'row',
@@ -134,7 +141,7 @@ function nyc_camp_partners_default_page_manager_pages() {
         ),
         'parent' => 'main',
         'class' => '',
-        'hide_empty' => 0,
+        'hide_empty' => 1,
       ),
       'intro' => array(
         'type' => 'region',
@@ -145,15 +152,6 @@ function nyc_camp_partners_default_page_manager_pages() {
         'class' => '',
         'hide_empty' => 0,
       ),
-      'body' => array(
-        'type' => 'region',
-        'title' => 'Body',
-        'width' => 100,
-        'width_type' => '%',
-        'parent' => 'main-row',
-        'class' => '',
-        'hide_empty' => 0,
-      ),
     ),
   );
   $display->panel_settings = array(
@@ -161,17 +159,16 @@ function nyc_camp_partners_default_page_manager_pages() {
       'default' => NULL,
       'center' => NULL,
       'intro' => NULL,
-      'body' => NULL,
     ),
   );
   $display->cache = array();
   $display->title = '';
-  $display->uuid = '50e35ac9-fb5f-46f4-ba60-25d6753fffd7';
+  $display->uuid = '9b6da96e-ce64-40c2-9533-a1b39c25d494';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-24024558-874d-4dbb-8c7b-73c7a0da8dc3';
-    $pane->panel = 'body';
+    $pane->pid = 'new-acce2284-848a-4eb7-9ec4-852a69d1c138';
+    $pane->panel = 'center';
     $pane->type = 'block';
     $pane->subtype = 'views-partnerships_tiers-block';
     $pane->shown = TRUE;
@@ -189,12 +186,12 @@ function nyc_camp_partners_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $pane->uuid = '24024558-874d-4dbb-8c7b-73c7a0da8dc3';
-    $display->content['new-24024558-874d-4dbb-8c7b-73c7a0da8dc3'] = $pane;
-    $display->panels['body'][0] = 'new-24024558-874d-4dbb-8c7b-73c7a0da8dc3';
+    $pane->uuid = 'acce2284-848a-4eb7-9ec4-852a69d1c138';
+    $display->content['new-acce2284-848a-4eb7-9ec4-852a69d1c138'] = $pane;
+    $display->panels['center'][0] = 'new-acce2284-848a-4eb7-9ec4-852a69d1c138';
     $pane = new stdClass();
-    $pane->pid = 'new-3ac0d673-59bf-476b-9094-336a8e5212f8';
-    $pane->panel = 'body';
+    $pane->pid = 'new-13c4b8e0-266c-46f3-80ba-6df46e6562ca';
+    $pane->panel = 'center';
     $pane->type = 'block';
     $pane->subtype = 'views-partnerships_summit_title-block';
     $pane->shown = TRUE;
@@ -212,12 +209,12 @@ function nyc_camp_partners_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
-    $pane->uuid = '3ac0d673-59bf-476b-9094-336a8e5212f8';
-    $display->content['new-3ac0d673-59bf-476b-9094-336a8e5212f8'] = $pane;
-    $display->panels['body'][1] = 'new-3ac0d673-59bf-476b-9094-336a8e5212f8';
+    $pane->uuid = '13c4b8e0-266c-46f3-80ba-6df46e6562ca';
+    $display->content['new-13c4b8e0-266c-46f3-80ba-6df46e6562ca'] = $pane;
+    $display->panels['center'][1] = 'new-13c4b8e0-266c-46f3-80ba-6df46e6562ca';
     $pane = new stdClass();
-    $pane->pid = 'new-eae2fe82-39a7-416d-9c44-06b78449fe95';
-    $pane->panel = 'body';
+    $pane->pid = 'new-95bcf9af-ec42-4cf7-bdb2-32005bda6d40';
+    $pane->panel = 'center';
     $pane->type = 'block';
     $pane->subtype = 'views-07e42dbbc41b061a1ef53751aa604b3f';
     $pane->shown = TRUE;
@@ -235,12 +232,12 @@ function nyc_camp_partners_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 2;
     $pane->locks = array();
-    $pane->uuid = 'eae2fe82-39a7-416d-9c44-06b78449fe95';
-    $display->content['new-eae2fe82-39a7-416d-9c44-06b78449fe95'] = $pane;
-    $display->panels['body'][2] = 'new-eae2fe82-39a7-416d-9c44-06b78449fe95';
+    $pane->uuid = '95bcf9af-ec42-4cf7-bdb2-32005bda6d40';
+    $display->content['new-95bcf9af-ec42-4cf7-bdb2-32005bda6d40'] = $pane;
+    $display->panels['center'][2] = 'new-95bcf9af-ec42-4cf7-bdb2-32005bda6d40';
     $pane = new stdClass();
-    $pane->pid = 'new-d277376e-c62a-4870-be5f-3949fbe435ae';
-    $pane->panel = 'body';
+    $pane->pid = 'new-2c2f840f-5a39-427c-8083-66578e428ee7';
+    $pane->panel = 'center';
     $pane->type = 'block';
     $pane->subtype = 'views-partnerships_other_title-block';
     $pane->shown = TRUE;
@@ -258,14 +255,14 @@ function nyc_camp_partners_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 3;
     $pane->locks = array();
-    $pane->uuid = 'd277376e-c62a-4870-be5f-3949fbe435ae';
-    $display->content['new-d277376e-c62a-4870-be5f-3949fbe435ae'] = $pane;
-    $display->panels['body'][3] = 'new-d277376e-c62a-4870-be5f-3949fbe435ae';
+    $pane->uuid = '2c2f840f-5a39-427c-8083-66578e428ee7';
+    $display->content['new-2c2f840f-5a39-427c-8083-66578e428ee7'] = $pane;
+    $display->panels['center'][3] = 'new-2c2f840f-5a39-427c-8083-66578e428ee7';
     $pane = new stdClass();
-    $pane->pid = 'new-94d8f9b1-5a12-4a2b-b552-9355b02b8004';
+    $pane->pid = 'new-3b04cbf7-2893-4de4-a001-b01307a7f7e2';
     $pane->panel = 'intro';
     $pane->type = 'fieldable_panels_pane';
-    $pane->subtype = 'uuid:7ee44681-8fd7-4d62-8ca7-eab09098d28e';
+    $pane->subtype = 'uuid:0248f27a-da13-4425-90da-82610cfac052';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
@@ -279,9 +276,9 @@ function nyc_camp_partners_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $pane->uuid = '94d8f9b1-5a12-4a2b-b552-9355b02b8004';
-    $display->content['new-94d8f9b1-5a12-4a2b-b552-9355b02b8004'] = $pane;
-    $display->panels['intro'][0] = 'new-94d8f9b1-5a12-4a2b-b552-9355b02b8004';
+    $pane->uuid = '3b04cbf7-2893-4de4-a001-b01307a7f7e2';
+    $display->content['new-3b04cbf7-2893-4de4-a001-b01307a7f7e2'] = $pane;
+    $display->panels['intro'][0] = 'new-3b04cbf7-2893-4de4-a001-b01307a7f7e2';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;

@@ -50,7 +50,7 @@ function nyc_camp_partners_node_info() {
     'partner' => array(
       'name' => t('Partner'),
       'base' => 'node_content',
-      'description' => '',
+      'description' => t('A content type for <em>Partners</em>'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
