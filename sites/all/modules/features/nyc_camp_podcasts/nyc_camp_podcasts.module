@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Podcasts feature.
+ */
+
+include_once 'nyc_camp_podcasts.features.inc';
