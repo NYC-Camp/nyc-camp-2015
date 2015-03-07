@@ -570,7 +570,7 @@ function nyc_camp_scheduling_field_default_field_instances() {
         'year_range' => '-3:+3',
       ),
       'type' => 'date_popup',
-      'weight' => 5,
+      'weight' => 6,
     ),
   );
 
@@ -717,7 +717,7 @@ function nyc_camp_scheduling_field_default_field_instances() {
         ),
       ),
       'type' => 'media_generic',
-      'weight' => 6,
+      'weight' => 7,
     ),
   );
 
@@ -787,6 +787,47 @@ function nyc_camp_scheduling_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-sprint-field_sprint_team'
+  $field_instances['node-sprint-field_sprint_team'] = array(
+    'bundle' => 'sprint',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'Please indicate the Team members that are running this Sprint',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'entityreference',
+        'settings' => array(
+          'link' => FALSE,
+        ),
+        'type' => 'entityreference_label',
+        'weight' => 6,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_sprint_team',
+    'label' => 'Team',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'apply_chosen' => '',
+      ),
+      'type' => 'options_select',
+      'weight' => 5,
+    ),
+  );
+
   // Exported field_instance: 'node-sprint-field_sprint_teaser'
   $field_instances['node-sprint-field_sprint_teaser'] = array(
     'bundle' => 'sprint',
@@ -853,6 +894,55 @@ function nyc_camp_scheduling_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-summit-field_summit_audience'
+  $field_instances['node-summit-field_summit_audience'] = array(
+    'bundle' => 'summit',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'Please indicate the Audience for this Summit',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 6,
+      ),
+      'full' => array(
+        'label' => 'hidden',
+        'module' => 'ds',
+        'settings' => array(
+          'taxonomy_term_link' => TRUE,
+          'taxonomy_term_separator' => ', ',
+        ),
+        'type' => 'ds_taxonomy_separator',
+        'weight' => 5,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 13,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_summit_audience',
+    'label' => 'Audience',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'apply_chosen' => '',
+      ),
+      'type' => 'options_select',
+      'weight' => 4,
+    ),
+  );
+
   // Exported field_instance: 'node-summit-field_summit_coordinators'
   $field_instances['node-summit-field_summit_coordinators'] = array(
     'bundle' => 'summit',
@@ -869,11 +959,20 @@ function nyc_camp_scheduling_field_default_field_instances() {
         'type' => 'entityreference_label',
         'weight' => 5,
       ),
+      'full' => array(
+        'label' => 'inline',
+        'module' => 'entityreference',
+        'settings' => array(
+          'link' => 1,
+        ),
+        'type' => 'entityreference_label',
+        'weight' => 6,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 14,
       ),
     ),
     'entity_type' => 'node',
@@ -888,7 +987,7 @@ function nyc_camp_scheduling_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_buttons',
-      'weight' => 4,
+      'weight' => 5,
     ),
   );
 
@@ -911,11 +1010,24 @@ function nyc_camp_scheduling_field_default_field_instances() {
         'type' => 'date_default',
         'weight' => 3,
       ),
+      'full' => array(
+        'label' => 'hidden',
+        'module' => 'date',
+        'settings' => array(
+          'format_type' => 'long',
+          'fromto' => 'both',
+          'multiple_from' => '',
+          'multiple_number' => '',
+          'multiple_to' => '',
+        ),
+        'type' => 'date_default',
+        'weight' => 4,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 11,
       ),
     ),
     'entity_type' => 'node',
@@ -941,7 +1053,7 @@ function nyc_camp_scheduling_field_default_field_instances() {
         'year_range' => '-3:+3',
       ),
       'type' => 'date_popup',
-      'weight' => 5,
+      'weight' => 7,
     ),
   );
 
@@ -959,11 +1071,18 @@ function nyc_camp_scheduling_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 2,
       ),
+      'full' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 10,
       ),
     ),
     'entity_type' => 'node',
@@ -1027,11 +1146,21 @@ function nyc_camp_scheduling_field_default_field_instances() {
         'type' => 'image',
         'weight' => 4,
       ),
+      'full' => array(
+        'label' => 'hidden',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => '',
+        ),
+        'type' => 'image',
+        'weight' => 2,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 12,
       ),
     ),
     'entity_type' => 'node',
@@ -1088,7 +1217,7 @@ function nyc_camp_scheduling_field_default_field_instances() {
         ),
       ),
       'type' => 'media_generic',
-      'weight' => 6,
+      'weight' => 8,
     ),
   );
 
@@ -1106,11 +1235,19 @@ function nyc_camp_scheduling_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 0,
       ),
-      'teaser' => array(
-        'label' => 'above',
+      'full' => array(
+        'label' => 'hidden',
+        'module' => 'text',
         'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
+        'type' => 'text_default',
+        'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 1,
       ),
     ),
     'entity_type' => 'node',
@@ -1158,6 +1295,53 @@ function nyc_camp_scheduling_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-summit-field_summit_team'
+  $field_instances['node-summit-field_summit_team'] = array(
+    'bundle' => 'summit',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'Please indicate the Team members that are running this Summit',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'entityreference',
+        'settings' => array(
+          'link' => FALSE,
+        ),
+        'type' => 'entityreference_label',
+        'weight' => 7,
+      ),
+      'full' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_summit_team',
+    'label' => 'Team',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'apply_chosen' => '',
+      ),
+      'type' => 'options_select',
+      'weight' => 6,
+    ),
+  );
+
   // Exported field_instance: 'node-summit-field_summit_teaser'
   $field_instances['node-summit-field_summit_teaser'] = array(
     'bundle' => 'summit',
@@ -1172,11 +1356,18 @@ function nyc_camp_scheduling_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 1,
       ),
-      'teaser' => array(
+      'full' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 7,
+      ),
+      'teaser' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 2,
       ),
     ),
     'entity_type' => 'node',
@@ -1632,7 +1823,9 @@ function nyc_camp_scheduling_field_default_field_instances() {
     'widget' => array(
       'active' => 1,
       'module' => 'options',
-      'settings' => array(),
+      'settings' => array(
+        'apply_chosen' => '',
+      ),
       'type' => 'options_select',
       'weight' => 1,
     ),
@@ -1640,6 +1833,7 @@ function nyc_camp_scheduling_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Audience');
   t('Building');
   t('Capacity (Max)');
   t('Conference(s)');
@@ -1670,14 +1864,18 @@ function nyc_camp_scheduling_field_default_field_instances() {
   t('Please enter the Teaser for this Summit');
   t('Please enter the Teaser for this Training');
   t('Please indicate the <em>Building</em> where this Room is located');
+  t('Please indicate the Audience for this Summit');
   t('Please indicate the Conference(s) for this Venue');
   t('Please indicate the Coordinator(s) for this Sprint');
+  t('Please indicate the Team members that are running this Sprint');
+  t('Please indicate the Team members that are running this Summit');
   t('Please indicate the Trainers for this Training');
   t('Please upload/select the Image for this Sprint');
   t('Please upload/select the Image for this Summit');
   t('Please upload/select the Image for this Training');
   t('Schedule Time Slot');
   t('Sub-Title');
+  t('Team');
   t('Teaser');
   t('Trainer(s)');
 

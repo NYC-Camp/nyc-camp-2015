@@ -55,7 +55,7 @@ function nyc_camp_scheduling_node_info() {
     'room' => array(
       'name' => t('Room'),
       'base' => 'node_content',
-      'description' => '',
+      'description' => t('A content type for Rooms'),
       'has_title' => '1',
       'title_label' => t('Room Name'),
       'help' => '',
@@ -63,7 +63,7 @@ function nyc_camp_scheduling_node_info() {
     'schedule_time_slot' => array(
       'name' => t('Schedule Time Slot'),
       'base' => 'node_content',
-      'description' => '',
+      'description' => t('A content type for Schedule Time Slots'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
@@ -79,7 +79,7 @@ function nyc_camp_scheduling_node_info() {
     'summit' => array(
       'name' => t('Summit'),
       'base' => 'node_content',
-      'description' => '',
+      'description' => t('A content type for Summits'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
@@ -87,7 +87,7 @@ function nyc_camp_scheduling_node_info() {
     'training' => array(
       'name' => t('Training'),
       'base' => 'node_content',
-      'description' => '',
+      'description' => t('A content type for Trainings'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
