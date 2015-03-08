@@ -24,6 +24,29 @@ function nyc_camp_scheduling_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '070a739d-a164-434a-887d-2b611727a6f8',
+  'field_summit_coordinators' => array(),
+  'field_summit_dates' => array(
+    'und' => array(
+      0 => array(
+        'value' => '2015-07-17T13:00:00',
+        'value2' => '2015-07-17T21:00:00',
+        'timezone' => 'America/New_York',
+        'timezone_db' => 'UTC',
+        'date_type' => 'date',
+      ),
+    ),
+  ),
+  'field_summit_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'The Security and Privacy summit takes an in depth look at security in Drupal and the Drupal ecosystem.   We will spend some time discussing best practices around securing your Drupal environment, writing secure Drupal code and securing your site configuration. 
+
+We will look at common mistakes, with real world examples, made by coders and site builders and how those mistakes have lead to sites being compromised.   We will learn about how to find bugs in Drupal code, and how to report them to the  security team. We will also explore the security team’s processes.  Finally, we will also look into what happened with https://www.drupal.org/SA-CORE-2014-005 and how you can be prepared to handle security issues in the future. ',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
+  'field_summit_image' => array(),
   'field_summit_sub_title' => array(
     'und' => array(
       0 => array(
@@ -40,31 +63,12 @@ function nyc_camp_scheduling_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_summit_description' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'The Security and Privacy summit takes an in depth look at security in Drupal and the Drupal ecosystem.   We will spend some time discussing best practices around securing your Drupal environment, writing secure Drupal code and securing your site configuration. 
-
-We will look at common mistakes, with real world examples, made by coders and site builders and how those mistakes have lead to sites being compromised.   We will learn about how to find bugs in Drupal code, and how to report them to the  security team. We will also explore the security team’s processes.  Finally, we will also look into what happened with https://www.drupal.org/SA-CORE-2014-005 and how you can be prepared to handle security issues in the future. ',
-        'format' => 'full_html',
-      ),
-    ),
-  ),
-  'field_summit_dates' => array(
-    'und' => array(
-      0 => array(
-        'value' => '2015-07-17T13:00:00',
-        'value2' => '2015-07-17T21:00:00',
-        'timezone' => 'America/New_York',
-        'timezone_db' => 'UTC',
-        'date_type' => 'date',
-      ),
-    ),
-  ),
-  'field_summit_image' => array(),
-  'field_summit_coordinators' => array(),
-  'field_summit_audience' => array(),
   'field_summit_team' => array(),
+  'field_summit_tracks' => array(),
+  'field_summit_audiences' => array(),
+  'field_summit_skill_levels' => array(),
+  'field_summit_drupal_software' => array(),
+  'field_summit_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -122,7 +126,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2015-03-06 13:48:02 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-2062A (LANG2)',
@@ -197,7 +201,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:30:40 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-5',
@@ -272,7 +276,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:29:35 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-2062 (LANG1)',
@@ -347,7 +351,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:30:27 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '11:30am - 12:15pm',
@@ -430,7 +434,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 04:10:14 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '7:45pm - 8:30pm',
@@ -513,7 +517,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 05:21:58 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Drupal for Decision Makers',
@@ -529,7 +533,6 @@ We will look at common mistakes, with real world examples, made by coders and si
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '0d466c71-4d74-438c-b7aa-f4fa5c9252c2',
-  'field_training_description' => array(),
   'field_training_dates' => array(
     'und' => array(
       0 => array(
@@ -541,10 +544,64 @@ We will look at common mistakes, with real world examples, made by coders and si
       ),
     ),
   ),
+  'field_training_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => '<p><strong>Course Description</strong></p>
+
+<p>What are the big decisions that Drupal team leaders have to make to ensure the lasting success of their projects and people? On Drupal projects, how do you address needs and mitigate risks?</p>
+
+<p>This training is lead by authors of the Definitive Guide to Drupal 7 and covers several key areas that are crucial for decision makers.</p>
+
+<p>If you are responsible for leading a Drupal team, or are exploring adopting Drupal for your team, you are invited to sign up below. No technical experience with Drupal or web technology is required - the training is designed for leaders of teams who may or may not perform development tasks themselves.</p>
+
+<p>The day\'s format is designed to give brief, broad overviews of each topic, with follow-on in small groups using hands-on examples. On-site and remote authors will lead each of the small groups.</p>
+
+<p><strong>Bring your laptop.</strong></p>
+
+<p>The training has been developed by OwnSourcing and will be led by two authors of the Definitive Guide to Drupal 7: Kay VanValkenburgh, chief learning officer&nbsp;at OwnSourcing, and&nbsp;Benjamin Melançon, principal at Agaric /&nbsp;Definitive Guide lead author. Additional instructors Leslie Glynn (OwnSourcing trainer) and Micky Metts (Agaric princpal) will co-lead session breakouts.</p>
+
+<p><strong>Learning Objectives</strong></p>
+
+<p>This training helps decision makers recognize how their choices regarding the following topics affect the efficiency and quality of Drupal team output. The day\'s takeaways will enable them to provide the structure, tools and information that Drupal development teams and projects need to succeed.</p>
+
+<p><strong>Who will gain the most from this course?</strong></p>
+
+<p>People who are responsible for the success of development teams working on high priority projects, including directors of IT, directors of communications, directors of human resources, project managers, development team leads.</p>
+
+<p><strong>Prerequisites for this course</strong></p>
+
+<p>Experience addressing the challenges facing web development teams, whether their teams use Drupal or another technology (no familiarity with Drupal required).</p>
+',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_training_image' => array(),
+  'field_training_sub_title' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Key considerations when leading Drupal development teams',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_training_teaser' => array(
+    'und' => array(
+      0 => array(
+        'value' => '<p>This training is lead by authors of the Definitive Guide to Drupal 7 and covers several key areas that are crucial for decision makers.</p>
+',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_training_trainers' => array(),
-  'field_training_sub_title' => array(),
-  'field_training_teaser' => array(),
+  'field_training_drupal_software' => array(),
+  'field_training_audiences' => array(),
+  'field_training_prerequisites' => array(),
+  'field_training_skill_levels' => array(),
+  'field_training_tracks' => array(),
+  'field_training_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -602,7 +659,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2015-03-04 01:41:40 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '10:15am - 10:45am',
@@ -685,7 +742,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 04:20:37 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '10:30am - 11:15am',
@@ -768,7 +825,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 04:09:35 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '3:00pm - 3:20pm',
@@ -851,7 +908,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 02:49:11 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'CB-D',
@@ -926,7 +983,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:29:23 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '4:00pm - 4:30pm',
@@ -1009,7 +1066,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 15:06:50 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '1:00pm - 1:30pm',
@@ -1092,10 +1149,10 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 04:11:32 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
-  'title' => 'RWD & Sass Training',
+  'title' => 'Advanced RWD & Sass Training',
   'log' => '',
   'status' => 1,
   'comment' => 1,
@@ -1108,7 +1165,6 @@ We will look at common mistakes, with real world examples, made by coders and si
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '147f7f4e-1256-4963-8cea-f870bf1e3d02',
-  'field_training_description' => array(),
   'field_training_dates' => array(
     'und' => array(
       0 => array(
@@ -1120,10 +1176,83 @@ We will look at common mistakes, with real world examples, made by coders and si
       ),
     ),
   ),
+  'field_training_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => '<p><strong>Ruby with Bundler and Node.js with yo, bower, grunt-cli, generator-sketch, and generator-north&nbsp;must be installed and running globally on your computer before the training begins. Installation will not be covered.</strong></p>
+
+<p><strong>This will be taught as an advanced course.&nbsp;Fundamental knowledge of RWD techniques is required.</strong> This session will *not* go over the basics of media queries, conditional CSS, or other beginning topics of RWD.</p>
+
+<p>Responsive Web Design is on everyone\'s mind at the moment, and for good reason. With more mobile device activations per day than human births and full internet browsers coming to television sets and gaming consoles (both home and portable), the old techniques we have used to create pixel perfect sites for desktop audiences have already become a thing of the past.</p>
+
+<p>This session will explore some of the tools and techniques available today to build responsive sites with a focus on the CSS preprocessor, Sass, and the Sass framework Compass. These tools can ease much of the hard work related to creating truly awesome responsive websites. We will explore:</p>
+
+<ul>
+	<li>How to create content-first grid systems unique to our designs</li>
+	<li>How to author mobile-first, em-based media queries using a simple, human-readable workflow</li>
+	<li>How to combine feature detection and Sass, making progressive enhancement a breeze</li>
+</ul>
+
+<p>This workshop will be very hands-on so everyone can become very familiar with the tools we\'re using. You should have some pre-existing knowledge of Sass and Compass going into this workshop as well as a working knowledge of Responsive Web Design. We are going to jump right into coding with very little introduction and will be taught at an intermediate to advanced level.</p>
+
+<p>The code examples we\'ll use to provide training is all open source. They will be available for download after the workshop.</p>
+
+<p><strong>COURSE PREREQUISITES</strong></p>
+
+<p><strong>Hardware</strong></p>
+
+<ul>
+	<li>A computer that can be set up to run the Ruby 2.0.0p451 programming language. Sass requires Ruby.</li>
+	<li>A computer that can be set up to run Node.js.</li>
+</ul>
+
+<p><strong>Software</strong></p>
+
+<ul>
+	<li>A plain-text editor or coding IDE. For this course WYSIWYG editing is impossible, not just discouraged.</li>
+	<li>Ruby with the Bundler gem installed. Installation will not be covered in the training.</li>
+	<li>Node.js with yo, bower, grunt-cli, gulp, generator-sketch, and generator-north installed globally. Installation will not be covered in the training.</li>
+</ul>
+
+<p><strong>Skills</strong></p>
+
+<ul>
+	<li><strong>Fundamental knowledge of RWD techniques is required. </strong>This session will *not* go over the basics of media queries, conditional CSS, or other beginning topics of RWD.</li>
+</ul>
+
+<p><strong>TARGET AUDIENCE</strong></p>
+
+<p>The target audience includes intermediate/advanced themers and frontend developers. This session will assume that you have built responsive websites before and are looking for a more refined workflow.</p>
+',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_training_image' => array(),
+  'field_training_sub_title' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Advanced Responsive Web Design Techniques',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_training_teaser' => array(
+    'und' => array(
+      0 => array(
+        'value' => '<p>Responsive Web Design is on everyone\'s mind at the moment, and for good reason. With more mobile device activations per day than human births and full internet browsers coming to television sets and gaming consoles (both home and portable), the old techniques we have used to create pixel perfect sites for desktop audiences have already become a thing of the past.&nbsp;This will be taught as an advanced course.&nbsp;Fundamental knowledge of RWD techniques is required.&nbsp;</p>
+',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_training_trainers' => array(),
-  'field_training_sub_title' => array(),
-  'field_training_teaser' => array(),
+  'field_training_drupal_software' => array(),
+  'field_training_audiences' => array(),
+  'field_training_prerequisites' => array(),
+  'field_training_skill_levels' => array(),
+  'field_training_tracks' => array(),
+  'field_training_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -1181,7 +1310,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2015-03-04 01:43:40 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '11:00am - 11:15am',
@@ -1264,7 +1393,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 02:46:58 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '1:15pm - 2:15pm',
@@ -1347,98 +1476,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 02:55:29 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
-);
-  $nodes[] = array(
-  'title' => 'Media Summit',
-  'log' => '',
-  'status' => 1,
-  'comment' => 1,
-  'promote' => 0,
-  'sticky' => 0,
-  'ds_switch' => '',
-  'type' => 'summit',
-  'language' => 'und',
-  'created' => 1425452588,
-  'tnid' => 0,
-  'translate' => 0,
-  'uuid' => '174c0df7-67c4-4a49-9145-4c79dc1f8d83',
-  'field_summit_sub_title' => array(),
-  'field_summit_teaser' => array(),
-  'field_summit_description' => array(),
-  'field_summit_dates' => array(
-    'und' => array(
-      0 => array(
-        'value' => '2015-07-17T13:00:00',
-        'value2' => '2015-07-17T21:00:00',
-        'timezone' => 'America/New_York',
-        'timezone_db' => 'UTC',
-        'date_type' => 'date',
-      ),
-    ),
-  ),
-  'field_summit_image' => array(),
-  'field_summit_coordinators' => array(),
-  'field_summit_audience' => array(),
-  'field_summit_team' => array(),
-  'rdf_mapping' => array(
-    'rdftype' => array(
-      0 => 'sioc:Item',
-      1 => 'foaf:Document',
-    ),
-    'title' => array(
-      'predicates' => array(
-        0 => 'dc:title',
-      ),
-    ),
-    'created' => array(
-      'predicates' => array(
-        0 => 'dc:date',
-        1 => 'dc:created',
-      ),
-      'datatype' => 'xsd:dateTime',
-      'callback' => 'date_iso8601',
-    ),
-    'changed' => array(
-      'predicates' => array(
-        0 => 'dc:modified',
-      ),
-      'datatype' => 'xsd:dateTime',
-      'callback' => 'date_iso8601',
-    ),
-    'body' => array(
-      'predicates' => array(
-        0 => 'content:encoded',
-      ),
-    ),
-    'uid' => array(
-      'predicates' => array(
-        0 => 'sioc:has_creator',
-      ),
-      'type' => 'rel',
-    ),
-    'name' => array(
-      'predicates' => array(
-        0 => 'foaf:name',
-      ),
-    ),
-    'comment_count' => array(
-      'predicates' => array(
-        0 => 'sioc:num_replies',
-      ),
-      'datatype' => 'xsd:integer',
-    ),
-    'last_activity' => array(
-      'predicates' => array(
-        0 => 'sioc:last_activity_date',
-      ),
-      'datatype' => 'xsd:dateTime',
-      'callback' => 'date_iso8601',
-    ),
-  ),
-  'comment_count' => 0,
-  'date' => '2015-03-04 02:03:08 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-4',
@@ -1513,7 +1551,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 01:38:40 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'CB-2',
@@ -1588,7 +1626,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:27:52 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '3:50pm - 4:10pm',
@@ -1671,10 +1709,10 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 02:56:53 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
-  'title' => 'Intro to Drupal',
+  'title' => 'Beginning Drupal',
   'log' => '',
   'status' => 1,
   'comment' => 1,
@@ -1687,22 +1725,86 @@ We will look at common mistakes, with real world examples, made by coders and si
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '243a388c-0d1a-47a6-bf7a-b9439b4cb5da',
-  'field_training_description' => array(),
   'field_training_dates' => array(
     'und' => array(
       0 => array(
-        'value' => '2015-03-04T06:45:00',
-        'value2' => '2015-03-04T06:45:00',
+        'value' => '2015-07-16T13:00:00',
+        'value2' => '2015-07-16T21:00:00',
         'timezone' => 'America/New_York',
         'timezone_db' => 'UTC',
         'date_type' => 'date',
       ),
     ),
   ),
+  'field_training_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => '<p>A training session delivered by Alexander Ross (<a href="http://twitter.com/bleen18">@bleen18</a> | <a href="http://bleen.net/">bleen.net</a>) from NBC Universal.</p>
+
+<p>This Beginning Drupal course introduces you to the core concepts behind building websites in Drupal 7. This course will take you through a series of practical exercises to build a functional Drupal 7 site and prepare you to create your own dynamic websites using Drupal.</p>
+
+<p><strong>Who is this course for?</strong></p>
+
+<p>This beginning course is for anybody who wants to start making websites with Drupal. Among those who this course is for are:</p>
+
+<ul>
+	<li>Web Designers and Developers who want to learn how to make more powerful websites</li>
+	<li>WordPress developers who want to add Drupal to their skillset</li>
+	<li>Business owners who want to evaluate Drupal for their business</li>
+	<li>PHP programmers who want to learn how to build sites in Drupal</li>
+</ul>
+
+<p>This training does not involve any programming, scripting, off-by-one errors, css preprocessing, or Java whatsoever.</p>
+
+<p><strong>What will you learn?</strong></p>
+
+<ul>
+	<li>Adding and editing site content</li>
+	<li>Creating new content types and fields</li>
+	<li>Controlling page elements with blocks</li>
+	<li>User management</li>
+	<li>Controlling the look of your site with themes</li>
+	<li>Installing extra modules to add functionality to your site</li>
+	<li>Keeping your site up-to-date</li>
+	<li>Using the Drupal community to learn even more</li>
+</ul>
+
+<p><strong>Prerequisites:</strong></p>
+
+<ul>
+	<li>You should already have an instance of Drupal available to work with. This can either be a hosted Drupal site on <a href="https://www.getpantheon.com/">Pantheon</a> or a local version on your laptop.</li>
+	<li>This course assumes no Drupal knowledge. If you are ready to learn, this course is for you!</li>
+</ul>
+',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_training_image' => array(),
+  'field_training_sub_title' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Intro to the basic concepts behind building websites in Drupal 7',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_training_teaser' => array(
+    'und' => array(
+      0 => array(
+        'value' => '<p>This Beginning Drupal course introduces you to the core concepts behind building websites in Drupal 7. This course will take you through a series of practical exercises to build a functional Drupal 7 site and prepare you to create your own dynamic websites using Drupal.</p>
+',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_training_trainers' => array(),
-  'field_training_sub_title' => array(),
-  'field_training_teaser' => array(),
+  'field_training_drupal_software' => array(),
+  'field_training_audiences' => array(),
+  'field_training_prerequisites' => array(),
+  'field_training_skill_levels' => array(),
+  'field_training_tracks' => array(),
+  'field_training_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -1760,7 +1862,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2015-03-04 01:43:54 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '1:15pm - 1:45pm',
@@ -1843,7 +1945,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 02:47:47 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'S-1524',
@@ -1918,7 +2020,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-03-30 04:59:54 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '10:15am - 11:00am',
@@ -2001,7 +2103,7 @@ We will look at common mistakes, with real world examples, made by coders and si
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 02:46:06 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Commerce Summit',
@@ -2017,8 +2119,18 @@ We will look at common mistakes, with real world examples, made by coders and si
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '2e0e04a1-f3af-4f5e-9cbf-0dc9f02b2430',
-  'field_summit_sub_title' => array(),
-  'field_summit_teaser' => array(),
+  'field_summit_coordinators' => array(),
+  'field_summit_dates' => array(
+    'und' => array(
+      0 => array(
+        'value' => '2015-07-17T13:00:00',
+        'value2' => '2015-07-17T21:00:00',
+        'timezone' => 'America/New_York',
+        'timezone_db' => 'UTC',
+        'date_type' => 'date',
+      ),
+    ),
+  ),
   'field_summit_description' => array(
     'und' => array(
       0 => array(
@@ -2040,21 +2152,29 @@ If you want to get the most out of your Drupal implementation while driving your
       ),
     ),
   ),
-  'field_summit_dates' => array(
+  'field_summit_image' => array(),
+  'field_summit_sub_title' => array(
     'und' => array(
       0 => array(
-        'value' => '2015-07-17T13:00:00',
-        'value2' => '2015-07-17T21:00:00',
-        'timezone' => 'America/New_York',
-        'timezone_db' => 'UTC',
-        'date_type' => 'date',
+        'value' => 'Please add Sub-TItle',
+        'format' => NULL,
       ),
     ),
   ),
-  'field_summit_image' => array(),
-  'field_summit_coordinators' => array(),
-  'field_summit_audience' => array(),
+  'field_summit_teaser' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Nunc nulla. Vivamus quis mi. Praesent blandit laoreet nibh. Nam at tortor in tellus interdum sagittis.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_summit_team' => array(),
+  'field_summit_tracks' => array(),
+  'field_summit_audiences' => array(),
+  'field_summit_skill_levels' => array(),
+  'field_summit_drupal_software' => array(),
+  'field_summit_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -2112,7 +2232,7 @@ If you want to get the most out of your Drupal implementation while driving your
   ),
   'comment_count' => 0,
   'date' => '2015-03-04 02:02:10 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '9:00am - 10:30am',
@@ -2195,7 +2315,7 @@ If you want to get the most out of your Drupal implementation while driving your
   ),
   'comment_count' => 0,
   'date' => '2014-04-08 18:34:57 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '9:00am - 9:30am',
@@ -2278,7 +2398,7 @@ If you want to get the most out of your Drupal implementation while driving your
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 04:08:30 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '3:15pm - 4:00pm',
@@ -2361,7 +2481,7 @@ If you want to get the most out of your Drupal implementation while driving your
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 00:17:39 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Apps Camp',
@@ -2377,19 +2497,22 @@ If you want to get the most out of your Drupal implementation while driving your
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '349eb695-2438-419d-bf2f-ea364537b7a6',
-  'field_summit_sub_title' => array(
+  'field_summit_coordinators' => array(
     'und' => array(
       0 => array(
-        'value' => 'Please add Sub-Title',
-        'format' => NULL,
+        'target_id' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
+        'uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
       ),
     ),
   ),
-  'field_summit_teaser' => array(
+  'field_summit_dates' => array(
     'und' => array(
       0 => array(
-        'value' => 'Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius laoreet. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Vivamus quis mi. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius laoreet. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Vivamus quis mi. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.',
-        'format' => 'full_html',
+        'value' => '2015-07-18T01:00:00',
+        'value2' => '2015-07-19T21:00:00',
+        'timezone' => 'America/New_York',
+        'timezone_db' => 'UTC',
+        'date_type' => 'date',
       ),
     ),
   ),
@@ -2406,28 +2529,29 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
       ),
     ),
   ),
-  'field_summit_dates' => array(
-    'und' => array(
-      0 => array(
-        'value' => '2015-07-18T01:00:00',
-        'value2' => '2015-07-19T21:00:00',
-        'timezone' => 'America/New_York',
-        'timezone_db' => 'UTC',
-        'date_type' => 'date',
-      ),
-    ),
-  ),
   'field_summit_image' => array(),
-  'field_summit_coordinators' => array(
+  'field_summit_sub_title' => array(
     'und' => array(
       0 => array(
-        'target_id' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
-        'uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+        'value' => 'Please add Sub-Title',
+        'format' => NULL,
       ),
     ),
   ),
-  'field_summit_audience' => array(),
+  'field_summit_teaser' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius laoreet. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Vivamus quis mi. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius laoreet. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Vivamus quis mi. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_summit_team' => array(),
+  'field_summit_tracks' => array(),
+  'field_summit_audiences' => array(),
+  'field_summit_skill_levels' => array(),
+  'field_summit_drupal_software' => array(),
+  'field_summit_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -2485,7 +2609,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2015-03-06 13:52:57 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '5:15pm - 6:00pm',
@@ -2568,7 +2692,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 05:16:59 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'S-1519',
@@ -2643,10 +2767,10 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-30 04:58:22 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
-  'title' => 'Multilingual Training',
+  'title' => 'Multilingual Hands-On Training',
   'log' => '',
   'status' => 1,
   'comment' => 1,
@@ -2659,22 +2783,59 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '40507aca-6e1b-4c64-9a7e-28e45dab3cef',
-  'field_training_description' => array(),
   'field_training_dates' => array(
     'und' => array(
       0 => array(
-        'value' => '2015-03-04T06:45:00',
-        'value2' => '2015-03-04T06:45:00',
+        'value' => '2015-07-17T14:00:00',
+        'value2' => '2015-07-17T16:00:00',
         'timezone' => 'America/New_York',
         'timezone_db' => 'UTC',
         'date_type' => 'date',
       ),
     ),
   ),
+  'field_training_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => '<p>Over a thousand people participated in the issues around improving multilingual features and APIs in Drupal 8 for the past three years. There are around a thousand issues, most of which are resolved in this initiative as of this submission making Drupal 8 a truly outstanding release for everybody looking to create even single language non-English sites but especially those making multilingual sites. Although there will surely be contributed modules useful to round out multilingual sites in Drupal 8, there is support for way more than there was in Drupal 7 core and even if you add in all available contributed modules - and with less code and more unified approaches.</p>
+
+<p>This training provides a hands-on way showing you around all the great improvements and gives tips as to how to best utilise the new solutions. We will also talk about where contributed modules will still be needed.</p>
+
+<p>The ideal attendee at this session has some experience in Drupal 6 or 7 foreign language and/or multilingual site building, however those who have no experience in foreign/multilingual site building will also get a lot out of it.</p>
+
+<p>Want to be involved in this project? See&nbsp;<a href="http://hojtsy.hu/multilingual-drupal8">http://hojtsy.hu/multilingual-drupal8</a>&nbsp;for an article series on the details on what we accomplished.&nbsp;<a href="http://www.drupal8multilingual.org/">http://www.drupal8multilingual.org/</a>&nbsp;is our initiative home and we have meetings every Wednesday to discuss and move current efforts forward (see times on the front page). We also&nbsp;<a href="https://groups.drupal.org/node/427578">have one of the biggest sprints at and before/after DrupalCon</a>.</p>
+
+<p>Ps. its not evident from this entry, but the lab actually runs until 6pm (see&nbsp;<a href="https://amsterdam2014.drupal.org/session/drupal-8-multilingual-hands-continued">https://amsterdam2014.drupal.org/session/drupal-8-multilingual-hands-con...</a>&nbsp;for the other scheduled session that follows this one and blocks out that time in the schedule).</p>
+',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_training_image' => array(),
+  'field_training_sub_title' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'A Hands-On Training on Drupal 8 Multilingual Features',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_training_teaser' => array(
+    'und' => array(
+      0 => array(
+        'value' => '<p>This training to provides a hands-on way showing you around all the great improvements to multilingual in Drupal 8&nbsp;and gives tips as to how to best utilise the new solutions. We will also talk about where contributed modules will still be needed.</p>
+',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_training_trainers' => array(),
-  'field_training_sub_title' => array(),
-  'field_training_teaser' => array(),
+  'field_training_drupal_software' => array(),
+  'field_training_audiences' => array(),
+  'field_training_prerequisites' => array(),
+  'field_training_skill_levels' => array(),
+  'field_training_tracks' => array(),
+  'field_training_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -2732,7 +2893,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2015-03-04 01:43:21 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-2009A (LANG4)',
@@ -2807,7 +2968,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:31:40 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '1:00pm - 1:45pm',
@@ -2890,7 +3051,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 00:16:03 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '10:45am - 11:00am',
@@ -2973,7 +3134,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 00:13:50 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '12:30pm - 1:30pm',
@@ -3056,7 +3217,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-07 20:12:26 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'S-1518',
@@ -3131,7 +3292,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-30 04:58:08 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '11:00am - 11:30am',
@@ -3214,7 +3375,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-07 12:54:48 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'S-2726/2727 Flex',
@@ -3289,7 +3450,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-30 05:00:43 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '11:15am - 12:15pm',
@@ -3372,7 +3533,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 02:46:31 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'S-1522/1523 Flex',
@@ -3447,7 +3608,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-30 04:59:40 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '4:15pm - 4:30pm',
@@ -3530,7 +3691,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 03:54:04 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '7:15pm - 7:45pm',
@@ -3613,7 +3774,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-07 02:01:57 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '1:45pm - 2:45pm',
@@ -3696,7 +3857,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 02:48:12 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '1:30pm - 2:30pm',
@@ -3779,7 +3940,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 04:13:36 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '1:30pm - 2:00pm',
@@ -3862,7 +4023,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 04:12:08 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'CB-3',
@@ -3937,7 +4098,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:28:09 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '1:45pm - 2:15pm',
@@ -4020,7 +4181,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 00:16:24 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '9:30am - 10:15am',
@@ -4103,7 +4264,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 04:09:11 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '4:45pm - 5:30pm',
@@ -4186,10 +4347,10 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-08 18:25:54 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
-  'title' => 'Security Sprint',
+  'title' => 'Drupal Security Sprint',
   'log' => '',
   'status' => 1,
   'comment' => 1,
@@ -4202,23 +4363,57 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '5e43484b-8717-49ca-a82a-54420efebdce',
-  'field_sprint_teaser' => array(),
-  'field_sprint_description' => array(),
+  'field_sprint_coordinators' => array(),
   'field_sprint_dates' => array(
     'und' => array(
       0 => array(
-        'value' => '2015-03-04T06:45:00',
-        'value2' => '2015-03-04T06:45:00',
+        'value' => '2015-07-19T13:00:00',
+        'value2' => '2015-07-19T21:00:00',
         'timezone' => 'America/New_York',
         'timezone_db' => 'UTC',
         'date_type' => 'date',
       ),
     ),
   ),
+  'field_sprint_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Cras dapibus. Pellentesque dapibus hendrerit tortor. Nulla porta dolor. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc.
+
+Phasellus viverra nulla ut metus varius laoreet. Nullam cursus lacinia erat. Nunc interdum lacus sit amet orci. Proin magna. Ut id nisl quis enim dignissim sagittis.
+
+Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Maecenas egestas arcu quis ligula mattis placerat. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Nam eget dui.
+
+Mauris sollicitudin fermentum libero. Suspendisse nisl elit, rhoncus eget, elementum ac, condimentum eget, diam. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Phasellus blandit leo ut odio. Nulla porta dolor.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi. Nullam sagittis. Praesent ac sem eget est egestas volutpat. Morbi vestibulum volutpat enim.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_sprint_image' => array(),
-  'field_sprint_sub_title' => array(),
-  'field_sprint_coordinators' => array(),
+  'field_sprint_sub_title' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Pls add Sub-Title',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_sprint_teaser' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Fusce a quam. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Aenean commodo ligula eget dolor. Nullam cursus lacinia erat. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_sprint_team' => array(),
+  'field_sprint_audiences' => array(),
+  'field_sprint_tracks' => array(),
+  'field_sprint_drupal_software' => array(),
+  'field_sprint_skill_levels' => array(),
+  'field_sprint_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -4276,7 +4471,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2015-03-04 01:42:25 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-E',
@@ -4351,7 +4546,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-03 02:21:26 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'CB-A',
@@ -4426,7 +4621,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:28:45 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Conference Building',
@@ -4499,7 +4694,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 05:48:54 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'S-1520',
@@ -4574,7 +4769,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-30 04:58:35 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '4:10pm - 4:30pm',
@@ -4657,7 +4852,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 02:57:19 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '3:00pm - 3:15pm',
@@ -4740,7 +4935,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 00:16:47 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '3:30pm - 3:50pm',
@@ -4823,7 +5018,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 02:56:33 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '2:15pm - 3:00pm',
@@ -4906,7 +5101,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 03:51:32 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-E',
@@ -4981,7 +5176,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-03 02:21:25 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '2:00pm - 2:30pm',
@@ -5064,7 +5259,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 04:12:51 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-2034 (LANG7)',
@@ -5139,7 +5334,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:32:12 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '12:15pm - 1:00pm',
@@ -5222,7 +5417,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 04:11:09 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '6:00pm - 7:00pm',
@@ -5305,7 +5500,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 05:17:21 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Git Training',
@@ -5321,7 +5516,6 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '7043633e-1a07-4ff2-b4be-913045a0aa81',
-  'field_training_description' => array(),
   'field_training_dates' => array(
     'und' => array(
       0 => array(
@@ -5333,10 +5527,68 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
       ),
     ),
   ),
+  'field_training_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => '<p>This is a one-hour introductory training on Git during which you will set up Git locally, configure Git on your drupal.org account, and learn how it works through the practical examples of getting set up to use Drupal 8 — and contribute back!</p>
+
+<p>Ever made a mistake and wished for the power to turn back time? In this session you\'ll experience the magical world of version control, where you can:</p>
+
+<ul>
+	<li>try out massive code changes without worrying that you\'ll break your entire site,</li>
+	<li>have access to different versions of your code without saving tons of copies with elaborate naming schemes, and</li>
+	<li>collaborate with others without ever again having to utter the phrase, "Okay, I\'ve finished working on styles.css, so you can go ahead and make your changes now."</li>
+</ul>
+
+<p>This will be a play-along crash course on Git, the version control system that Drupal.org developers (and lots of other people) use to share code with one another and save themselves time and misery.</p>
+
+<p>We\'ll start with fundamental commands, trying them out along the way. By the end of the session you\'ll have mastered a simple daily workflow that you\'ll be able to start using immediately. Plus, you\'ll leave with a cheat sheet and resources for future reference.</p>
+
+<p>This session will include:</p>
+
+<ul>
+	<li>Why use version control?</li>
+	<li>Why use Git?</li>
+	<li>How to use Git repositories on Drupal.org</li>
+	<li>Fundamental commands</li>
+	<li>A simple daily workflow</li>
+	<li>How to turn back time when something goes wrong</li>
+	<li>How to use Git to experiment safely</li>
+	<li>How to see who did what when and review changes</li>
+	<li>Additional resources/Where to learn more (if you\'d like to get a head start:&nbsp;<a href="http://pcottle.github.io/learnGitBranching/">Learn Git Branching</a></li>
+</ul>
+
+<p><em>If you\'ve been meaning to get around to learning Git, now\'s the time!</em></p>
+',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_training_image' => array(),
+  'field_training_sub_title' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Intro training on Git to get you up, running & contributing',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_training_teaser' => array(
+    'und' => array(
+      0 => array(
+        'value' => '<p>This is a one-hour introductory training on Git during which you will set up Git locally, configure Git on your drupal.org account, and learn how it works through the practical examples of getting set up to use Drupal 8 — and contribute back!</p>
+',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_training_trainers' => array(),
-  'field_training_sub_title' => array(),
-  'field_training_teaser' => array(),
+  'field_training_drupal_software' => array(),
+  'field_training_audiences' => array(),
+  'field_training_prerequisites' => array(),
+  'field_training_skill_levels' => array(),
+  'field_training_tracks' => array(),
+  'field_training_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5394,7 +5646,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2015-03-04 01:40:58 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'S-1517BR',
@@ -5469,10 +5721,10 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-30 04:57:14 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
-  'title' => 'Multilingual Sprint',
+  'title' => 'Drupal Multilingual Sprint',
   'log' => '',
   'status' => 1,
   'comment' => 1,
@@ -5485,23 +5737,57 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '747356df-7fee-44b9-909d-338fa923b322',
-  'field_sprint_teaser' => array(),
-  'field_sprint_description' => array(),
+  'field_sprint_coordinators' => array(),
   'field_sprint_dates' => array(
     'und' => array(
       0 => array(
-        'value' => '2015-03-04T06:45:00',
-        'value2' => '2015-03-04T06:45:00',
+        'value' => '2015-07-19T13:00:00',
+        'value2' => '2015-07-19T21:00:00',
         'timezone' => 'America/New_York',
         'timezone_db' => 'UTC',
         'date_type' => 'date',
       ),
     ),
   ),
+  'field_sprint_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Nullam vel sem. Pellentesque commodo eros a enim. Vivamus aliquet elit ac nisl. Nullam accumsan lorem in dui.
+
+Etiam imperdiet imperdiet orci.. Morbi nec metus. Ut leo. Sed aliquam ultrices mauris.
+
+Sed a libero. Etiam ut purus mattis mauris sodales aliquam. Nulla porta dolor. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui.
+
+Praesent vestibulum dapibus nibh. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. In consectetuer turpis ut velit. Nullam sagittis. Nam adipiscing.
+
+Fusce neque. Phasellus accumsan cursus velit. Maecenas vestibulum mollis diam. Phasellus a est. Nulla facilisi.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_sprint_image' => array(),
-  'field_sprint_sub_title' => array(),
-  'field_sprint_coordinators' => array(),
+  'field_sprint_sub_title' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Pls add Sub-Title',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_sprint_teaser' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Vestibulum volutpat pretium libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Integer tincidunt. Donec posuere vulputate arcu. Etiam vitae tortor.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_sprint_team' => array(),
+  'field_sprint_audiences' => array(),
+  'field_sprint_tracks' => array(),
+  'field_sprint_drupal_software' => array(),
+  'field_sprint_skill_levels' => array(),
+  'field_sprint_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -5559,7 +5845,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2015-03-04 01:42:39 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '3:30pm - 4:15pm',
@@ -5642,7 +5928,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 05:14:19 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '6:00pm - 6:45pm',
@@ -5725,7 +6011,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-07 02:01:37 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-2034A (LANG8)',
@@ -5800,7 +6086,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:32:29 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '3:20pm - 3:40pm',
@@ -5883,7 +6169,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 21:24:43 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '3:00pm - 3:45pm',
@@ -5966,7 +6252,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 04:04:59 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'S-2728',
@@ -6041,7 +6327,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-30 05:00:57 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'North Lawn Building',
@@ -6114,7 +6400,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 05:48:38 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Media Sprint',
@@ -6130,23 +6416,57 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '8745a684-dc80-4f77-811c-8b3d2f4e9063',
-  'field_sprint_teaser' => array(),
-  'field_sprint_description' => array(),
+  'field_sprint_coordinators' => array(),
   'field_sprint_dates' => array(
     'und' => array(
       0 => array(
-        'value' => '2015-03-04T06:45:00',
-        'value2' => '2015-03-04T06:45:00',
+        'value' => '2015-07-19T13:00:00',
+        'value2' => '2015-07-19T21:00:00',
         'timezone' => 'America/New_York',
         'timezone_db' => 'UTC',
         'date_type' => 'date',
       ),
     ),
   ),
+  'field_sprint_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Phasellus ullamcorper ipsum rutrum nunc. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. Nam at tortor in tellus interdum sagittis. Phasellus magna. Fusce ac felis sit amet ligula pharetra condimentum.
+
+Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nunc nec neque. Duis vel nibh at velit scelerisque suscipit. Sed lectus. Curabitur a felis in nunc fringilla tristique.
+
+Vestibulum suscipit nulla quis orci. Pellentesque posuere. Curabitur suscipit suscipit tellus. Praesent ut ligula non mi varius sagittis. Nulla porta dolor.
+
+Aliquam erat volutpat. Vivamus in erat ut urna cursus vestibulum. Sed in libero ut nibh placerat accumsan. Sed lectus. Nam adipiscing.
+
+Nam pretium turpis et arcu. Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi. Aenean massa. Etiam feugiat lorem non metus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_sprint_image' => array(),
-  'field_sprint_sub_title' => array(),
-  'field_sprint_coordinators' => array(),
+  'field_sprint_sub_title' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Pls add Sub-Title',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_sprint_teaser' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Etiam iaculis nunc ac metus. Nunc egestas, augue at pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis pede. Fusce vulputate eleifend sapien. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_sprint_team' => array(),
+  'field_sprint_audiences' => array(),
+  'field_sprint_tracks' => array(),
+  'field_sprint_drupal_software' => array(),
+  'field_sprint_skill_levels' => array(),
+  'field_sprint_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -6204,7 +6524,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2015-03-04 01:38:11 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NYC Camp 2015',
@@ -6288,7 +6608,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2015-03-04 01:57:07 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-8',
@@ -6363,7 +6683,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:30:09 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '1:30pm - 2:15pm',
@@ -6446,7 +6766,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 13:52:16 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '4:00pm - 4:45pm',
@@ -6529,7 +6849,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-08 18:24:33 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '10:00am - 10:45am',
@@ -6612,7 +6932,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 00:11:12 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Secretariat Building',
@@ -6685,7 +7005,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-30 04:57:27 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '4:30pm - 5:00pm',
@@ -6768,7 +7088,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 15:07:08 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-2022 (LANG5)',
@@ -6843,7 +7163,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:31:50 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '11:15am - 11:30am',
@@ -6926,7 +7246,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 14:23:42 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '9:30am - 10:00am',
@@ -7009,7 +7329,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 00:10:24 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '2:15pm - 2:45pm',
@@ -7092,7 +7412,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 02:55:58 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Drupal Core Sprint',
@@ -7108,8 +7428,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '9e0debd5-0b55-46e0-9337-dcf0598d0f2e',
-  'field_sprint_teaser' => array(),
-  'field_sprint_description' => array(),
+  'field_sprint_coordinators' => array(),
   'field_sprint_dates' => array(
     'und' => array(
       0 => array(
@@ -7121,10 +7440,45 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
       ),
     ),
   ),
+  'field_sprint_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Duis leo. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Phasellus ullamcorper ipsum rutrum nunc. Suspendisse potenti. Donec mollis hendrerit risus.
+
+Duis lobortis massa imperdiet quam. Nam commodo suscipit quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed aliquam ultrices mauris. Donec posuere vulputate arcu.
+
+Nulla porta dolor. Fusce vel dui. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Aliquam eu nunc.
+
+In ut quam vitae odio lacinia tincidunt. Sed a libero. Vestibulum eu odio. Morbi vestibulum volutpat enim. Aenean vulputate eleifend tellus.
+
+Etiam rhoncus. Sed cursus turpis vitae tortor. Vivamus aliquet elit ac nisl. Curabitur a felis in nunc fringilla tristique. Nulla porta dolor.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_sprint_image' => array(),
-  'field_sprint_sub_title' => array(),
-  'field_sprint_coordinators' => array(),
+  'field_sprint_sub_title' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Pls add Sub-Title',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_sprint_teaser' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Praesent adipiscing. Nullam accumsan lorem in dui. Quisque rutrum. Phasellus accumsan cursus velit.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_sprint_team' => array(),
+  'field_sprint_audiences' => array(),
+  'field_sprint_tracks' => array(),
+  'field_sprint_drupal_software' => array(),
+  'field_sprint_skill_levels' => array(),
+  'field_sprint_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7182,7 +7536,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2015-03-04 01:39:23 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'KC 802 - Community Spotlight ',
@@ -7257,7 +7611,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2013-06-16 18:42:19 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-2022A (LANG6)',
@@ -7332,7 +7686,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:32:02 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '3:00pm - 3:20pm',
@@ -7415,7 +7769,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 21:24:31 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Front Camp',
@@ -7431,6 +7785,29 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'a4ce16d0-2211-4436-9a98-9ec513e60b1b',
+  'field_summit_coordinators' => array(),
+  'field_summit_dates' => array(
+    'und' => array(
+      0 => array(
+        'value' => '2015-03-06T19:00:00',
+        'value2' => '2015-03-06T19:00:00',
+        'timezone' => 'America/New_York',
+        'timezone_db' => 'UTC',
+        'date_type' => 'date',
+      ),
+    ),
+  ),
+  'field_summit_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Please add Description. Sed libero. Nullam tincidunt adipiscing enim. Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Donec vitae sapien ut libero venenatis faucibus. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc.
+
+ Sed libero. Nullam tincidunt adipiscing enim. Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Donec vitae sapien ut libero venenatis faucibus. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
+  'field_summit_image' => array(),
   'field_summit_sub_title' => array(
     'und' => array(
       0 => array(
@@ -7447,31 +7824,12 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
       ),
     ),
   ),
-  'field_summit_description' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Please add Description. Sed libero. Nullam tincidunt adipiscing enim. Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Donec vitae sapien ut libero venenatis faucibus. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc.
-
- Sed libero. Nullam tincidunt adipiscing enim. Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Donec vitae sapien ut libero venenatis faucibus. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc.',
-        'format' => 'full_html',
-      ),
-    ),
-  ),
-  'field_summit_dates' => array(
-    'und' => array(
-      0 => array(
-        'value' => '2015-03-06T19:00:00',
-        'value2' => '2015-03-06T19:00:00',
-        'timezone' => 'America/New_York',
-        'timezone_db' => 'UTC',
-        'date_type' => 'date',
-      ),
-    ),
-  ),
-  'field_summit_image' => array(),
-  'field_summit_coordinators' => array(),
-  'field_summit_audience' => array(),
   'field_summit_team' => array(),
+  'field_summit_tracks' => array(),
+  'field_summit_audiences' => array(),
+  'field_summit_skill_levels' => array(),
+  'field_summit_drupal_software' => array(),
+  'field_summit_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -7529,7 +7887,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2015-03-06 13:58:12 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '10:00am - 11:00am',
@@ -7612,7 +7970,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 00:21:37 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '2:30pm - 3:15pm',
@@ -7695,7 +8053,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 05:16:16 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '12:15pm - 1:15pm',
@@ -7778,7 +8136,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 02:47:22 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB Commons',
@@ -7853,7 +8211,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:32:43 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'CB-C',
@@ -7928,7 +8286,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:29:12 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '9:00am - 10:00am',
@@ -8011,7 +8369,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 01:07:09 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '2:45pm - 3:15pm',
@@ -8094,7 +8452,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 01:49:23 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-6',
@@ -8169,7 +8527,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:29:43 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '3:45pm - 4:00pm',
@@ -8252,7 +8610,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 03:57:59 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '3:00pm - 3:30pm',
@@ -8335,7 +8693,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 02:50:57 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Skirball Theatre',
@@ -8410,7 +8768,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2013-07-13 00:54:50 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'S-1525',
@@ -8485,7 +8843,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-30 05:00:11 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '11:20am - 11:40am',
@@ -8568,7 +8926,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 01:08:48 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '12:00pm - 1:00pm',
@@ -8651,7 +9009,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 00:14:14 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'United Nations',
@@ -8725,7 +9083,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 05:34:12 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '4:30pm - 5:15pm',
@@ -8808,7 +9166,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 05:15:14 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '1:00pm - 2:00pm',
@@ -8891,7 +9249,7 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 14:27:01 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Ops Camp',
@@ -8907,6 +9265,29 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'bf11075d-339c-49d7-b3d7-c8d9c5ee9e90',
+  'field_summit_coordinators' => array(),
+  'field_summit_dates' => array(
+    'und' => array(
+      0 => array(
+        'value' => '2015-07-17T13:00:00',
+        'value2' => '2015-07-17T21:00:00',
+        'timezone' => 'America/New_York',
+        'timezone_db' => 'UTC',
+        'date_type' => 'date',
+      ),
+    ),
+  ),
+  'field_summit_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'A day long convocation of some of the best engineers on the web for an in-depth exploration of all things DevOps, including a Configuration Management Roundtable. The DevOps Summit will focus on everything Dev, Ops, NoOps, continuous delivery/integration, and everything in between - delving into all of the latest technology and trends, with real, tailored and informative content.
+
+In addition to hosting really great sessions, the DevOps summit will have a number of breakout groups as well as hands-on sessions, which will all be topped off with some great networking opportunities.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
+  'field_summit_image' => array(),
   'field_summit_sub_title' => array(
     'und' => array(
       0 => array(
@@ -8923,42 +9304,12 @@ Curabitur ullamcorper ultricies nisi. Phasellus viverra nulla ut metus varius la
       ),
     ),
   ),
-  'field_summit_description' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'A day long convocation of some of the best engineers on the web for an in-depth exploration of all things DevOps, including a Configuration Management Roundtable. The DevOps Summit will focus on everything Dev, Ops, NoOps, continuous delivery/integration, and everything in between - delving into all of the latest technology and trends, with real, tailored and informative content.
-
-In addition to hosting really great sessions, the DevOps summit will have a number of breakout groups as well as hands-on sessions, which will all be topped off with some great networking opportunities.',
-        'format' => 'full_html',
-      ),
-    ),
-  ),
-  'field_summit_dates' => array(
-    'und' => array(
-      0 => array(
-        'value' => '2015-07-17T13:00:00',
-        'value2' => '2015-07-17T21:00:00',
-        'timezone' => 'America/New_York',
-        'timezone_db' => 'UTC',
-        'date_type' => 'date',
-      ),
-    ),
-  ),
-  'field_summit_image' => array(),
-  'field_summit_coordinators' => array(),
-  'field_summit_audience' => array(
-    'und' => array(
-      0 => array(
-        'tid' => '58a46c36-cba9-457d-8d44-e00b8621d54b',
-        'uuid' => '58a46c36-cba9-457d-8d44-e00b8621d54b',
-      ),
-      1 => array(
-        'tid' => 'a031e3a3-1f4b-4880-b4c7-662fd464d647',
-        'uuid' => 'a031e3a3-1f4b-4880-b4c7-662fd464d647',
-      ),
-    ),
-  ),
   'field_summit_team' => array(),
+  'field_summit_tracks' => array(),
+  'field_summit_audiences' => array(),
+  'field_summit_skill_levels' => array(),
+  'field_summit_drupal_software' => array(),
+  'field_summit_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -9016,7 +9367,7 @@ In addition to hosting really great sessions, the DevOps summit will have a numb
   ),
   'comment_count' => 0,
   'date' => '2015-03-06 11:38:02 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '4:00pm - 4:15pm',
@@ -9099,7 +9450,7 @@ In addition to hosting really great sessions, the DevOps summit will have a numb
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 03:59:19 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '12:00pm - 12:30pm',
@@ -9182,7 +9533,7 @@ In addition to hosting really great sessions, the DevOps summit will have a numb
   ),
   'comment_count' => 0,
   'date' => '2014-04-07 20:04:16 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-7',
@@ -9257,7 +9608,7 @@ In addition to hosting really great sessions, the DevOps summit will have a numb
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:29:54 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '11:15am - 12:00pm',
@@ -9340,7 +9691,7 @@ In addition to hosting really great sessions, the DevOps summit will have a numb
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 13:20:01 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '7:00pm - 7:45pm',
@@ -9423,7 +9774,7 @@ In addition to hosting really great sessions, the DevOps summit will have a numb
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 05:15:41 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '3:40pm - 4:00pm',
@@ -9506,7 +9857,7 @@ In addition to hosting really great sessions, the DevOps summit will have a numb
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 21:25:06 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'NLB-2009 (LANG3)',
@@ -9581,7 +9932,7 @@ In addition to hosting really great sessions, the DevOps summit will have a numb
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:31:02 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'S-1521',
@@ -9656,7 +10007,7 @@ In addition to hosting really great sessions, the DevOps summit will have a numb
   ),
   'comment_count' => 0,
   'date' => '2014-03-30 04:58:54 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Higher Ed Summit',
@@ -9672,19 +10023,7 @@ In addition to hosting really great sessions, the DevOps summit will have a numb
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'd2ba029a-ecdd-43fe-b87a-f0e9ad84c272',
-  'field_summit_sub_title' => array(),
-  'field_summit_teaser' => array(),
-  'field_summit_description' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'The Higher Education Summit aims to bring together peers from higher education institutions working with Drupal. Drupal\'s versatility is transforming the way higher education uses technology and is being used in many different ways throughout universities: from public-facing university sites, library and departmental websites, to intranets, learning management content repositories and communities, scholarly publishing, platforms for viewing books and photographs, and complete audio, video & multimedia collections. 
-
-If you\'re involved in higher education this will be an opportunity to discuss key topics with peers from other universities. See how colleagues are leveraging Drupal to solve common problems and how they are integrating with authentication and identity management systems, registry and student information systems, and learning management systems. 
-',
-        'format' => 'full_html',
-      ),
-    ),
-  ),
+  'field_summit_coordinators' => array(),
   'field_summit_dates' => array(
     'und' => array(
       0 => array(
@@ -9696,10 +10035,40 @@ If you\'re involved in higher education this will be an opportunity to discuss k
       ),
     ),
   ),
+  'field_summit_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'The Higher Education Summit aims to bring together peers from higher education institutions working with Drupal. Drupal\'s versatility is transforming the way higher education uses technology and is being used in many different ways throughout universities: from public-facing university sites, library and departmental websites, to intranets, learning management content repositories and communities, scholarly publishing, platforms for viewing books and photographs, and complete audio, video & multimedia collections. 
+
+If you\'re involved in higher education this will be an opportunity to discuss key topics with peers from other universities. See how colleagues are leveraging Drupal to solve common problems and how they are integrating with authentication and identity management systems, registry and student information systems, and learning management systems. 
+',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_summit_image' => array(),
-  'field_summit_coordinators' => array(),
-  'field_summit_audience' => array(),
+  'field_summit_sub_title' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Please add Sub-TItle',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_summit_teaser' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Vivamus aliquet elit ac nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Nulla consequat massa quis enim. Aenean vulputate eleifend tellus. Donec venenatis vulputate lorem.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_summit_team' => array(),
+  'field_summit_tracks' => array(),
+  'field_summit_audiences' => array(),
+  'field_summit_skill_levels' => array(),
+  'field_summit_drupal_software' => array(),
+  'field_summit_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -9757,7 +10126,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2015-03-04 02:03:48 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '11:00am - 11:20am',
@@ -9840,7 +10209,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 01:08:22 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'CB-B',
@@ -9915,7 +10284,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2014-03-18 23:28:54 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '7:00pm - 7:30pm',
@@ -9998,7 +10367,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2014-04-07 01:59:42 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '8:00am - 9:00am',
@@ -10081,7 +10450,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2014-03-25 03:52:41 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '12:45pm - 1:30pm',
@@ -10164,7 +10533,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 13:19:08 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '9:30am - 10:30am',
@@ -10247,7 +10616,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 13:45:58 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '4:00pm - 5:00pm',
@@ -10330,7 +10699,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 00:18:06 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Second Floor Lounge',
@@ -10405,7 +10774,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2013-07-13 15:12:57 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Training Summit',
@@ -10421,9 +10790,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'e6f822be-9e80-4d02-abfe-a7367292e26f',
-  'field_summit_sub_title' => array(),
-  'field_summit_teaser' => array(),
-  'field_summit_description' => array(),
+  'field_summit_coordinators' => array(),
   'field_summit_dates' => array(
     'und' => array(
       0 => array(
@@ -10435,10 +10802,45 @@ If you\'re involved in higher education this will be an opportunity to discuss k
       ),
     ),
   ),
+  'field_summit_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Duis vel nibh at velit scelerisque suscipit. Fusce pharetra convallis urna. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. In auctor lobortis lacus. Praesent adipiscing.
+
+Pellentesque commodo eros a enim. Sed cursus turpis vitae tortor. Ut a nisl id ante tempus hendrerit. Sed a libero. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc.
+
+Vivamus quis mi. Praesent ac sem eget est egestas volutpat. Phasellus viverra nulla ut metus varius laoreet. Fusce convallis metus id felis luctus adipiscing. Etiam iaculis nunc ac metus.
+
+Mauris sollicitudin fermentum libero. Praesent nonummy mi in odio. In ut quam vitae odio lacinia tincidunt. Aenean imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
+
+Donec sodales sagittis magna. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Fusce fermentum odio nec arcu. Praesent turpis. Donec venenatis vulputate lorem.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_summit_image' => array(),
-  'field_summit_coordinators' => array(),
-  'field_summit_audience' => array(),
+  'field_summit_sub_title' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Please add Sub-TItle',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_summit_teaser' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Cras sagittis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam iaculis nunc ac metus. Praesent egestas tristique nibh. In auctor lobortis lacus.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_summit_team' => array(),
+  'field_summit_tracks' => array(),
+  'field_summit_audiences' => array(),
+  'field_summit_skill_levels' => array(),
+  'field_summit_drupal_software' => array(),
+  'field_summit_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -10496,7 +10898,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2015-03-04 02:04:31 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Delegates Dining Room',
@@ -10578,7 +10980,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 19:44:43 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '11:40am - 12:00pm',
@@ -10661,7 +11063,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 01:08:59 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '3:30pm - 5:00pm',
@@ -10744,7 +11146,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2014-04-07 20:42:06 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '2:00pm - 2:45pm',
@@ -10827,7 +11229,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 01:49:10 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '11:00am - 12:00pm',
@@ -10910,7 +11312,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2014-04-05 03:27:55 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Digital Publishing & Media Summit',
@@ -10926,9 +11328,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'f4ae0ba3-c52a-46ef-b9be-72c41cb6e3a3',
-  'field_summit_sub_title' => array(),
-  'field_summit_teaser' => array(),
-  'field_summit_description' => array(),
+  'field_summit_coordinators' => array(),
   'field_summit_dates' => array(
     'und' => array(
       0 => array(
@@ -10940,10 +11340,45 @@ If you\'re involved in higher education this will be an opportunity to discuss k
       ),
     ),
   ),
+  'field_summit_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Vestibulum eu odio. Aenean vulputate eleifend tellus. Pellentesque auctor neque nec urna. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci.
+
+Praesent nonummy mi in odio. In hac habitasse platea dictumst. Suspendisse non nisl sit amet velit hendrerit rutrum. Nullam quis ante. Ut leo.
+
+Aliquam lobortis. Maecenas egestas arcu quis ligula mattis placerat. Aenean vulputate eleifend tellus. Pellentesque auctor neque nec urna. Proin faucibus arcu quis ante.
+
+Curabitur a felis in nunc fringilla tristique. Donec posuere vulputate arcu. Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed gravida augue augue mollis justo. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, ligula. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi.
+
+Nullam tincidunt adipiscing enim. Nullam vel sem. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Sed a libero. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_summit_image' => array(),
-  'field_summit_coordinators' => array(),
-  'field_summit_audience' => array(),
+  'field_summit_sub_title' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Please add Sub-TItle',
+        'format' => NULL,
+      ),
+    ),
+  ),
+  'field_summit_teaser' => array(
+    'und' => array(
+      0 => array(
+        'value' => ' Suspendisse feugiat. Praesent nonummy mi in odio. Aliquam lobortis. Vestibulum eu odio.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
   'field_summit_team' => array(),
+  'field_summit_tracks' => array(),
+  'field_summit_audiences' => array(),
+  'field_summit_skill_levels' => array(),
+  'field_summit_drupal_software' => array(),
+  'field_summit_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -11001,7 +11436,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2015-03-06 11:42:51 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '11:15am - 11:45am',
@@ -11084,7 +11519,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2014-04-07 19:56:13 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '6:45pm - 7:15pm',
@@ -11167,7 +11602,7 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   ),
   'comment_count' => 0,
   'date' => '2014-04-07 02:00:41 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Non-Profits & NGO Summit',
@@ -11183,6 +11618,29 @@ If you\'re involved in higher education this will be an opportunity to discuss k
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'faa0f58a-76f4-411b-bfbc-1712a8f227a4',
+  'field_summit_coordinators' => array(),
+  'field_summit_dates' => array(
+    'und' => array(
+      0 => array(
+        'value' => '2015-07-17T13:00:00',
+        'value2' => '2015-07-17T21:00:00',
+        'timezone' => 'America/New_York',
+        'timezone_db' => 'UTC',
+        'date_type' => 'date',
+      ),
+    ),
+  ),
+  'field_summit_description' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'Non-profits & NGOs deal with many of the same challenges in developing their online program including getting resources, 3rd party CRM integration, establishing effective processes for online engagement, and maintaining their systems.  
+
+This summit aims to bring together mission driven organizations that are using open source technology to facilitate conversation, collaboration, and strategy sharing between non-profits as well as technologists that work in the nonprofit space.',
+        'format' => 'full_html',
+      ),
+    ),
+  ),
+  'field_summit_image' => array(),
   'field_summit_sub_title' => array(
     'und' => array(
       0 => array(
@@ -11199,31 +11657,12 @@ If you\'re involved in higher education this will be an opportunity to discuss k
       ),
     ),
   ),
-  'field_summit_description' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'Non-profits & NGOs deal with many of the same challenges in developing their online program including getting resources, 3rd party CRM integration, establishing effective processes for online engagement, and maintaining their systems.  
-
-This summit aims to bring together mission driven organizations that are using open source technology to facilitate conversation, collaboration, and strategy sharing between non-profits as well as technologists that work in the nonprofit space.',
-        'format' => 'full_html',
-      ),
-    ),
-  ),
-  'field_summit_dates' => array(
-    'und' => array(
-      0 => array(
-        'value' => '2015-07-17T13:00:00',
-        'value2' => '2015-07-17T21:00:00',
-        'timezone' => 'America/New_York',
-        'timezone_db' => 'UTC',
-        'date_type' => 'date',
-      ),
-    ),
-  ),
-  'field_summit_image' => array(),
-  'field_summit_coordinators' => array(),
-  'field_summit_audience' => array(),
   'field_summit_team' => array(),
+  'field_summit_tracks' => array(),
+  'field_summit_audiences' => array(),
+  'field_summit_skill_levels' => array(),
+  'field_summit_drupal_software' => array(),
+  'field_summit_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -11281,7 +11720,7 @@ This summit aims to bring together mission driven organizations that are using o
   ),
   'comment_count' => 0,
   'date' => '2015-03-06 13:49:36 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '11:30am - 12:00pm',
@@ -11364,7 +11803,7 @@ This summit aims to bring together mission driven organizations that are using o
   ),
   'comment_count' => 0,
   'date' => '2014-04-07 12:54:23 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => '2:45pm - 3:00pm',
@@ -11447,7 +11886,7 @@ This summit aims to bring together mission driven organizations that are using o
   ),
   'comment_count' => 0,
   'date' => '2014-04-06 02:48:45 -0400',
-  'user_uuid' => '729f9db6-16db-498f-9a5c-669258fc775f',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   $nodes[] = array(
   'title' => 'Core Summit',
@@ -11463,19 +11902,15 @@ This summit aims to bring together mission driven organizations that are using o
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'ff04fb12-5c6e-4fb5-9506-1b94b07a1e6a',
-  'field_summit_sub_title' => array(
+  'field_summit_coordinators' => array(),
+  'field_summit_dates' => array(
     'und' => array(
       0 => array(
-        'value' => 'A week long gathering for Drupal Core contributors',
-        'format' => NULL,
-      ),
-    ),
-  ),
-  'field_summit_teaser' => array(
-    'und' => array(
-      0 => array(
-        'value' => 'This is a meeting for core developers to put their heads together to help move Drupal 8 a few more steps forward.',
-        'format' => 'full_html',
+        'value' => '2015-07-13T13:00:00',
+        'value2' => '2015-07-19T21:00:00',
+        'timezone' => 'America/New_York',
+        'timezone_db' => 'UTC',
+        'date_type' => 'date',
       ),
     ),
   ),
@@ -11492,28 +11927,29 @@ Aspiring core contributors are advised to come to sprints on Sunday. This summit
       ),
     ),
   ),
-  'field_summit_dates' => array(
+  'field_summit_image' => array(),
+  'field_summit_sub_title' => array(
     'und' => array(
       0 => array(
-        'value' => '2015-07-13T13:00:00',
-        'value2' => '2015-07-19T21:00:00',
-        'timezone' => 'America/New_York',
-        'timezone_db' => 'UTC',
-        'date_type' => 'date',
+        'value' => 'A week long gathering for Drupal Core contributors',
+        'format' => NULL,
       ),
     ),
   ),
-  'field_summit_image' => array(),
-  'field_summit_coordinators' => array(),
-  'field_summit_audience' => array(
+  'field_summit_teaser' => array(
     'und' => array(
       0 => array(
-        'tid' => '58a46c36-cba9-457d-8d44-e00b8621d54b',
-        'uuid' => '58a46c36-cba9-457d-8d44-e00b8621d54b',
+        'value' => 'This is a meeting for core developers to put their heads together to help move Drupal 8 a few more steps forward.',
+        'format' => 'full_html',
       ),
     ),
   ),
   'field_summit_team' => array(),
+  'field_summit_tracks' => array(),
+  'field_summit_audiences' => array(),
+  'field_summit_skill_levels' => array(),
+  'field_summit_drupal_software' => array(),
+  'field_summit_tags' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'sioc:Item',
@@ -11571,7 +12007,7 @@ Aspiring core contributors are advised to come to sprints on Sunday. This summit
   ),
   'comment_count' => 0,
   'date' => '2015-03-06 11:44:39 -0500',
-  'user_uuid' => 'ce95b3e7-fce0-4d6a-b39f-79ed7932ae76',
+  'user_uuid' => 'f7753eb0-af07-4b3c-9af4-416bf29c5c04',
 );
   return $nodes;
 }
