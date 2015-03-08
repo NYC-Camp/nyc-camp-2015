@@ -18,6 +18,7 @@ features[user_permission][] = administer date tools
 features[variable][] = date_api_version
 features[variable][] = date_default_timezone
 features[variable][] = date_format_abbreviated
+features[variable][] = date_format_abbreviated_with_time
 features[variable][] = date_format_long
 features[variable][] = date_format_medium
 features[variable][] = date_format_short

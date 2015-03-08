@@ -28,8 +28,15 @@ function nyc_camp_admin_date_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'date_format_abbreviated';
-  $strongarm->value = 'Y-m-d H:i';
+  $strongarm->value = 'D. M. j/y';
   $export['date_format_abbreviated'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'date_format_abbreviated_with_time';
+  $strongarm->value = 'D. M. j/y, g:i A';
+  $export['date_format_abbreviated_with_time'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
