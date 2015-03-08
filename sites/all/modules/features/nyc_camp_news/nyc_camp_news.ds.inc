@@ -17,6 +17,11 @@ function nyc_camp_news_ds_field_settings_info() {
   $ds_fieldsetting->bundle = 'news';
   $ds_fieldsetting->view_mode = 'full';
   $ds_fieldsetting->settings = array(
+    'title' => array(
+      'weight' => '0',
+      'label' => 'hidden',
+      'format' => 'default',
+    ),
     'links' => array(
       'weight' => '5',
       'label' => 'hidden',
@@ -68,7 +73,7 @@ function nyc_camp_news_ds_field_settings_info() {
       ),
     ),
     'node_link' => array(
-      'weight' => '4',
+      'weight' => '5',
       'label' => 'hidden',
       'format' => 'default',
     ),
@@ -101,9 +106,6 @@ function nyc_camp_news_ds_layout_settings_info() {
     'layout_attributes_merge' => 1,
     'layout_link_attribute' => '',
     'layout_link_custom' => '',
-    'hide_page_title' => '0',
-    'page_option_title' => '',
-    'hide_sidebars' => 0,
   );
   $export['node|news|default'] = $ds_layout;
 
@@ -117,18 +119,20 @@ function nyc_camp_news_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'ds_content' => array(
-        0 => 'field_news_image',
-        1 => 'field_news_subtitle',
+        0 => 'title',
+        1 => 'field_news_sub_title',
         2 => 'field_news_date',
         3 => 'field_news_body',
-        4 => 'links',
+        4 => 'field_news_image',
+        5 => 'links',
       ),
     ),
     'fields' => array(
-      'field_news_image' => 'ds_content',
-      'field_news_subtitle' => 'ds_content',
+      'title' => 'ds_content',
+      'field_news_sub_title' => 'ds_content',
       'field_news_date' => 'ds_content',
       'field_news_body' => 'ds_content',
+      'field_news_image' => 'ds_content',
       'links' => 'ds_content',
     ),
     'classes' => array(),
@@ -140,7 +144,7 @@ function nyc_camp_news_ds_layout_settings_info() {
     'layout_attributes_merge' => 0,
     'layout_link_attribute' => '',
     'layout_link_custom' => '',
-    'hide_page_title' => '0',
+    'hide_page_title' => '1',
     'page_option_title' => '',
     'hide_sidebars' => 0,
   );
@@ -216,16 +220,18 @@ function nyc_camp_news_ds_layout_settings_info() {
     'regions' => array(
       'ds_content' => array(
         0 => 'title',
-        1 => 'field_news_image',
+        1 => 'field_news_sub_title',
         2 => 'field_news_date',
-        3 => 'field_news_teaser',
-        4 => 'node_link',
+        3 => 'field_news_image',
+        4 => 'field_news_teaser',
+        5 => 'node_link',
       ),
     ),
     'fields' => array(
       'title' => 'ds_content',
-      'field_news_image' => 'ds_content',
+      'field_news_sub_title' => 'ds_content',
       'field_news_date' => 'ds_content',
+      'field_news_image' => 'ds_content',
       'field_news_teaser' => 'ds_content',
       'node_link' => 'ds_content',
     ),
@@ -236,6 +242,11 @@ function nyc_camp_news_ds_layout_settings_info() {
     'layout_wrapper' => 'div',
     'layout_attributes' => '',
     'layout_attributes_merge' => 0,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+    'hide_page_title' => '0',
+    'page_option_title' => '',
+    'hide_sidebars' => 0,
   );
   $export['node|news|teaser'] = $ds_layout;
 

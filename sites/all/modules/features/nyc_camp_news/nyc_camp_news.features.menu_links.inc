@@ -32,7 +32,7 @@ function nyc_camp_news_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -49,
+    'weight' => -48,
     'customized' => 1,
   );
   // Translatables
