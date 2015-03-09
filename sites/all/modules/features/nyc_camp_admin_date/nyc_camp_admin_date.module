@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NYC Camp - Admin - Date feature.
+ */
+
+include_once 'nyc_camp_admin_date.features.inc';

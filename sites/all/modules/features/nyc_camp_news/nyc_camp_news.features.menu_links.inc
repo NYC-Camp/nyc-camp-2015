@@ -17,17 +17,22 @@ function nyc_camp_news_menu_default_menu_links() {
     'router_path' => 'news',
     'link_title' => 'News',
     'options' => array(
+      'identifier' => 'main-menu_news:news',
       'attributes' => array(
         'title' => 'News',
       ),
-      'identifier' => 'main-menu_news:news',
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
     ),
     'module' => 'system',
-    'hidden' => 1,
+    'hidden' => 0,
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -41,
+    'weight' => -48,
     'customized' => 1,
   );
   // Translatables

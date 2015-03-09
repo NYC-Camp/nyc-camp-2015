@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * nyc_camp_podcasts.features.field_base.inc
+ * podcasts.features.field_base.inc
  */
 
 /**
  * Implements hook_field_default_field_bases().
  */
-function nyc_camp_podcasts_field_default_field_bases() {
+function podcasts_field_default_field_bases() {
   $field_bases = array();
 
   // Exported field_base: 'field_podcast_date'
