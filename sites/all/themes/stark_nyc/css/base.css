@@ -128,6 +128,92 @@ font-weight: 700;
 }
 
 
+/* BACKGROUNDS */
+
+body, .main-nav {
+background: #ffffff; 				/* white */
+}
+
+.main-nav {
+background: rgba(255,255,255,0.9); 	/* white -- 90% opacity */
+}
+
+.banner #block-views-news-block {
+background: rgba(255,255,255,0.25);	/* white -- 25% opacity */
+}
+
+.topbar, .footer {
+background: #023e6b; 			/* main color - dark blue */
+}
+
+.button, button {
+background: #5091cd; 			/* main color - base blue */
+}
+
+.button:hover, button:hover {
+background: #579edf; 			/* main color - base blue - lighter */
+}
+
+.button:active, button:active {
+background: #4883b9; 			/* main color - base blue - darker */
+}
+
+.main-prefix, .main-suffix {
+background: #E6EEFF; 			/* main color - extralight blue */
+}
+
+input[type="submit"] {
+background: #e00074; 			/* pink */
+}
+
+input[type="submit"]:hover {
+background: #f0007c; 			/* lighter pink */
+}
+
+input[type="submit"]:active {
+background: #cb0069; 			/* darker pink */
+}
+
+
+/* FONT COLORS */
+
+body, #block-views-news-block h2.block-title, .flexslider .views-field-body {
+color: #303133; 				/* Text color dark */
+}
+
+a {
+color: #5091CD; 				/* Main color base - blue */
+}
+
+#topbar i:before, .label, .partnership-title {
+color: #023c69;					/* main color - dark blue */
+}
+
+.topbar, #topbar a, .footer, .footer a {
+color: #eeeeee; 				/* white */
+}
+
+.form-item .description {
+color: #666F80;					/* Text color medium */
+}
+
+a.active, a.active-trail {
+color: #000000;					/* Text color black */
+}
+
+.pink {
+color: #e00074;					/* pink */
+}
+
+.breadcrumb, .submitted, .by-line, #footer .block-title, .field-type-date {
+color: #aaa;					/* light gray */
+}
+
+.green, .partnership-price {
+color: #257c09; 				/* green */
+}
+
+
 /* menus and item lists */
 
 .item-list ul, .item-list ul li, ul.menu, ul.menu li, ul.inline li {
@@ -365,6 +451,19 @@ margin: 0 1.5rem;
 
 .group > div:last-child, .main-suffix .container > .block:last-child, .view-cod-sponsors .views-row:last-child {
 padding-right: 0;
+}
+
+
+/* FLOATS */
+
+.float-left {
+float: left;
+margin: 0 2% 0 0;
+}
+
+.float-right {
+float: right;
+margin: 0 0 0 2%;
 }
 
 
