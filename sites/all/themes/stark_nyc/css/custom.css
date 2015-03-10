@@ -231,7 +231,7 @@ margin-bottom: 30px;
 
 /* Module override */
 .flexslider {
-margin: 0 0 60px;
+margin: 0;
 background: none;
 border: none;
 position: relative;
@@ -258,6 +258,14 @@ width: 60%;
 height: 100%;
 padding: 3em;
 text-align: left;
+}
+
+.view-events-homepage-listing .views-row {
+  padding: 0;
+}
+
+.view-events-homepage-listing .view-content > h3 {
+  margin: 1.5em;
 }
 
 /* PARTNERS BLOCK */
