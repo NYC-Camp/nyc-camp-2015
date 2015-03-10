@@ -1,13 +1,13 @@
 /* remove before going live */
 
-#page > * {
+/*#page > * {
 border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 .container {
 border-left: 1px solid rgba(0,0,0,0.1);
 border-right: 1px solid rgba(0,0,0,0.1);
 }
-
+*/
 
 
 /* Display nones */
@@ -125,7 +125,7 @@ display: table;
 clear: both;
 }
 
-.container {
+.container, .front .panel-pane {
 width: 96%;
 margin: 0 auto;
 max-width: 860px;
@@ -133,7 +133,37 @@ padding: 0 1em;
 }
 
 
-/* Zz */
+/* Front page */
+
+.front #main .container, .front .pane-views-promos-homepage-block-block {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+
+.front #content {
+  padding: 0;
+  margin: 0;
+}
+
+.flexslider {
+  margin: 0 0 60px;
+  background: none;
+  border: none;
+  position: relative;
+  zoom: 1;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+}
+
+
+/* Zzz */
 
 #navigation {
 z-index: 3;
