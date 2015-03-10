@@ -116,14 +116,17 @@ outline: 0;
 /* FONT WEIGHTS */
 
 #navigation {
+font-weight: bold;
 font-weight: 500;
 }
 
-.partnership-price, .label, .field-name-field-news-sub-title {
+h1.promo-title,  h2.promo-subtitle, .partnership-price, .label, .field-name-field-news-sub-title {
+font-weight: bold;
 font-weight: 600;
 }
 
 #site-name, .field-label, .views-label, dl dt {
+font-weight: bold;
 font-weight: 700;
 }
 

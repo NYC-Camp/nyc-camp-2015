@@ -251,13 +251,13 @@ width: 100%; /* why was this set to 99% by ctools? */
 }
 
 .promo-caption-wrapper {
-position: absolute;
-top: 0;
-right: 0;
-width: 60%;
-height: 100%;
-padding: 3em;
-text-align: left;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  padding: 4%;
+  text-align: left;
 }
 
 .view-events-homepage-listing .views-row {
