@@ -20,7 +20,7 @@ display: none;
 /* LAYOUTS */
 
 /* A modern clearfix for IE8 and up. Per http://css-tricks.com/snippets/css/clear-fix; */
-#banner:after, #navigation:after, #main-wrapper:after, .group:after, .block:after, .container:after {
+#banner:after, #navigation:after, #main-wrapper:after, .group:after, .block:after, .container:after, .view-content, .view-footer {
 content: "";
 display: table;
 clear: both;
@@ -31,10 +31,12 @@ width: 100%;
 margin: 0 auto;
 max-width: 860px;
 padding: 0 1em;
+padding: 0 1rem;
 }
 
 div.messages {
 margin: 1.5em auto;
+margin: 1.5rem auto;
 }
 
 
