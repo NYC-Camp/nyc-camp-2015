@@ -40,7 +40,7 @@ margin: 1.5em auto;
 
 /* BORDERS */
 
-#navigation, .front .panel-pane, .partnerships-row {
+#navigation, .front .panel-pane, .partnerships-row, .view-news .views-row {
 border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
