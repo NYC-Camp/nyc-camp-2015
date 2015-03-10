@@ -33,17 +33,8 @@ max-width: 860px;
 padding: 0 1em;
 }
 
-div.messages, .breadcrumb, .item-list ul.pager {
-margin: 1.5em 0;
-margin: 1.5rem 0;
-}
-
-.breadcrumb {
-padding: 0;
-margin-bottom: 0;
-font-size: 0.875rem;
-font-size: 0.875rem;
-text-transform: uppercase;
+div.messages {
+margin: 1.5em auto;
 }
 
 

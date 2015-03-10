@@ -403,6 +403,19 @@ margin: 0 1em 0 0;
 margin: 0 1rem 0 0;
 }
 
+div.messages, .breadcrumb, .item-list ul.pager {
+margin: 1.5em 0;
+margin: 1.5rem 0;
+}
+
+.breadcrumb {
+padding: 0;
+margin-bottom: 0;
+font-size: 0.875rem;
+font-size: 0.875rem;
+text-transform: uppercase;
+}
+
 ul.tabs {
 margin: 0 0 15px;
 font-size: 0.875em;
