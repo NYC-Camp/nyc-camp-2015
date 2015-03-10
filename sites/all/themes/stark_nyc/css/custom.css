@@ -191,7 +191,6 @@ padding: 1em;
 margin: 0 -1em;
 }
 
-
 .submitted .user-picture {
 float: left;
 width: 62px;
@@ -245,6 +244,14 @@ border-radius: 0;
 -o-box-shadow: none;
 box-shadow: none;
 width: 100%;
+}
+
+.promo-caption-wrapper {
+position: absolute;
+top: 10%;
+right: 10%;
+width: 60%;
+height: 100%;
 }
 
 /* PARTNERS BLOCK */
