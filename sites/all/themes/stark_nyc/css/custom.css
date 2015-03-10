@@ -31,17 +31,12 @@ display: table;
 clear: both;
 }
 
-.container, .front .pane-content, div.messages {
+.container, .front .pane-content {
 width: 100%;
 margin: 0 auto;
 max-width: 860px;
 padding: 0 1em;
 padding: 0 1rem;
-}
-
-div.messages {
-margin: 1.5em auto;
-margin: 1.5rem auto;
 }
 
 
