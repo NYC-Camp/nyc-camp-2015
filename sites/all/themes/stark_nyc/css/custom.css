@@ -64,6 +64,7 @@ margin: 0;
 
 .front .panel-pane {
 text-align: center;
+padding: 1em 0;
 }
 
 h2.pane-title {
