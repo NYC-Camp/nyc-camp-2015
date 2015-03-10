@@ -240,6 +240,13 @@ box-shadow: none;
 width: 100%;
 }
 
+/* PARTNERS BLOCK */
+
+.view-partners-lead-footer-block .views-row {
+float: left;
+width: 50%;
+padding: 2em;
+}
 
 /* PARTNERSHIPS */
 
