@@ -223,6 +223,10 @@ padding: 1.5em 0;
 padding: 1.5rem 0;
 }
 
+.front .pane-views-promos-homepage-block-block .pane-content {
+padding: 0;
+}
+
 h2.pane-title {
 font-weight: 700;
 font-size: 1.2222em;
