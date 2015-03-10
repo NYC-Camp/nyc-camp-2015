@@ -263,6 +263,7 @@ font-size: 1rem;
 #footer {
 padding: 1em 0;
 padding: 1rem 0;
+background: rgba(0,0,0,0.015);
 }
 
 .region-footer {
