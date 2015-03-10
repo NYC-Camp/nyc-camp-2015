@@ -246,6 +246,10 @@ box-shadow: none;
 width: 100%;
 }
 
+.panels-flexible-region-4-header {
+width: 100%; /* why was this set to 99% by ctools? */
+}
+
 .promo-caption-wrapper {
 position: absolute;
 top: 0;
