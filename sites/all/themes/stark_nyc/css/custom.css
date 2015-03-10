@@ -9,6 +9,11 @@ border-right: 1px solid rgba(0,0,0,0.1);
 }
 */
 
+/*div[class*='view-events-homepage-'] .view-content {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}*/
 
 /* Display nones */
 
