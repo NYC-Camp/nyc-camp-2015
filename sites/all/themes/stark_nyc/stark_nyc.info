@@ -11,6 +11,11 @@ stylesheets[all][] = css/base.css
 stylesheets[all][] = css/custom.css
 stylesheets[all][] = css/responsive.css
 
+; ADD JS
+scripts[] = js/jquery.fittext.js
+scripts[] = js/jquery.fitvids.js
+scripts[] = js/nyccamp.js
+
 regions[topbar]  		= Top bar
 regions[navigation]  	= Main navigation
 regions[banner]       	= Banner / Feature
