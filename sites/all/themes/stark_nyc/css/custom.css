@@ -254,10 +254,11 @@ width: 100%; /* why was this set to 99% by ctools? */
   position: absolute;
   top: 0;
   right: 0;
-  width: 60%;
+  width: 50%;
+  padding: 10% 5% 0;
+  background: rgba(0,0,0,0.75);
+  color: #fff;
   height: 100%;
-  padding: 4%;
-  text-align: left;
 }
 
 .view-events-homepage-listing .views-row {
