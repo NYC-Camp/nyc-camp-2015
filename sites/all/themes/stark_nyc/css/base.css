@@ -145,8 +145,8 @@ background: rgba(255,255,255,0.9); 	/* white -- 90% opacity */
 background: rgba(255,255,255,0.25);	/* white -- 25% opacity */
 }
 
-.topbar, .footer {
-background: #023e6b; 			/* main color - dark blue */
+.topbar, .pane-views-promos-homepage-block-block {
+background: #112235;  				/* main color - dark blue ; prev #023e6b; */
 }
 
 .button, button {

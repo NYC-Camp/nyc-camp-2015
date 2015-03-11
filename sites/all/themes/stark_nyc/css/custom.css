@@ -206,6 +206,10 @@ max-width: 100%;
 padding: 0;
 }
 
+.front .pane-views-promos-homepage-block-block .pane-content {
+max-width: 1400px;
+}
+
 .front #content {
 padding: 0;
 margin: 0;
