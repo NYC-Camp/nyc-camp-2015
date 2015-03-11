@@ -25,9 +25,8 @@
 	  if ($.browser.mozilla) { $('html').addClass('mozilla'); }
 
     // Target your .container, .wrapper, .post, etc.
-    $(".promo-caption-wrapper").fitText();
-
-    $("#main").fitVids();
+    // $(".promo-caption-wrapper").fitText();
+    // $("#main").fitVids();
 
 	});
 

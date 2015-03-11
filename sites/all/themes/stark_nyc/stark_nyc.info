@@ -12,8 +12,8 @@ stylesheets[all][] = css/custom.css
 stylesheets[all][] = css/responsive.css
 
 ; ADD JS
-scripts[] = js/jquery.fittext.js
-scripts[] = js/jquery.fitvids.js
+;scripts[] = js/jquery.fittext.js
+;scripts[] = js/jquery.fitvids.js
 scripts[] = js/nyccamp.js
 
 regions[topbar]  		= Top bar
