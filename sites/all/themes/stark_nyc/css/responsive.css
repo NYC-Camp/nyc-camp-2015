@@ -99,6 +99,19 @@
 	padding-top: 52px;
 	}
 
+	/*PROMO*/
+
+	.promo-caption-wrapper {
+	position: relative;
+	top: auto;
+	right: auto;
+	width: 100%;
+	padding: 1em 1em 0;
+	background: none;
+	color: #fff;
+	height: auto;
+	}
+
 
 	/* MENUS */
 
