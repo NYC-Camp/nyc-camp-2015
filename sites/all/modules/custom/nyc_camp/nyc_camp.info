@@ -1,0 +1,5 @@
+name="NYC Camp"
+description="A custom module to implement additional custom functionality needed for NYC Camp."
+core=7.x
+package="NYC Camp"
+files[] = nyc_camp.module

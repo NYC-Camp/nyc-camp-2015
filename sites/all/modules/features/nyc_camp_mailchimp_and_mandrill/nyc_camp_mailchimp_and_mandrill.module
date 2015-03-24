@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NYC Camp Mailchimp and Mandrill feature.
+ */
+
+include_once 'nyc_camp_mailchimp_and_mandrill.features.inc';

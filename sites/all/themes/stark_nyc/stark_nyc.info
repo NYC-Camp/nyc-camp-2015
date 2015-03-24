@@ -1,0 +1,27 @@
+name = stark_nyc
+description = Sub-theme of theme Stark. Created by Tim Hobert.
+core = 7.x
+base theme = stark
+
+; ADD CSS
+; Start by overriding Stark's layout.css by adding it here and NOT using it. 
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/base.css
+stylesheets[all][] = css/custom.css
+stylesheets[all][] = css/responsive.css
+
+; ADD JS
+;scripts[] = js/jquery.fittext.js
+;scripts[] = js/jquery.fitvids.js
+scripts[] = js/smoothscroll.js
+scripts[] = js/nyccamp.js
+
+regions[topbar]  		= Top bar
+regions[navigation]  	= Main navigation
+regions[banner]       	= Banner / Feature
+regions[help]           = Help
+regions[main_prefix]  	= Main Region Prefix
+regions[content]      	= Main Region
+regions[main_suffix]  	= Main Region Suffix
+regions[footer]       	= Footer

@@ -1,0 +1,16 @@
+diff --git a/includes/bean.core.inc b/includes/bean.core.inc
+index 05530fc..48100f7 100644
+--- a/includes/bean.core.inc
++++ b/includes/bean.core.inc
+@@ -348,6 +348,11 @@ class Bean extends Entity {
+    */
+   public function view($view_mode = 'default', $langcode = NULL, $page = NULL) {
+     $content = parent::view($view_mode, $langcode);
++    foreach ($content['bean'] as $delta => $bean) {
++      $content['bean'][$delta]['#contextual_links']['bean'] = array(
++        'block', array($delta, 'edit')
++      );
++    }
+     if (empty($this->plugin)) {
+       return $content;
+     }

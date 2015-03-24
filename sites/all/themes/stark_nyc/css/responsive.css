@@ -1,0 +1,164 @@
+/* Smaller ----------- */
+@media screen and (max-width: 1023px) {
+
+	.promo-caption-wrapper, .pane-bean-promo-registration-opening .field-name-field-promo-body {
+	padding: 8% 5% 0;
+	}
+
+	h1.promo-title {
+	font-size: 1.5em;
+	font-size: 1.5rem;
+	}
+
+}
+
+
+/* iPad portrait and smaller ----------- */
+@media screen and (max-width: 768px) {
+
+	/* Display none's */
+
+	#topbar, .breadcrumb {
+	display: none;
+	}
+
+
+	/* FONTS */
+
+	h1 {
+	font-size: 1.5em;
+	font-weight: 600;
+	}
+
+	h2 {
+	font-size: 1.35em;
+	font-weight: 600;
+	}
+
+	h3 {
+	font-size: 1.15em;
+	font-weight: 600;
+	}
+
+
+	/* COLORS */
+	
+	#site-name a {
+	color: #eee;
+	font-weight: 600;
+	font-size: 0.75em;
+	}
+
+
+	/* LAYOUT */
+
+	.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 1em;
+	padding: 0 1rem;
+	max-width: inherit;
+	min-width: inherit;
+	}
+
+	.block, .region-footer > div, .region-footer > section, #block-menu-block-2, .view-partners-lead-footer-block .views-row, div[class*='pane-views-events-homepage-listing-block'] h2.pane-title, div[class*='pane-views-events-homepage-listing-block'] .pane-content, .region-main-suffix > .block {
+	float: none;
+	width: 100%;
+	max-width: 100%;
+	min-height: inherit;
+	height: auto;
+	padding: 0;
+	margin: 0 0 1.5em;
+	text-align: left;
+	}
+
+	.front .panel-pane {
+	text-align: left;
+	}
+
+	.front .pane-content {
+	padding: 0;
+	}
+
+	.region-footer > div:last-child, .region-footer > section:last-child {
+	margin-bottom: 0;
+	}
+
+
+	/* NAVIGATION & MEAN-MENU */
+
+	.mean-container .mean-bar {
+	z-index: 10;
+	}
+
+	.mean-container .mean-nav ul li a {
+	padding: 15px 5% 14px;
+	}
+
+	.mean-container .mean-nav ul li a.mean-expand {
+	border-bottom: none;
+	}
+
+	#navigation {
+	float: left;
+	width: 50%;
+	clear: both;
+	z-index: 11;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: none;
+	background: none;
+	}
+
+	#main-wrapper {
+	padding-top: 0;
+	}
+
+	#site-name {
+	z-index: 12;
+	}
+
+	#page {
+	padding-top: 52px;
+	}
+
+	/*PROMO*/
+
+	.promo-caption-wrapper, .pane-bean-promo-registration-opening .field-name-field-promo-body {
+	  position: relative;
+	  top: auto;
+	  right: auto;
+	  width: 100%;
+	  padding: 1em 1em 0;
+	  background: none;
+	  color: #fff;
+	  height: auto;
+	}
+
+
+	/* MENUS */
+
+	ul.menu li {
+	display: inline-block;
+	margin: 0 1.5em 0 0;
+	margin: 0 1.5em 0 0;
+	}
+
+
+	/* SCHEDULE */
+
+	div[class*='pane-views-events-homepage-listing-block'] {
+	max-width: 100%;
+	}
+
+
+	/* PARTNERS */
+
+	.view-partners-lead-footer-block .views-row {
+	  padding: 1em 0.5em;
+	  margin: 0 auto;
+	}
+
+
+}

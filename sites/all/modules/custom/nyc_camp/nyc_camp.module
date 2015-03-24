@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * NYC Camp.
+ */
+
+/**
+ * Implements hook_node_view_alter().
+ */
+
+function nyc_camp_node_view_alter(&$build) {
+  if(isset($build['#node'])) {
+    $node = $build['#node'];
+    if(!empty($node->nid)) {
+      // Add contextual links to nodes on build
+      $build['#contextual_links']['node'] = array('node', array($node->nid));
+    }
+  }
+}
+
+?>

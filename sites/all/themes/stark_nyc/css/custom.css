@@ -1,0 +1,451 @@
+/* remove before going live */
+
+/*#page > * {
+border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.container {
+border-left: 1px solid rgba(0,0,0,0.1);
+border-right: 1px solid rgba(0,0,0,0.1);
+}
+*/
+
+/*div[class*='view-events-homepage-'] .view-content {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+}*/
+
+/* Display nones */
+
+.hidden, .element-invisible, #navigation h2, #logo, .front #page-title, li.menu-contact, .pane-bean-promo-registration-opening .pane-title, .pane-bean-promo-registration-opening .field-name-field-promo-sub-title {
+display: none;
+}
+
+
+/* LAYOUTS */
+
+/* A modern clearfix for IE8 and up. Per http://css-tricks.com/snippets/css/clear-fix; */
+#banner:after, #navigation:after, #main-wrapper:after, .group:after, .block:after, .container:after, .view-content:after, .view-footer:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.container, .front .pane-content {
+width: 100%;
+margin: 0 auto;
+max-width: 860px;
+padding: 0 1em;
+padding: 0 1rem;
+}
+
+
+/* BORDERS */
+
+#navigation, .front .panel-pane, .partnerships-row, .view-news .views-row {
+border-bottom: 1px solid #ddd;
+}
+
+#footer, .front #main-suffix {
+border-top: 1px solid #ddd;
+}
+
+.partnerships-row-last, .front .panel-pane:last-child {
+border-bottom: none;
+}
+
+
+/* Zzz */
+
+#navigation {
+z-index: 3;
+}
+
+#main-wrapper {
+z-index: 2;
+}
+
+#footer {
+z-index: 1;
+}
+
+
+/* TOPBAR */
+
+#topbar {
+line-height: 30px;
+font-size: 0.8em;
+font-size: 0.8rem;
+}
+
+
+/* TOPBAR */
+
+#navigation {
+position: fixed;
+width: 100%;
+top: 0;
+background: rgba(255,255,255,0.95);
+}
+
+#main-wrapper {
+padding-top: 81px;
+}
+
+.region-topbar > div, .region-topbar > section {
+float: right;
+margin: 0 0 0 1.5em;
+}
+
+.region-topbar > div:first-child, .region-topbar > section:first-child {
+float: left;
+margin: 0 1.5em 0 0;
+}
+
+#topbar i {
+background: #eee;
+border-radius: 30px;
+width: 21px;
+height: 21px;
+font-size: 14px;
+padding: 4px 0 0px 4px;
+margin: 0 3px 0 0;
+}
+
+#topbar input#edit-search-block-form--2 {
+margin: 0;
+border-radius: 0;
+border: none;
+box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+#topbar .form-submit {
+padding: 2px 5px;
+border-radius: 0;
+border: none;
+margin: 7px 0px;
+line-height: 1rem;
+}
+
+#topbar input#edit-search-block-form--2, #topbar input#edit-submit {
+display: block;
+float: left;
+height: 20px;
+margin: 7px 0 0;
+}
+
+#topbar .form-item-search-block-form, #topbar .form-item label {
+margin: 0;
+}
+
+#block-search-form .container-inline div {
+display: block;
+float: left;
+margin: -2px 0 0 0;
+}
+
+
+/* NAVIGATION */
+
+#navigation, #site-name {
+line-height: 50px;
+}
+
+#navigation {
+font-size: 0.8888em;
+letter-spacing: 0.5px;
+}
+
+#site-name-slogan {
+float: left;
+margin: 0 2em 0 0;
+}
+
+#site-name {
+font-size: 1.5em;
+margin: 0;
+}
+
+.region-navigation {
+float: right;
+}
+
+.region-navigation ul.menu li ul {
+display: none;
+position: absolute;
+top: 50px;
+left: -1em;
+background: #fff;
+line-height: 1em;
+border: 1px solid rgba(0,0,0,0.1);
+min-width: 12em;
+border-top: none;
+box-shadow: 0 2px 1px rgba(0,0,0,0.025);
+}
+
+.region-navigation ul.menu li ul li {
+padding: 1em;
+border-top: 1px dotted rgba(0,0,0,0.1);
+margin: 0;
+display: block;
+}
+
+.region-navigation ul.menu li:hover > ul {
+display: block;
+}
+
+
+/* MAIN */
+
+#main-prefix, #content, #main-suffix {
+padding: 1.5em 0;
+padding: 1.5rem 0
+}
+
+#content {
+min-height: 200px;
+}
+
+.submitted .user-picture {
+float: left;
+width: 62px;
+margin: 0 1.5em 1.5em 0;
+margin: 0 1.5rem 1.5rem 0;
+}
+
+
+/* Front page */
+
+.front .panel-pane {
+text-align: center;
+padding: 1.5em 1em;
+padding: 1.5rem 1rem;
+}
+
+.front #main .container, .front .pane-views-promos-homepage-block-block .pane-content, .front .pane-bean-promo-registration-opening {
+width: 100%;
+max-width: 100%;
+padding: 0;
+}
+
+.front .pane-views-promos-homepage-block-block .pane-content, .front .pane-bean-promo-registration-opening .pane-content {
+max-width: 1400px;
+padding: 0;
+}
+
+.front #content, .pane-bean-promo-registration-opening .field, .pane-bean-promo-registration-opening p {
+padding: 0;
+margin: 0;
+}
+
+.front .pane-views-promos-homepage-block-block, .front .pane-views-promos-homepage-block-block .pane-content {
+padding: 0;
+}
+
+.front h2.pane-title, #main-suffix h2.block-title {
+font-weight: 700;
+font-size: 1.2222em;
+font-size: 1.2222rem;
+text-transform: uppercase;
+margin-bottom: 30px;
+}
+
+div#schedule {
+border: none;
+padding-bottom: 0;
+}
+
+/* Front page schedule */
+
+div[class*='pane-views-events-homepage-listing-block'] {
+max-width: 600px;
+margin: 0 auto;
+padding: 0 1em;
+}
+
+div[class*='pane-views-events-homepage-listing-block'] h2.pane-title {
+float: left;
+width: 35%;
+text-align: left;
+}
+
+div[class*='pane-views-events-homepage-listing-block'] .pane-content {
+float: left;
+width: 65%;
+text-align: left;
+}
+
+.view-events-homepage-listing .views-row {
+padding: 0;
+}
+
+.view-events-homepage-listing .view-content > h3 {
+margin: 1.5em 0;
+}
+
+.view-events-homepage-listing .view-content > h3:first-child {
+margin-top: 0;
+}
+
+
+/* Module overrides */
+
+.flexslider {
+margin: 0;
+background: none;
+border: none;
+position: relative;
+zoom: 1;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+-o-box-shadow: none;
+box-shadow: none;
+width: 100%;
+}
+
+.panels-flexible-region-4-header {
+width: 100%; /* why was this set to 99% by ctools? */
+}
+
+.promo-caption-wrapper, .pane-bean-promo-registration-opening .field-name-field-promo-body {
+position: absolute;
+top: 0;
+right: 0;
+width: 100%;
+padding: 7.5% 5% 0;
+background: rgba(17,34,53,0.8);
+color: #fff;
+height: 100%;
+}
+
+.promo-body {
+padding: 1em 0;
+}
+
+h2.promo-header, h2.promo-subtitle {
+  font-size: 2.5em;
+  font-size: 2.5rem;
+}
+
+h1.promo-title {
+  font-size: 2.9em;
+  font-size: 2.9rem;
+}
+
+
+/* PARTNERS BLOCK */
+
+.view-partners-lead-footer-block .views-row {
+float: left;
+width: 50%;
+padding: 2em;
+}
+
+
+/* PARTNERSHIPS */
+
+.partnerships-left {
+width: 24%;
+text-align: right;
+}
+
+.partnerships-right {
+border-left: 3px #cccccc solid;
+padding-left: 1rem;
+width: 74%;
+float: left;
+}
+
+.partnerships-row {
+padding: 0.25em;
+font-size: 1em;
+font-size: 1rem;
+}
+
+.view-partners-lead-footer-block, .front h2.pane-title, #main-suffix h2.block-title {
+text-align: center;
+}
+
+
+/* Commerce module overrides */
+
+.commerce-line-item-views-form input.delete-line-item {
+font-size: 10px;
+padding: 4px 10px 3px;
+margin: 0;
+}
+
+.commerce-line-item-views-form input.delete-line-item:active {
+padding: 5px 10px 2px;
+}
+
+
+/* User Profiles */
+
+.field-name-ds-user-picture {
+max-width: 50%;
+}
+
+
+/* News */
+
+.view-news .field-name-field-news-image {
+float: right;
+margin: 0.5em 0 1.5em 1.5em;
+}
+
+
+/* Icons */
+
+.field-name-field-summit-icon {
+float: right;
+max-width: 110px;
+margin: 0 0 1.5em 1.5em;
+}
+
+/* Main-Suffix */
+
+.region-main-suffix > .block {
+float: left;
+width: 50%;
+padding: 1em 3.5em;
+}
+
+
+/* FOOTER */
+
+#footer {
+padding: 1em 0;
+padding: 1rem 0;
+background: rgba(0,0,0,0.015);
+}
+
+.region-footer {
+font-size: 0.8888em;
+font-size: 0.8888rem;
+}
+
+.region-footer > div, .region-footer > section {
+float: left;
+margin: 0 1.5em 0 0;
+margin: 0 1.5rem 0 0;
+}
+
+.region-footer > div:last-child, .region-footer > section:last-child {
+float: right;
+margin: 0 0 0 1.5em;
+margin: 0 0 0 1.5rem;
+}
+
+#footer .block-title {
+font-size: 0.8888em;
+font-size: 0.8888rem;
+margin: 0;
+}
+
+#block-menu-block-2 ul.menu li {
+display: inherit;
+}
